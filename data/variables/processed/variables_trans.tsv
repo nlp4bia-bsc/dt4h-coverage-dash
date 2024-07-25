@@ -1,0 +1,327 @@
+code	en	es	nl	sv
+248152002	Female	mujer	vrouwelijk	kvinnligt kön
+248153007	Male	varón	mannelijk	manligt kön
+184099003	Date of birth	fecha de nacimiento	geboortedatum	födelsedatum
+1153637007	Body height	altura corporal		kroppslängd
+27113001	Body weight	peso corporal	lichaamsgewicht	kroppsvikt
+60621009	Body mass index	índice de masa corporal	BMI	BMI
+307117005	Place of origin	lugar de origen	plaats van herkomst	ursprungsplats
+399423000	Date of admission	fecha de admisión	datum van opname	inskrivningsdatum
+420816009	New York Heart Association Classification	clasificación de la New York Heart Association		NYHA-klassificering
+29857009	Chest pain	dolor de pecho	pijn op borst	bröstsmärta
+267036007	Dyspnea	disnea	dyspneu	dyspné
+62744007	Orthopnea	ortopnea	orthopneu	ortopné
+55442000	Paroxysmal nocturnal dyspnoea	disnea paroxística nocturna	paroxismale nachtelijke dyspneu	paroxysmal nattlig dyspné
+267044007	Impaired exercise tolerance	alteración de la tolerancia al ejercicio	verminderde inspanningstolerantie	nedsatt tolerans för fysisk ansträngning
+84229001	Fatigue	fatiga	vermoeidheid	fatigue
+267039000	Swollen ankle region	tumefacción de tobillo	gezwollen enkelregio	svullen ankel
+62548007	Nocturnal cough	tos nocturna	nachtelijke hoest	nattlig hosta
+79890006	Loss of appetite	pérdida del apetito	anorexie	aptitlöshet
+366979004	Depressed mood	estado de ánimo deprimido	sombere stemming	sänkt stämningsläge
+80313002	Palpitations	palpitaciones	hartkloppingen	hjärtklappning
+404640003	Dizziness	mareo	duizeligheid	yrsel
+271594007	Syncope	síncope	syncope	svimning
+22447003	Raised jugular venous pressure	presión venosa yugular aumentada	verhoogde jugulair veneuze druk	förhöjt tryck i vena jugularis
+72196001	Hepatojugular reflux	reflujo hepatoyugular	hepatojugulaire reflux	hepatojugulär reflux
+277455002	Third heart sound	tercer ruido cardíaco	derde harttoon	tredje hjärttonen
+262286000	Weight increased	peso aumentado	gewicht toegenomen	viktuppgång
+89362005	Weight loss	descenso de peso	gewichtsverlies	viktnedgång
+88610006	Heart murmur	soplo cardíaco	hartruis	hjärtblåsljud
+271809000	Peripheral edema	edema periférico	perifeer oedeem	perifert ödem
+48409008	Respiratory crackles	rales crepitantes	respiratoire crepitaties	krepitationer vid andning
+60046008	Pleural effusion	derrame pleural	pleura-effusie	utgjutning i lungsäck
+3424008	Tachycardia	taquicardia	tachycardie	takykardi
+61086009	Pulse irregular	pulso irregular	onregelmatige pulsaties	oregelbunden puls
+271823003	Tachypnoea	taquipnea	tachypneu	takypné
+309155007	Cheyne-Stokes respiration	respiración de Cheyne-Stokes	Cheyne-Stokes-ademhaling	Cheyne-Stokes andning
+80515008	Large liver	hepatomegalia	hepatomegalie	stor lever
+389026000	Ascites	ascitis	ascites	ascites
+83128009	Oliguria	oliguria	oligurie	oliguri
+399304008	Systolic blood pressure on admission	tensión arterial sistólica durante la admisión		systoliskt blodtryck vid inskrivning
+446226005	Diastolic blood pressure on admission	presión sanguínea diastólica al ingreso		diastoliskt blodtryck vid inläggning
+6797001	Mean blood pressure	presión arterial media	gemiddelde bloeddruk	medelblodtryck
+442349007	Venous oxygen saturation	saturación de oxígeno en sangre venosa		venös syremättnad
+442476006	Arterial oxygen saturation	saturación de oxígeno en sangre arterial		arteriell syremättnad
+251149006	Cardiac rhythm type	tipo de ritmo cardíaco		typ av hjärtrytm
+401303003	Acute ST segment elevation myocardial infarction	infarto agudo de miocardio con elevación del segmento ST	acuut myocardinfarct met elevatie van ST-segment	akut hjärtinfarkt med ST-höjning
+401314000	Acute non-ST segment elevation myocardial infarction	infarto agudo de miocardio sin elevación del segmento ST	acuut myocardinfarct zonder elevatie van ST-segment	akut hjärtinfarkt utan ST-höjning
+251208001	QRS complex duration	duración del complejo QRS	duur van QRS-complex	QRS-komplexets duration
+251196003	QRS Axis	eje QRS	QRS-as op ECG	QRS-komplexets el-axel
+364075005	Heart rate	frecuencia cardíaca	hartslagfrequentie	hjärtfrekvens
+250908004	Left ventricular ejection fraction	fracción de eyección del ventrículo izquierdo	linkerventrikelejectiefractie	vänster kammares ejektionsfraktion
+301898006	Body surface area	superficie corporal		kroppsytans area
+250931004	Left ventricular end-systolic cavity size	tamaño de la cavidad ventricular izquierda al final de la sístole		volym på vänster kammare i slutsystole
+250939002	Right ventricular ejection fraction	fracción de eyección del ventrículo derecho		höger kammares ejektionsfraktion
+301112006	Finding of heart rhythm	hallazgo relacionado con el ritmo cardíaco	bevinding betreffende hartritme	fynd som rör hjärtrytm
+723240002	a wave	onda a	A-golf	en våg
+399287000	Left ventricular area fractional change	cambio fraccional de área de ventrículo izquierdo		relativ förändring av vänster kammares area
+38082009	Hemoglobin	hemoglobina	hemoglobine	hemoglobin
+32789000	Ferritin	ferritina		ferritin
+165730006	Transferrin saturation	determinación del índice de saturación de transferrina	bepalen van transferrinesaturatie	transferrinmättnad
+414798009	N-terminal pro-B-type natriuretic peptide	propéptido natriurético tipo B N-terminal		N-terminal natriuretisk peptid av pro-B-typ
+407059007	B-type natriuretic peptide	péptido natriurético cerebral		natriuretisk peptid, B-typ
+711357009	Measurement of C-reactive protein using high sensitivity technique	medición de proteína C reactiva con técnica de alta sensibilidad	bepalen van hs-CRP	mätning av C-reaktivt protein med högkänslig teknik
+61425002	C reactive protein	proteína reactiva C		c-reaktivt protein
+102683006	Troponin I	troponina I		troponin I
+102682001	Troponin T	troponina T		troponin T
+85600001	Triacylglycerol	triglicérido	triacylglycerol	triacylglycerol
+84698008	Cholesterol	colesterol	cholesterol	kolesterol
+9422000	High density lipoprotein	lipoproteína de alta densidad	high-density lipoprotein	HDL
+22244007	Low density lipoprotein	lipoproteína de baja densidad		LDL
+88480006	Potassium	potasio	kalium	kalium
+39972003	Sodium	sodio	natrium	natrium
+60153001	Gamma-glutamyltransferase	gamma-glutamiltransferasa		gammaglutamyltransferas
+271261008	Creatine measurement, urine	medición urinaria de creatina	bepalen van creatine in urine	mätning av kreatin i urin
+26758005	Albumin measurement	medición de albúmina	bepaling van albumine	albuminmätning
+271000000	Urine albumin measurement	medición de albúmina urinaria	bepalen van albumine in urine	mätning av albumin i urin
+80274001	Glomerular filtration rate	tasa de filtración glomerular	glomerulaire filtratiesnelheid	glomerulär filtrationshastighet
+105011006	Blood urea nitrogen measurement	medición de nitrógeno ureico en sangre	bepalen van bloed-ureum-stikstof	mätning av ureakväve i blod
+271075006	Urine albumin/creatinine ratio measurement	medición urinaria del índice albúmina/creatinina	bepalen van albumine-creatinine-ratio in urine	mätning av albumin-kreatininkvot i urin
+733830002	Glycated hemoglobin-A1c	hemoglobina glucosilada A1c		glykerat hemoglobin-A1c
+194828000	Angina pectoris	angina de pecho	hartkramp	angina pectoris
+49436004	Atrial fibrillation	fibrilación auricular	boezemfibrilleren	förmaksflimmer
+85898001	Cardiomyopathy	miocardiopatía	cardiomyopathie	kardiomyopati
+84114007	Heart failure	insuficiencia cardíaca	hartfalen	hjärtsvikt
+38341003	Hypertensive disorder	hipertensión arterial	hypertensieve aandoening	hypertoni
+414545008	Ischemic heart disease	cardiopatía isquémica	ischemische hartziekte	ischemisk hjärtsjukdom
+22298006	Myocardial infarction	infarto de miocardio	hartaanval	hjärtinfarkt
+840580004	Peripheral arterial disease	enfermedad arterial periférica	perifeer arterieel vaatlijden	perifer artärsjukdom
+230690007	Cerebrovascular accident	accidente cerebrovascular	cerebrovasculair accident	stroke
+266257000	Transient cerebral ischaemia	ataque isquémico transitorio	transient ischemic attack	transitorisk ischemisk attack
+368009	Heart valve disorder	valvulopatía	hartklepaandoening	hjärtklaffsjukdom
+62479008	AIDS	SIDA	verworven immunodeficiëntiesyndroom	AIDS (acquired immune deficiency syndrome)
+86406008	Human immunodeficiency virus infection	infección por virus de la inmunodeficiencia humana	infectie door humaan immunodeficiëntievirus	infektion orsakad av humant immunbristvirus (HIV)
+13645005	Chronic obstructive pulmonary disease	enfermedad pulmonar obstructiva crónica	COPD	kroniskt obstruktiv lungsjukdom
+73211009	Diabetes mellitus	diabetes mellitus	diabetes mellitus	diabetes mellitus
+52448006	Dementia	demencia	dementie	demens
+35489007	Depressive disorder	trastorno depresivo	depressie	depression
+265764009	Renal dialysis	diálisis renal	nierdialyse	njurdialys
+34486009	Hyperthyroidism	hipertiroidismo	hyperthyreoïdie	hypertyreos
+235856003	Disease of liver	enfermedad del hígado	leveraandoening	leversjukdom
+363346000	Malignant neoplastic disease	neoplasia maligna	kanker	malign tumörsjukdom
+78275009	Obstructive sleep apnea syndrome	síndrome de apnea obstructiva del sueño	obstructieveslaapapneusyndroom	obstruktivt sömnapnésyndrom
+396332003	Rheumatism	reumatismo	reuma	reumatism
+709044004	Chronic kidney disease	enfermedad renal crónica	chronische nierinsufficiëntie	kronisk njursjukdom
+77176002	Smoker	fumador	roker	rökare
+8517006	Ex-smoker	ex-fumador	rookte vroeger	före detta rökare
+449868002	Smokes tobacco daily	fuma tabaco diariamente	rookt dagelijks tabak	dagligrökare
+428041000124106	Occasional tobacco smoker	fumador ocasional de tabaco	rookt soms tabak	sporadisk tobaksrökare
+266919005	Never smoked tobacco	nunca fumó tabaco	heeft nooit gerookt	har aldrig varit rökare
+266927001	Tobacco smoking consumption unknown	tabaquismo desconocido	gebruik van rooktabak onbekend	förbrukning av röktobak okänd
+866173006	Renin-angiotensin system inhibitor	sustancia con mecanismo de acción de inhibidor del sistema renina-angiotensina	renine-angiotensinesysteemremmer	hämmare av renin-angiotensinsystemet
+372733002	Angiotensin-converting enzyme inhibitor	inhibidor de la enzima convertidora de angiotensina	ACE-remmer	ACE-hämmare
+372913009	Angiotensin II receptor antagonist	antagonista del receptor de angiotensina II	angiotensine II-receptorantagonist	angiotensin 2-receptorantagonist
+777480008	Sacubitril and valsartan only product	producto con sacubitrilo y valsartán como únicos ingredientes		läkemedel som endast innehåller sakubitril och valsartan
+372603003	Aldosterone receptor antagonist	antagonista de receptor de aldosterona	aldosteronreceptorantagonist	aldosteronantagonister
+372695000	Diuretic	diurético	diureticum	diuretika
+372691009	Loop diuretic	diurético de asa	lisdiureticum	loopdiuretikum
+373304005	Calcium channel blocker	bloqueador de los canales de calcio	calciumantagonist	kalciumkanalblockerare
+372787008	Vasodilator	vasodilatador	vasodilatator	kärlvidgande medel
+771452004	Platelet aggregation inhibitor	inhibidor de la agregación plaquetaria	bloedplaatjesremmer	trombocytaggregationshämmare
+372862008	Anticoagulant	anticoagulante	antistollingsmiddel	antikoagulans
+372912004	HMG-CoA reductase inhibitor	inhibidor de HMG-CoA reductasa	statine	HMG-CoA-reduktashämmare
+406759007	Digitalis glycoside	glucósido digitálico	digitalisglycoside	digitalisglykosid
+373254001	Beta adrenergic receptor antagonist	agente betabloqueante	bètablokker	betablockerare
+782436006	Sodium channel blocker	bloqueador de canal de sodio		natriumkanalblockerare
+421228002	Ivabradine	ivabradina		ivabradin
+703673007	Sodium glucose cotransporter subtype 2 inhibitor	inhibidor del cotransportador de sodio-glucosa tipo 2		hämmare av natrium-glukossymportör, subtyp 2
+232717009	Coronary artery bypass graft	injerto - puente de arteria coronaria	bypassoperatie	koronar bypassoperation
+415070008	Percutaneous coronary intervention	intervención coronaria percutánea	percutane coronaire interventie	perkutan kranskärlsintervention
+303490004	Cardiovascular implant	implante cardiovascular	cardiovasculair implantaat	kardiovaskulärt implantat
+303617005	Vascular implant	implante vascular	vasculair implantaat	kärlimplantat
+420291005	Transplant heart	trasplante de corazón	materiaal voor harttransplantaat	transplantatmaterial från hjärta
+32485007	Hospital admission	admisión hospitalaria	opname in ziekenhuis	inskrivning på sjukhus
+419620001	Death	muerte	sterfte	dödsfall
+1332434009	Fimasartan potassium trihydrate			
+1332433003	Fimasartan			
+895431005	Azilsartan medoxomil potassium	azilsartán medoxomilo de potasio		azilsartanmedoxomilkalium
+734504000	Irbesartan hydrochloride	clorhidrato de irbesartán		irbesartanhydroklorid
+449561004	Azilsartan medoxomil	azilsartán medoxomilo		azilsartanmedoxomil
+449042005	Azilsartan	azilsartán	azilsartan	azilsartan
+412260006	Olmesartan medoxomil	olmesartán medoxomilo		olmesartanmedoxomil
+412259001	Olmesartan	olmesartán	olmesartan	olmesartan
+396044005	Eprosartan	eprosartán	eprosartan	eprosartan
+387069000	Telmisartan	telmisartán	telmisartan	telmisartan
+386878000	Candesartan cilexetil	candesartán cilexetilo		kandesartancilexetil
+386877005	Irbesartan	irbesartán	irbesartan	irbesartan
+386876001	Valsartan	valsartán	valsartan	valsartan
+373567002	Losartan	losartán	losartan	losartan
+372512008	Candesartan	candesartán	candesartan	kandesartan
+129488003	Eprosartan mesilate	mesilato de eprosartán		eprosartanmesilat
+108582002	Losartan potassium	losartán potásico		losartankalium
+341000220102	Lisinopril dihydrate	dihidrato de lisinopril		lisinoprildihydrat
+1269132005	Lisinopril anhydrous	lisinopril anhidro		lisinopril, vattenfri
+1268982005	Cilazapril anhydrous	cilazapril anhidro		cilazapril, vattenfri
+1119308007	Perindopril erbumine monohydrate	perindopril erbumina monohidrato		perindopril-tert-butylaminmonohydrat
+1119307002	Enalapril sodium	enalapril sódico		enalaprilnatrium
+735174001	Perindopril tosylate	tosilato de perindopril		perindopriltosilat
+725786001	Cilazapril monohydrate	cilazapril monohidratado		cilazaprilmonohydrat
+713473008	Spirapril	espirapril		spirapril
+703343009	Zofenoprilat arginine	zofenoprilat arginina		zofenoprilatarginin
+703342004	Zofenoprilat	zofenoprilat		
+703341006	Zofenopril calcium	zofenopril cálcico		zofenoprilkalcium
+703340007	Zofenopril	zofenopril		zofenopril
+700066002	Delapril hydrochloride	clorhidrato de delapril		delaprilhydroklorid
+698093003	Delapril	delapril		delapril
+442509000	Perindopril arginine	arginina de perindopril		perindoprilarginin
+395984005	Imidapril	imidapril	imidapril	imidapril
+395947008	Cilazapril	cilazapril	cilazapril	cilazapril
+395741003	Imidapril hydrochloride	clorhidrato de imidapril		imidaprilhydroklorid
+387165009	Enalapril maleate	maleato de enalapril		enalaprilmaleat
+387160004	Captopril	captopril	captopril	kaptopril
+386875002	Quinapril hydrochloride	clorhidrato de quinapril		kinaprilhydroklorid
+386874003	Quinapril	quinapril	quinapril	kinapril
+386873009	Lisinopril	lisinopril	lisinopril	lisinopril
+386872004	Ramipril	ramipril	ramipril	ramipril
+386871006	Trandolapril	trandolapril	trandolapril	trandolapril
+373442003	Moexipril	moexipril	moexipril	moexipril
+372916001	Perindopril	perindopril	perindopril	perindopril
+372658000	Enalapril	enalapril	enalapril	enalapril
+372511001	Benazepril	benazepril	benazepril	benazepril
+372510000	Fosinopril	fosinopril	fosinopril	fosinopril
+129485000	Perindopril erbumine	perindopril erbumina		perindopril-tert-butylamin
+108573008	Benazepril hydrochloride	clorhidrato de benazepril		benazeprilhydroklorid
+108570006	Fosinopril sodium	fosinopril sódico		fosinoprilnatrium
+108567007	Moexipril hydrochloride	clorhidrato de moexipril		moexiprilhydroklorid
+48052001	Enalaprilat	enalaprilat		enalaprilat
+426228001	Renin inhibitor	inhibidor de renina		reninhämmare
+426725002	Aliskiren	aliskireno		aliskiren
+425981005	Aliskiren fumarate	fumarato de aliskireno		aliskirenfumarat
+1163346008	Finerenone	finerenona		finerenon
+419615001	Potassium canrenoate	canrenoato de potasio	kaliumcanrenoaat	kaliumkanrenoat
+407010008	Eplerenone	eplerenona	eplerenon	eplerenon
+387078006	Spironolactone	espironolactona	spironolacton	spironolakton
+96291007	Canrenone	canrenona		kanrenon
+372709008	Acetazolamide	acetazolamida	acetazolamide	acetazolamid
+80253002	Aminometradine	aminometradina		aminometradin
+39263003	Amisometradine	amisometradina		amisometradin
+88802007	Chlorazanil	clorazanilo		klorazanil
+735156005	Cicletanine	cicletanina		cikletanin
+735160008	Cicletanine hydrochloride	clorhidrato de cicletanina		cikletaninhydroklorid
+421858002	Conivaptan	conivaptán		konivaptan
+6513000	Flumethiazide	flumetiazida		flumetiazid
+116552006	Pamabrom	pamabrom		pamabrom
+443058000	Tolvaptan	tolvaptán		tolvaptan
+373751005	Mercurial diuretic	diurético mercurial	kwikdiureticum	kvicksilverdiuretika
+395784002	Mersalyl sodium	mersalil sódico		mersalylnatrium
+387157006	Mersalyl	mersalil	mersalyl	mersalyl
+362947006	Mercaptomerin	mercaptomerina	mercaptomerine	merkaptomerin
+85391002	Meralluride	meralurida		merallurid
+74589005	Chlormerodrin	clormerodrina	chloormerodrine	klormerodrin
+49022000	Merethoxylline procaine	meretoxilina procaína		meretoxyllinprokain
+33667000	Mercumatilin	mercumatilina		merkumatilin
+30333004	Mercaptomerin sodium	mercaptomerina sódica		merkaptomerinnatrium
+372792005	Osmotic diuretic	diurético osmótico	osmotisch diureticum	osmotiska diuretika
+387168006	Mannitol	manitol	mannitol	mannitol
+387092000	Urea	urea	ureum	urea
+386853004	Isosorbide	isosorbida	isosorbide	isosorbid
+372753003	Potassium-sparing diuretic	diurético ahorrador de potasio	kaliumsparend diureticum	kaliumsparande diuretika
+1268944002	Amiloride hydrochloride anhydrous	clorhidrato de amilorida anhidro		amiloridhydroklorid, vattenfri
+412082007	Amiloride hydrochloride dihydrate	clorhidrato de amilorida dihidrato		amiloridhydrokloriddihydrat
+387516008	Amiloride hydrochloride	clorhidrato de amilorida		amiloridhydroklorid
+387503008	Amiloride	amilorida	amiloride	amilorid
+387053007	Triamterene	triamtereno	triamtereen	triamteren
+419151007	Purine derivative diuretic	diurético derivado de la purina	purinederivaat met diuretische werking	diuretikum innehållande purinderivat
+387489007	Choline theophyllinate	oxtrifilina	cholinetheofyllinaat	kolinteofyllinat
+75371004	Theobromine	teobromina	theobromine	teobromin
+372660003	Saluretic agent	agente salurético	salureticum	saluretikum
+20551000122108	Butizide	butizida		butizid
+387498005	Bumetanide	bumetanida	bumetanide	bumetanid
+387475002	Furosemide	furosemida	furosemide	furosemid
+387324004	Chlortalidone	clortalidona	chloortalidon	klortalidon
+373536004	Ethacrynic acid	ácido etacrínico	etacrynezuur	etakrynsyra
+372782002	Chlorothiazide	clorotiazida	chloorthiazide	klorotiazid
+108476002	Torasemide	torasemida	torasemide	torsemid
+75341007	Ethacrynate sodium	etacrinato de sodio		natriumetakrynat
+66290002	Benzthiazide	benztiazida		benstiazid
+64029000	Tienilic acid	ticrinafeno		tikrynafen
+41261002	Quinethazone	quinetazona		kinetazon
+37006008	Cyclothiazide	ciclotiazida		cyklotiazid
+11473005	Trichlormethiazide	triclormetiazida		triklormetiazid
+8252004	Chlorothiazide sodium	clorotiazida sódica		klorotiazidnatrium
+43585000	Sulfonamide diuretic	diurético de sulfonamida	sulfonamide met diuretische werking	sulfonamiddiuretika
+725661001	Indapamide hemihydrate	indapamida hemihidrato		indapamidhemihydrat
+406772008	Mefruside	mefrusida	mefruside	mefrusid
+395940005	Clopamide	clopamida		klopamid
+395923001	Xipamide	xipamida	xipamide	xipamid
+387419003	Indapamide	indapamida	indapamide	indapamid
+387123003	Metolazone	metolazona	metolazon	metolazon
+63203003	Ethoxyzolamide	etoxizolamida		etoxizolamid
+53052005	Methazolamide	metazolamida		metazolamid
+372747003	Thiazide diuretic	diurético tiazídico	thiazidediureticum	tiaziddiuretika
+717101002	Althiazide	altizida		altiazid
+396009008	Cyclopenthiazide	ciclopentiazida	cyclopenthiazide	cyklopentiazid
+395946004	Hydroflumethiazide	hidroflumetiazida	hydroflumethiazide	hydroflumetiazid
+387525002	Hydrochlorothiazide	hidroclorotiazida	hydrochloorthiazide	hydroklortiazid
+387520007	Bendroflumethiazide	bendroflumetiazida	bendroflumethiazide	bendroflumetiazid
+387492006	Polythiazide	politiazida	polythiazide	polytiazid
+387373008	Methyclothiazide	meticlotiazida	methyclothiazide	metyklotiazid
+372758007	Uricosuric agent	agente uricosúrico	uricosuricum	urinsyradrivande medel
+715259003	Lesinurad	lesinurad		lesinurad
+698025001	Benzbromarone	benzbromarona		bensbromaron
+391798003	Apazone	azapropazona	azapropazon	azapropazon
+387365004	Probenecid	probenecid	probenecide	probenecid
+387108008	Sulfinpyrazone	sulfinpirazona	sulfinpyrazon	sulfinpyrazon
+419451002	Piretanide	piretanida	piretanide	piretanid
+1332137007	Perhexiline maleate			
+1303528009	Benidipine			
+1303527004	Benidipine hydrochloride			
+782604006	Terodiline hydrochloride	clorhidrato de terodilina	terodiline hydrochloride	terodilinhydroklorid
+703122000	Gabapentin enacarbil	gabapentina enacarbilo		gabapentinenakarbil
+698023008	Pinaverium bromide	bromuro de pinaverio		pinaveriumbromid
+421817009	Perhexiline	perhexilina		perhexilin
+421651006	Mibefradil	mibefradil		mibefradil
+417479000	Terodiline	terodilina	terodiline	terodilin
+387288001	Prenylamine	prenilamina	prenylamine	prenylamin
+386845007	Gabapentin	gabapentina	gabapentine	gabapentin
+406767004	Benzothiazepine	benzotiazepina		bensotiazepin
+410870005	Diltiazem maleate	maleato de diltiazem		diltiazemmaleat
+372793000	Diltiazem	diltiazem	diltiazem	diltiazem
+12218006	Diltiazem hydrochloride	clorhidrato de diltiazem		diltiazemhydroklorid
+406768009	Diarylaminopropylamine	diarilaminopropilamina		diarylaminopropylamin
+372503006	Bepridil	bepridil		bepridil
+108531000	Bepridil hydrochloride	clorhidrato de bepridil		bepridilhydroklorid
+406766008	Phenylalkylamine	fenilalquilamina		fenylalkylamin
+703434004	Gallopamil hydrochloride	clorhidrato de galopamilo		gallopamilhydroklorid
+703433005	Gallopamil	galopamilo		gallopamil
+372754009	Verapamil	verapamilo	verapamil	verapamil
+96297006	Norverapamil	norverapamilo		norverapamil
+14340003	Verapamil hydrochloride	clorhidrato de verapamilo		verapamilhydroklorid
+418559008	Piperazine-derivative calcium channel blocker	bloqueante de los canales de calcio derivado de la piperazina		kalciumkanalblockerare innehållande piperazinderivat
+418865004	Lidoflazine	lidoflazina	lidoflazine	lidoflazin
+406769001	Dihydropyridine derivative calcium channel blocker	bloqueante de los canales de calcio dihidropiridínico		kalciumkanalblockerare innehållande dihydropyridinderivat
+1304158004	Lercanidipine hydrochloride hemihydrate			
+1217324004	Levamlodipine besylate	besilato de levamlodipino		levamlodipinbesilat
+1217308000	Levamlodipine	levamlodipino		levamlodipin
+1193663008	Amlodipine mesylate	mesilato de amlodipina		amlodipinmesilat
+1177123004	Cilnidipine	cilnidipino		cilnidipin
+789067004	Amlodipine benzoate	amlodipino benzoato		amlodipinbensoat
+765323009	Manidipine hydrochloride	clorhidrato de manidipino		manidipinhydroklorid
+765322004	Manidipine	manidipino		manidipin
+713436005	Nilvadipine	nilvadipino		nilvadipin
+698052006	Barnidipine	barnidipino		barnidipin
+444757009	Nitrendipine	nitrendipino		nitrendipin
+439471002	Clevidipine	clevidipino		klevidipin
+421048000	Amlodipine maleate	maleato de amlodipino		amlodipinmaleat
+395986007	Lercanidipine	lercanidipino		lerkanidipin
+395768003	Lercanidipine hydrochloride	clorhidrato de lercanidipino		lerkanidipinhydroklorid
+395764001	Lacidipine	lacidipino	lacidipine	lacidipin
+387502003	Nimodipine	nimodipino	nimodipine	nimodipin
+387490003	Nifedipine	nifedipino	nifedipine	nifedipin
+386864001	Amlodipine	amlodipino	amlodipine	amlodipin
+386863007	Felodipine	felodipino	felodipine	felodipin
+386862002	Isradipine	isradipino	isradipine	isradipin
+386861009	Nisoldipine	nisoldipino		nisoldipin
+384976003	Amlodipine besilate	besilato de amlodipino		amlodipinbesilat
+372502001	Nicardipine	nicardipino	nicardipine	nikardipin
+108527006	Nicardipine hydrochloride	clorhidrato de nicardipino		nikardipinhydroklorid
+372700007	Nitrate-based vasodilating agent	agente vasodilatador con base de nitratos	op nitraat gebaseerde vasodilatator	nitratbaserat kärlvidgande medel
+725531004	1,2-dinitroglycerin	1,2-dinitroglicerina		1,2-dinitroglycerin
+387404004	Nitroglycerin	nitroglicerina	nitroglycerine	glyceryltrinitrat
+387332007	Isosorbide dinitrate	dinitrato de isosorbida	isosorbidedinitraat	isosorbiddinitrat
+387038004	Amyl nitrite	nitrito de amilo		amylnitrit
+386854005	Isosorbide mononitrate	mononitrato de isosorbida	isosorbidemononitraat	isosorbidmononitrat
+386836006	Pentaerythritol tetranitrate	tetranitrato de pentaeritritilo	PETN	pentaerytritoltetranitrat
+62368002	Erythrityl tetranitrate	tetranitrato de eritritilo		erytrityltetranitrat
+41153003	Amyl nitrate	amil nitrato	pentylnitraat	amylnitrat
+12970004	Inositol hexanitrate	hexanitrato de inositol		inositolhexanitrat
