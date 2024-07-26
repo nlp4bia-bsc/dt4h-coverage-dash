@@ -15,7 +15,7 @@ app = Dash(__name__,
 # Define the layout of the app
 app.layout = html.Div([
     html.H1("Variable Coverage Analysis DT4H"),
-    html.A("Variables List", href="https://docs.google.com/spreadsheets/d/1GM17jnZop0eHSYaWKccVhp4pdbX58IEuSLXsiYg4GUQ/edit?gid=0#gid=0"),
+    html.A("Variables List", href="https://docs.google.com/spreadsheets/d/1GM17jnZop0eHSYaWKccVhp4pdbX58IEuSLXsiYg4GUQ/edit?usp=sharing"),
     html.P("Select the corpora to compare"),
     
     dcc.Dropdown(
