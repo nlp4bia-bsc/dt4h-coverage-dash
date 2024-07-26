@@ -90,24 +90,39 @@ def plot_code_distribution(df, corpus=None, show=True):
 
     # print(df_count_rel[df_count_rel.term.str.contains("Diabetes")].to_markdown())
     # Assuming df_aggregated is correctly aggregated data
+    n_terms = df_found["ID+term"].nunique()
+    n_show = 25
+
     fig1 = px.bar(df_count_rel.sort_values(by="count_ID", ascending=True),
                 y='ID+term', x='count', color='semantic_rel', 
-                title='Codes by Semantic Relationship [Variable Name (SNOMED term)]',
+                title=f'Codes by Semantic Relationship [Variable Name (SNOMED term)] <Zoom {n_show} out of {n_terms} terms; zoom out to see all>',
                 labels={'count': 'Count', 'ID+term': 'Name'},
                 orientation='h')
     
-    fig1.update_layout(height=600)
-
-
+    fig1.update_layout(
+                           height=600,
+                            yaxis=dict(
+                                        range=[n_terms - n_show, n_terms],
+                                        tickmode='linear',
+                                        dtick=1,
+                                    )
+                                    )
+    
     # Create a bar chart for all the found codes by count
+    # ls_IDs = df_found.sort_values(by="count_ID", ascending=False)["ID+term"].unique().tolist()[:25]
     fig2 = px.bar(df_found.sort_values(by="count_ID", ascending=True),
-                y='ID+term', x='count', color='span', title='Codes Distribution [Variable Name (SNOMED term)]',
-                labels={'count': 'Count', 'ID+term': 'Name', 'semantic_rel': 'Semantic Relationship'},
-                orientation='h',
-                hover_data=['semantic_rel']  # Include semantic relationship in the hover data
-                    )
-    fig2.update_layout(showlegend=False,
-                       height=600)
+                y='ID+term', x='count', color='span', title=f'Codes Distribution [Variable Name (SNOMED term)] <Zoom {n_show} out of {n_terms} terms; zoom out to see all>',
+                labels={'count': 'Count', 'ID+term': 'Name'},
+                orientation='h')
+    
+    fig2.update_layout(showlegend=False, 
+                           height=600,
+                            yaxis=dict(
+                                        range=[n_terms - n_show, n_terms],
+                                        tickmode='linear',
+                                        dtick=1,
+                                    )
+                                    )
 
     df_report = df[["ID", "name", "term", "count_ID"]].drop_duplicates().sort_values(by="ID")
     df_report["total_mentions"] = df_report["count_ID"].sum()
