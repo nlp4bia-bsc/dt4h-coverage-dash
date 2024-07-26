@@ -5,7 +5,7 @@ from dash import Dash, dcc, html, dash_table, Input, Output
 import src.visualization as viz
 
 # List of available corpora
-ls_corpora = ["distemist", "symptemist", "medprocner"]
+ls_corpora = ["distemist", "symptemist", "medprocner", "pharmaconer"]
 
 # Initialize the Dash app
 app = Dash(__name__,
