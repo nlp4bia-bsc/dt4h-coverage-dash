@@ -25,8 +25,14 @@ app.layout = html.Div(children=[
         multi=True
     ),
 
-    html.Div(id='graphs-container'),
-    html.Div(id='table-container')
+    # Wrapping the output components in dcc.Loading
+    dcc.Loading(
+        id="loading-1",
+        type="circle",
+        children=[
+            html.Div(id='graphs-container'),
+            html.Div(id='table-container')
+        ])
 ])
 
 # Callback to update the graphs and table based on selected corpora
