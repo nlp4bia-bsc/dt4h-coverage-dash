@@ -78,4 +78,4 @@ if __name__ == '__main__':
     args = parser.parse_args()
     port = args.port
 
-    app.run_server(port=port, debug=True)
+    app.run_server(port=port, debug=False)
