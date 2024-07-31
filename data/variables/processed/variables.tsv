@@ -112,30 +112,28 @@ DT4H-SM5	Ex-smoker 	8517006	finding	Ex-smoker
 DT4H-SM6	Never smoked tobacco	266919005	finding	Never smoked tobacco
 DT4H-SM7	Smoker	77176002	finding	Smoker
 DT4H-SM8	Tobacco smoking consumption unknown 	266927001	finding	Tobacco smoking consumption unknown 
-DT4H-MedR1	RAS-inhibitors	866173006	substance	Substance with renin-angiotensin system inhibitor mechanism of action 
-DT4H-MedA1	ACE-inhibitors	372733002	substance	 Substance with angiotensin-converting enzyme inhibitor mechanism of action 
-DT4H-MedAR1	Angiotensin receptor blocker	372913009	substance	 Substance with angiotensin II receptor antagonist mechanism of action 
-DT4H-Med2	Angiotensin receptor/neprilysin inhibitor (ARNI)	777480008	medicine	Product containing only sacubitril and valsartan
-DT4H-MedM1	Mineralcorticoid Receptor Antagonist (MRA)	372603003	substance	Substance with aldosterone receptor antagonist mechanism of action 
-DT4H-MedD1	Diuretics	372695000	substance	Diuretic 
-DT4H-MedL1	Loop diuretics	372691009	substance	Loop diuretic 
-DT4H-MedC1	Calcium Channel Blockers	373304005	substance	Substance with calcium channel blocker mechanism of action 
-DT4H-MedV1	Vasodilators used in heart dis.	372787008	substance	" Vasodilator 
+DT4H-MedR1	RAS-inhibitors	866173006	substance	RAS-INHIBITORS
+DT4H-MedA1	ACE-inhibitors	372733002	substance	ACE-INHIBITORS
+DT4H-MedAR1	Angiotensin receptor blocker	372913009	substance	ANGIOTENSIN RECEPTOR BLOCKER
+DT4H-Med2	Angiotensin receptor/neprilysin inhibitor (ARNI)	777480008	medicinal product	ANGIOTENSIN RECEPTOR/NEPRILYSIN INHIBITOR (ARNI)
+DT4H-MedM1	Mineralcorticoid Receptor Antagonist (MRA)	372603003	substance	MINERALCORTICOID RECEPTOR ANTAGONIST (MRA)
+DT4H-MedD1	Diuretics	372695000	substance	DIURETICS
+DT4H-MedL1	Loop diuretics	372691009	substance	LOOP DIURETIC
+DT4H-MedC1	Calcium Channel Blockers	373304005	substance	CALCIUM CHANNEL BLOCKER
+DT4H-MedP1	Platelet inhibitor	771452004	substance	SUBSTANCE WITH PLATELET AGGREGATION INHIBITOR MECHANISM OF ACTION 
+DT4H-MedCO1	Anticoagulants	372862008	substance	ANTICOAGULANTS
+DT4H-MedS1	Statins	372912004	substance	STATINS
+DT4H-MedDG1	Digitalis glycosides	406759007	substance	DIGITALIS GLYCOSIDES
+DT4H-MedBB1	Betablockers	373254001	substance	BETABLOCKERS    
+DT4H-MedRHY1	Class 1 and 3 antiarrhytmic drugs	782436006	substance	ANTIARRYTHMICS
+DT4H-MedIV1	Ivabradine	421228002	substance	IVABRADINE
+DT4H-MedSG1	SGLT-2 Inhibitor	703673007	substance	"SUBSTANCE WITH SODIUM GLUCOSE COTRANSPORTER SUBTYPE 2 INHIBITOR MECHANISM OF ACTION
 "
-DT4H-MedP1	Platelet inhibitor	771452004	substance	Substance with platelet aggregation inhibitor mechanism of action 
-DT4H-MedCO1	Anticoagulants	372862008	substance	 Anticoagulant 
-DT4H-MedS1	Statins	372912004	substance	 Substance with 3-hydroxy-3-methylglutaryl-coenzyme A reductase inhibitor mechanism of action 
-DT4H-MedDG1	Digitalis glycosides	406759007	substance	 Digitalis glycoside 
-DT4H-MedBB1	Betablockers	373254001	substance	Substance with beta adrenergic receptor antagonist mechanism of action 
-DT4H-MedRHY1	Class 1 and 3 antiarrhytmic drugs	782436006	substance	Substance with sodium channel blocker mechanism of action +415152007 Substance with potassium channel blocker mechanism of action 
-DT4H-MedIV1	Ivabradine	421228002	substance	Ivabradine 
-DT4H-MedSG1	SGLT-2 Inhibitor	703673007	substance	Substance with sodium glucose cotransporter subtype 2 inhibitor mechanism of action 
 DT4H-CV12	Revascularized CABG (Coronary artery bypass grafting)	232717009	procedure	Coronary artery bypass grafting
 DT4H-Proc1	PCI (Percutaneous coronary intervention)	415070008	procedure	Percutaneous coronary intervention 
 DT4H-Proc2	Cardiovascular implant	303490004	other	Cardiovascular implant
 DT4H-Proc3	Vascular implant 	303617005	other	Vascular implant 
 DT4H-Proc4	Transplant heart 	420291005	other	Transplant heart 
-DT4H-MedR1	RAS-INHIBITORS	866173006	substance	RAS-INHIBITORS
 DT4H-MedR11	Substance with angiotensin II receptor antagonist mechanism of action 	372913009	substance	Substance with angiotensin II receptor antagonist mechanism of action 
 DT4H-MedR111	Fimasartan potassium trihydrate	1332434009	substance	Fimasartan potassium trihydrate
 DT4H-MedR112	Fimasartan	1332433003	substance	Fimasartan
@@ -199,7 +197,6 @@ of action "	426228001	substance	"Substance with renin inhibitor mechanism
 of action "
 DT4-MedR171	Aliskiren	426725002	substance	Aliskiren
 DT4-MedR172	Aliskiren fumarate	425981005	substance	Aliskiren fumarate
-DT4H-MedA1	ACE-INHIBITORS	372733002	substance	ACE-INHIBITORS
 DT4H-MedA111	Lisinopril dihydrate	341000220102	substance	Lisinopril dihydrate
 DT4H-MedA112	Lisinopril anhydrous	1269132005	substance	Lisinopril anhydrous
 DT4H-MedA113	Cilazapril anhydrous	1268982005	substance	Cilazapril anhydrous
@@ -235,7 +232,6 @@ DT4H-MedA142	Benazepril hydrochloride	108573008	substance	Benazepril hydrochlori
 DT4H-MedA143	Fosinopril sodium	108570006	substance	Fosinopril sodium
 DT4H-MedA144	Moexipril hydrochloride	108567007	substance	Moexipril hydrochloride
 DT4H-MedA145	Enalaprilat	48052001	substance	Enalaprilat
-DT4H-MedAR1	ANGIOTENSIN RECEPTOR BLOCKER	372913009	substance	ANGIOTENSIN RECEPTOR BLOCKER
 DT4H-MedAR111	Fimasartan potassium trihydrate	1332434009	substance	Fimasartan potassium trihydrate
 DT4H-MedAR112	Fimasartan	1332433003	substance	Fimasartan
 DT4H-MedAR113	Azilsartan medoxomil potassium	895431005	substance	Azilsartan medoxomil potassium
@@ -253,14 +249,11 @@ DT4H-MedAR124	Losartan	373567002	substance	Losartan
 DT4H-MedAR125	Candesartan	372512008	substance	Candesartan
 DT4H-MedAR126	Eprosartan mesilate	129488003	substance	Eprosartan mesilate
 DT4H-MedAR127	Losartan potassium	108582002	substance	Losartan potassium
-DT4H-Med2	ANGIOTENSIN RECEPTOR/NEPRILYSIN INHIBITOR (ARNI)	777480008	medicinal product	ANGIOTENSIN RECEPTOR/NEPRILYSIN INHIBITOR (ARNI)
-DT4H-MedM1	MINERALCORTICOID RECEPTOR ANTAGONIST (MRA)	372603003	substance	MINERALCORTICOID RECEPTOR ANTAGONIST (MRA)
 DT4H-MedM111	Finerenone	1163346008	substance	Finerenone
 DT4H-MedM112	Potassium canrenoate	419615001	substance	Potassium canrenoate
 DT4H-MedM113	Eplerenone	407010008	substance	Eplerenone
 DT4H-MedM114	Spironolactone	387078006	substance	Spironolactone
 DT4H-MedM115	Canrenone	96291007	substance	Canrenone
-DT4H-MedD1	DIURETICS	372695000	substance	DIURETICS
 DT4H-MedD11	diuretics other	Ø	substance	diuretics other
 DT4H-MedD111	acetazolamide	372709008	substance	acetazolamide
 DT4H-MedD112	aminometradine	80253002	substance	aminometradine
@@ -351,7 +344,6 @@ DT4H-MedD242	Benzbromarone	698025001	substance	Benzbromarone
 DT4H-MedD243	Apazone	391798003	substance	Apazone
 DT4H-MedD244	Probenecid	387365004	substance	Probenecid
 DT4H-MedD245	Sulfinpyrazone	387108008	substance	Sulfinpyrazone
-DT4H-MedL1	LOOP DIURETIC	372691009	substance	LOOP DIURETIC
 DT4H-MedL101	Piretanide	419451002	substance	Piretanide
 DT4H-MedL102	Bumetanide	387498005	substance	Bumetanide
 DT4H-MedL103	Furosemide	387475002	substance	Furosemide
@@ -359,7 +351,6 @@ DT4H-MedL104	Ethacrynic acid	373536004	substance	Ethacrynic acid
 DT4H-MedL105	Torasemide	108476002	substance	Torasemide
 DT4H-MedL106	Ethacrynate sodium	75341007	substance	Ethacrynate sodium
 DT4H-MedL107	Tienilic acid	64029000	substance	Tienilic acid
-DT4H-MedC1	CALCIUM CHANNEL BLOCKER	373304005	substance	CALCIUM CHANNEL BLOCKER
 DT4H-MedC101	Perhexiline maleate	1332137007	substance	Perhexiline maleate
 DT4H-MedC102	Benidipine	1303528009	substance	Benidipine
 DT4H-MedC103	Benidipine hydrochloride	1303527004	substance	Benidipine hydrochloride
@@ -425,7 +416,6 @@ DT4H-MedV119	Inositol hexanitrate	12970004	substance	Inositol hexanitrate
 DT4H-MedV131	flosequinan	412391002	substance	flosequinan
 DT4H-MedV136	hexobendine	710319000	substance	hexobendine
 DT4H-MedV138	heptaminol	96259006	substance	heptaminol
-DT4H-MedP1	SUBSTANCE WITH PLATELET AGGREGATION INHIBITOR MECHANISM OF ACTION 	771452004	substance	SUBSTANCE WITH PLATELET AGGREGATION INHIBITOR MECHANISM OF ACTION 
 DT4H-MedP11	Substance with glycoprotein-IIb/IIIa receptor antagonist mechanism of action 	1162907009	substance	Substance with glycoprotein-IIb/IIIa receptor antagonist mechanism of action 
 DT4H-MedP111	Tirofiban hydrochloride	1269173006	substance	Tirofiban hydrochloride
 DT4H-MedP112	Tirofiban hydrochloride anhydrous	1269172001	substance	Tirofiban hydrochloride anhydrous
@@ -470,7 +460,6 @@ DT4H-MedP161	epoprostenol sodium	108594006	substance	epoprostenol sodium
 DT4H-MedP162	milrinone lactate	108481006	substance	milrinone lactate
 DT4H-MedP163	resveratrol	96383001	substance	resveratrol
 DT4H-MedP164	aluminium aspirin	25796002	substance	aluminium aspirin
-DT4H-MedCO1	ANTICOAGULANTS	372862008	substance	ANTICOAGULANTS
 DT4H-MedCO111	resveratrol	96383001	substance	resveratrol
 DT4H-MedCO12	Direct acting anticoagulant 	372636002	substance	Direct acting anticoagulant 
 DT4H-MedCO121	Argatroban anhydrous	1268948004	substance	Argatroban anhydrous
@@ -553,7 +542,6 @@ DT4H-MedCO233	4-hydroxycoumarin	31011004	substance	4-hydroxycoumarin
 DT4H-MedCO234	Chlorophacinone	26371006	substance	Chlorophacinone
 DT4H-MedCO235	Protein C	25525005	substance	Protein C
 DT4H-MedCO236	Diphenadione	20368008	substance	Diphenadione
-DT4H-MedS1	STATINS	372912004	substance	STATINS
 DT4H-MedS111	Atorvastatin calcium anhydrous	1268949007	substance	Atorvastatin calcium anhydrous
 DT4H-MedS112	Rosuvastatin zinc	1217216007	substance	Rosuvastatin zinc
 DT4H-MedS113	Atorvastatin calcium trihydrate	725658002	substance	Atorvastatin calcium trihydrate
@@ -571,7 +559,6 @@ DT4H-MedS124	Atorvastatin calcium	108601004	substance	Atorvastatin calcium
 DT4H-MedS125	Cerivastatin sodium	108597004	substance	Cerivastatin sodium
 DT4H-MedS126	Pravastatin sodium	96306007	substance	Pravastatin sodium
 DT4H-MedS127	Lovastatin	96303004	substance	Lovastatin
-DT4H-MedDG1	DIGITALIS GLYCOSIDES	406759007	substance	DIGITALIS GLYCOSIDES
 DT4H-MedDG111	Medigoxin	418574005	substance	Medigoxin
 DT4H-MedDG112	Digitalis	387521006	substance	Digitalis
 DT4H-MedDG113	Digoxin	387461009	substance	Digoxin
@@ -581,7 +568,6 @@ DT4H-MedDG116	Ouabain	35966009	substance	Ouabain
 DT4H-MedDG117	Aglycone	35135004	substance	Aglycone
 DT4H-MedDG118	Deslanoside	16214005	substance	Deslanoside
 DT4H-MedDG119	Acetyldigitoxin	7834009	substance	Acetyldigitoxin
-DT4H-MedBB1	BETABLOCKERS    	373254001	substance	BETABLOCKERS    
 DT4H-MedBB111	Tertatolol hydrochloride	734455009	substance	Tertatolol hydrochloride
 DT4H-MedBB112	Tertatolol	716124003	substance	Tertatolol
 DT4H-MedBB113	Carvedilol phosphate	426471008	substance	Carvedilol phosphate
@@ -631,7 +617,6 @@ DT4H-MedBB167	Acebutolol	372815001	substance	Acebutolol
 DT4H-MedBB168	Metoprolol tartrate	72770009	substance	Metoprolol tartrate
 DT4H-MedBB169	Esmolol hydrochloride	35318005	substance	Esmolol hydrochloride
 DT4H-MedBB170	Acebutolol hydrochloride	3597005	substance	Acebutolol hydrochloride
-DT4H-MedRHY1	ANTIARRYTHMICS	372813008	substance	ANTIARRYTHMICS
 DT4H-MedRHY11	Substance with sodium channel blocker mechanism of action 	782436006	substance	Substance with sodium channel blocker mechanism of action 
 DT4H-MedRHY111	Phenytoin calcium	445821000221103	substance	Phenytoin calcium
 DT4H-MedRHY112	Lidocaine hydrochloride anhydrous	1269131003	substance	Lidocaine hydrochloride anhydrous
@@ -665,10 +650,6 @@ DT4H-MedRHY15	Substance with potassium channel blocker mechanism of action	41515
 DT4H-MedRHY151	Amifampridine	422654000	substance	Amifampridine
 DT4H-MedRHY152	Dofetilide	116107002	substance	Dofetilide
 DT4H-MedRHY153	Dalfampridine	80994002	substance	Dalfampridine
-DT4H-MedIV1	IVABRADINE	421228002	substance	IVABRADINE
-DT4H-MedSG1	"SUBSTANCE WITH SODIUM GLUCOSE COTRANSPORTER SUBTYPE 2 INHIBITOR MECHANISM OF ACTION
-"	703673007	substance	"SUBSTANCE WITH SODIUM GLUCOSE COTRANSPORTER SUBTYPE 2 INHIBITOR MECHANISM OF ACTION
-"
 DT4H-MedSG111	Dapagliflozin propanediol anhydrous	1269001007	substance	Dapagliflozin propanediol anhydrous
 DT4H-MedSG112	Canagliflozin anhydrous	1268978008	substance	Canagliflozin anhydrous
 DT4H-MedSG113	Remogliflozin etabonate	1162688000	substance	Remogliflozin etabonate
