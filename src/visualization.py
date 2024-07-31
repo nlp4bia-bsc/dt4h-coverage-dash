@@ -42,18 +42,66 @@ def report_corpus(corpus, show=True, debug=False):
 
 def plot_code_distribution(df, corpus=None, show=True):
 
-    ls_semantic_rel = df["semantic_rel"].unique().tolist()
+   #### Variables ####
+    color_sequence = [ '#1EE132', '#9E8C88']
+
+    #### Data Preparation for Visualization ####
     # Filter the dataframe to exclude rows where 'span' is "NOT_FOUND"
     df = df.copy()
+    # Create a new column with the ID, name, and term concatenated for better visualization
     df["ID+term"] = df["ID"] + "-" + df["name"] + " (" + df["term"] + ")"
+
+    # Dataframe to plot the distribution of found variables by semantic tag
+    df_sem_tag = df.drop_duplicates(subset=["ID", "semantic_tag", "found"]).copy()
+    df_sem_tag["found"] = df_sem_tag["found"].replace({True: "Found", False: "Not Found"})        # Avoid True/False in the plot
+    df_sem_tag = df_sem_tag.groupby(["semantic_tag", "found"]).size().reset_index(name="count")   # Count the occurrences by semantic tag and found/not found
+
+    # Calculate the total counts by semantic tag to compute percentages and merge the dataframes
+    total_counts = df_sem_tag.groupby("semantic_tag").aggregate({"count":"sum"})\
+                                .reset_index()\
+                                .rename(columns={"count":"total"})
+    df_sem_tag = df_sem_tag.merge(total_counts, on="semantic_tag")
+    df_sem_tag["percentage"] = df_sem_tag["count"] / df_sem_tag["total"]                          # Calculate the percentage of found/not found by semantic tag
+    df_sem_tag = df_sem_tag.sort_values(by=["found", "total"], ascending=[True, False])           # Sort the dataframe to display the highest counts first
+
+    # Dataframe to plot the statistics of the found variables
     df_found = df.loc[(df["span"] != "NOT_FOUND"), :].copy()
-    df_count_rel = df_found[["ID+term"] + ls_semantic_rel + ["count_ID"]].melt(id_vars=["ID+term", "count_ID"], var_name="semantic_rel", value_name="count").drop_duplicates()
     df_n_founds = df[["ID", "found"]].drop_duplicates()
+    df_n_founds["found"] = df_n_founds["found"].replace({True: "Found", False: "Not Found"})
 
-    # Assuming df_found and df_n_founds are already defined
+    # Dataframe to plot the distribution of semantic relationships
+    ls_semantic_rel = df["semantic_rel"].unique().tolist()                                        # Get the unique semantic relationships and semantic tags
+    sel_cols = ["ID+term"] + ls_semantic_rel + ["count_ID"]
+    df_count_rel = df_found[sel_cols].melt(id_vars=["ID+term", "count_ID"], var_name="semantic_rel", value_name="count")\
+                                     .drop_duplicates()
 
+    #### Visualization ####
+    # 1. Create a bar chart for the distribution of found variables by semantic tag
+    fig_top = px.bar(df_sem_tag,
+                        y='semantic_tag', x='count', color='found',
+                        color_discrete_sequence=color_sequence,
+                        orientation='h',
+                        barmode='stack',  # Add this line to stack the bars
+                        title='Coverage by Semantic Tag',
+                        labels={'count': 'Count', 'semantic_tag': 'Semantic Tag', 'percentage': 'Percentage'},
+                        text=(df_sem_tag["percentage"] * 100).round(2).astype(str) + "%")  # Display percentages with %
+
+    # Reverse the order of the y-axis to display the highest counts at the top
+    fig_top.update_layout(yaxis=dict(autorange="reversed"))
+
+    
+    if corpus is not None:
+        fig_top.update_layout(
+            title_text=f"{corpus.upper()}: Overview of Data Attributes",
+            title_font_size=24,  # Adjust the size as needed
+            title_font_family="Arial",  # You can change the font if you prefer
+            title_font_color="black",  # Adjust the color as needed
+            title_x=0.5,  # Center the title horizontally
+            title_xanchor='center'  # Ensure the title is centered
+        )
+
+    # 2. Create pie charts for the distribution of found variables, semantic tags, and semantic relationships
     # Create the pie charts
-
     fig01 = px.pie(df_n_founds, names='found', title='Found Variables')
     fig01.update_traces(textinfo='label+percent+value')
 
@@ -63,11 +111,9 @@ def plot_code_distribution(df, corpus=None, show=True):
     fig03 = px.pie(df_found, names='semantic_rel', title='Semantic Relationship Distribution')
     fig03.update_traces(textinfo='label+percent+value')
 
-
     # Create a subplot layout with 1 row and 2 columns
     fig0 = make_subplots(rows=1, cols=3, subplot_titles=("Found Variables", "Semantic Tag Distribution", "Semantic Relationship Distribution (Total Mentions)"),
-                            specs=[[{"type": "pie"}] * 3])
-    
+                            specs=[[{"type": "pie"}, {"type":"pie"}, {"type":"pie"}]])
 
     # Add the pie charts to the subplots
     fig0.add_trace(fig01.data[0], row=1, col=1)
@@ -77,16 +123,6 @@ def plot_code_distribution(df, corpus=None, show=True):
     # Update the layout to adjust the title and other settings
     fig0.update_layout(title_text="Distribution of Semantic Relationships and Found Codes", showlegend=False,
                       height=600)
-    
-    if corpus is not None:
-        fig0.update_layout(
-            title_text=f"{corpus.upper()}: Overview of Data Attributes",
-            title_font_size=24,  # Adjust the size as needed
-            title_font_family="Arial",  # You can change the font if you prefer
-            title_font_color="black",  # Adjust the color as needed
-            title_x=0.5,  # Center the title horizontally
-            title_xanchor='center'  # Ensure the title is centered
-        )
 
     # print(df_count_rel[df_count_rel.term.str.contains("Diabetes")].to_markdown())
     # Assuming df_aggregated is correctly aggregated data
@@ -109,7 +145,6 @@ def plot_code_distribution(df, corpus=None, show=True):
                                     )
     
     # Create a bar chart for all the found codes by count
-    # ls_IDs = df_found.sort_values(by="count_ID", ascending=False)["ID+term"].unique().tolist()[:25]
     fig2 = px.bar(df_found.sort_values(by="count_ID", ascending=True),
                 y='ID+term', x='count', color='span', title=f'Codes Distribution [Variable Name (SNOMED term)] <Zoom {n_show} out of {n_terms} terms; zoom out to see all>',
                 labels={'count': 'Count', 'ID+term': 'Name'},
@@ -129,28 +164,13 @@ def plot_code_distribution(df, corpus=None, show=True):
     df_report["total_ratio"] = df_report["count_ID"]/df_report["count_ID"].sum()
     df_report.fillna(0, inplace=True)
 
-    # # Create a Plotly Table
-    # figtab = go.Figure(data=[go.Table(
-    #     header=dict(values=list(df_report.columns),
-    #                 fill_color='paleturquoise',
-    #                 align='left'),
-    #     cells=dict(values=[df_report[col] for col in df_report.columns],
-    #             fill_color='lavender',
-    #             align='left'))
-    # ])
-
-    # # Update layout
-    # figtab.update_layout(
-    #     title_text="Data Table",
-    #     title_x=0.5
-    # )
-
     if show:
+        fig_top.show()
         fig0.show()
         fig1.show()
         fig2.show()
         # figtab.show()
 
-    return df_report, fig0, fig1, fig2 #, figtab
+    return df_report, fig_top, fig0, fig1, fig2 #, figtab
 
 

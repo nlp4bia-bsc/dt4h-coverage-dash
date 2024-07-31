@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-
 from dash import Dash, dcc, html, dash_table, Input, Output
+
 import src.visualization as viz
 
 # List of available corpora
@@ -13,9 +13,9 @@ app = Dash(__name__,
 )
 
 # Define the layout of the app
-app.layout = html.Div([
-    html.H1("Variable Coverage Analysis DT4H"),
-    html.A("Variables List", href="https://docs.google.com/spreadsheets/d/1GM17jnZop0eHSYaWKccVhp4pdbX58IEuSLXsiYg4GUQ/edit?usp=sharing"),
+app.layout = html.Div(children=[
+    html.H1("Variable Coverage Analysis DT4H", style={'color': 'black', 'fontSize': '36px'}),
+    html.A("Variables List", href="https://docs.google.com/spreadsheets/d/1GM17jnZop0eHSYaWKccVhp4pdbX58IEuSLXsiYg4GUQ/edit?usp=sharing", style={'color': 'blue', 'fontSize': '20px'}),
     html.P("Select the corpora to compare"),
     
     dcc.Dropdown(
@@ -72,4 +72,4 @@ if __name__ == '__main__':
     args = parser.parse_args()
     port = args.port
 
-    app.run_server(port=port)
+    app.run_server(port=port, debug=True)
