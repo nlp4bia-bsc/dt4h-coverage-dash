@@ -83,7 +83,7 @@ def plot_code_distribution(df, corpus=None, show=True):
                         orientation='h',
                         barmode='stack',  # Add this line to stack the bars
                         title='Coverage by Semantic Tag',
-                        labels={'count': 'Count', 'semantic_tag': 'Semantic Tag', 'percentage': 'Percentage'},
+                        labels={'count': 'Count', 'semantic_tag': 'Semantic Tag', 'text': 'Percentage'},
                         text=(df_sem_tag["percentage"] * 100).round(2).astype(str) + "%")  # Display percentages with %
 
     # Reverse the order of the y-axis to display the highest counts at the top
