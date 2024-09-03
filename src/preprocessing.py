@@ -7,22 +7,30 @@ def generate_df_codes(df_data, df_vars, debug=False):
 
     df_data = process_composites(df_data, df_vars)
 
+    df_data.rename(columns={"label": "label_corpus"}, inplace=True)
     df_code_ovr = df_vars[["ID", "name", "code", "term", "label"]].merge(
-                                                                df_data[['code', 'span', 'semantic_rel']].reset_index(), 
+                                                                df_data[['code', 'span', 'semantic_rel', "label_corpus"]].reset_index(), 
                                                                 on='code', 
-                                                                how='left'
+                                                                how='left',
                                                             ).fillna("NOT_FOUND")
+
+    # mask_nf = df_code_ovr["label_corpus"] != "NOT_FOUND"
+    # mask_ot = df_code_ovr["label"] == "OTROS"
+    # mask_nc = df_code_ovr["label"] != df_code_ovr["label_corpus"]
+
+    # df_code_ovr.loc[mask_nc, "label"] = df_code_ovr.loc[mask_nc, "label_corpus"].values
+    # df_code_ovr.loc[mask_nf & mask_ot, "label"] = "OTROS_" + df_code_ovr.loc[mask_nf & mask_ot, "label_corpus"]
 
     # assert (df_code_ovr["semantic_rel"] == "COMPOSITE").sum() > 0, "NO COMPOSITES FOUND"
 
     # Group by 'code', 'span', and 'semantic_rel', then count occurrences
-    df_code_ovr = df_code_ovr.groupby(['ID', 'name', 'code', 'span', 'term', 'semantic_rel', 'label']).size().reset_index(name='count').sort_values(by="count", ascending=False)
+    df_code_ovr = df_code_ovr.groupby(['ID', 'name', 'code', 'span', 'term', 'semantic_rel', 'label', 'label_corpus']).size().reset_index(name='count').sort_values(by="count", ascending=False)
 
     # Set count to 0 for entries with 'span' marked as "NOT_FOUND"
     df_code_ovr.loc[df_code_ovr.span == "NOT_FOUND", "count"] = 0
 
     # Rename columns for clarity
-    df_code_ovr.columns = ['ID', 'name', 'code', 'span', 'term', 'semantic_rel', 'label', 'count']
+    df_code_ovr.columns = ['ID', 'name', 'code', 'span', 'term', 'semantic_rel', 'label', 'label_corpus', 'count']
 
     
     df_code_ovr["found"] = df_code_ovr["span"] != "NOT_FOUND"

@@ -19,7 +19,7 @@ def generate_report_table(ls_corpora):
         ls_figures.extend(figures)
 
     # show the count_ID, total_mentions and total_ratio for each corpus using ID as index
-    df_out = df_report.pivot(index=["ID", "name", "term"], columns="corpus", values=["count_ID", "mentions", "ratio"])
+    df_out = df_report.pivot(index=["ID", "name", "term", "label", "label_corpus"], columns="corpus", values=["count_ID", "mentions", "ratio"])
     df_out.columns = [f"{col}_{sub}" for col, sub in df_out.columns]
     df_out = df_out.sort_values(by=list(df_out.columns)[0], ascending=False)
 
@@ -183,7 +183,7 @@ def plot_code_distribution(df, corpus, show=True):
                                     )
                                     )
 
-    df_report = df[["ID", "name", "term", "count_ID"]].drop_duplicates().sort_values(by="ID")
+    df_report = df[["ID", "name", "term", "label", "label_corpus", "count_ID"]].drop_duplicates().sort_values(by="ID")
     df_report["mentions"] = df_report["count_ID"].sum()
     df_report["ratio"] = df_report["count_ID"]/df_report["count_ID"].sum()
     df_report.fillna(0, inplace=True)
