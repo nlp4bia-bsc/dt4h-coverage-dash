@@ -52,15 +52,15 @@ def plot_code_distribution(df, corpus, show=True):
     df["ID+term"] = df["ID"] + "-" + df["name"] + " (" + df["term"] + ")"
 
     # Dataframe to plot the distribution of found variables by semantic tag
-    df_sem_tag = df.drop_duplicates(subset=["ID", "semantic_tag", "found"]).copy()
+    df_sem_tag = df.drop_duplicates(subset=["ID", "label", "found"]).copy()
     df_sem_tag["found"] = df_sem_tag["found"].replace({True: "Found", False: "Not Found"})        # Avoid True/False in the plot
-    df_sem_tag = df_sem_tag.groupby(["semantic_tag", "found"]).size().reset_index(name="count")   # Count the occurrences by semantic tag and found/not found
+    df_sem_tag = df_sem_tag.groupby(["label", "found"]).size().reset_index(name="count")   # Count the occurrences by semantic tag and found/not found
 
     # Calculate the total counts by semantic tag to compute percentages and merge the dataframes
-    total_counts = df_sem_tag.groupby("semantic_tag").aggregate({"count":"sum"})\
+    total_counts = df_sem_tag.groupby("label").aggregate({"count":"sum"})\
                                 .reset_index()\
                                 .rename(columns={"count":"total"})
-    df_sem_tag = df_sem_tag.merge(total_counts, on="semantic_tag")
+    df_sem_tag = df_sem_tag.merge(total_counts, on="label")
     df_sem_tag["percentage"] = df_sem_tag["count"] / df_sem_tag["total"]                          # Calculate the percentage of found/not found by semantic tag
     df_sem_tag = df_sem_tag.sort_values(by=["found", "total"], ascending=[True, False])           # Sort the dataframe to display the highest counts first
 
@@ -92,17 +92,17 @@ def plot_code_distribution(df, corpus, show=True):
     #### Visualization ####
     # 1. Create a bar chart for the distribution of found variables by semantic tag
     fig_top = px.bar(df_sem_tag,
-                        y='semantic_tag', x='count', color='found',
+                        y='label', x='count', color='found',
                         color_discrete_sequence=color_sequence,
                         orientation='h',
                         barmode='stack',  # Add this line to stack the bars
                         title='Coverage by Semantic Tag',
-                        labels={'count': 'Count', 'semantic_tag': 'Semantic Tag', 'text': 'Percentage'},
+                        labels={'count': 'Count', 'label': 'Semantic Tag', 'text': 'Percentage'},
                         text=(df_sem_tag["percentage"] * 100).round(2).astype(str) + "%")  # Display percentages with %
     
     # Add an annotation below the plot
     fig_top.add_annotation(
-        text="Figure: Distribution of found codes by SNOMEDCT semantic tag",
+        text="Figure: Distribution of found codes by NLP4BIA semantic tag",
         xref="paper", yref="paper",  # Coordinates refer to the entire paper space
         x=0, y=-0.3,  # Position the annotation below the plot
         showarrow=False,
@@ -129,7 +129,7 @@ def plot_code_distribution(df, corpus, show=True):
     fig01 = px.pie(df_n_founds, names='found', title='Found Variables')
     fig01.update_traces(textinfo='label+percent+value')
 
-    fig02 = px.pie(df_found.drop_duplicates(subset=["ID"]), names='semantic_tag', title='Semantic Tag Distribution of Found Codes')
+    fig02 = px.pie(df_found.drop_duplicates(subset=["ID"]), names='label', title='Semantic Tag Distribution of Found Codes')
     fig02.update_traces(textinfo='label+percent+value')
 
     fig03 = px.pie(df_found, names='semantic_rel', title='Semantic Relationship Distribution')
