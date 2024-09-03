@@ -1,663 +1,663 @@
-ID	name	code	semantic_tag	term
-DT4HDem-3	Sex female	248152002	finding	 Female 
-DT4HDem-4	Sex male	248153007	finding	 Male 
-DT4HDem-6	YOB	184099003	observable entity	 Date of birth 
-DT4HDem-7	Height	1153637007	observable entity	Body height 
-DT4HDem-8	Weight	27113001	observable entity	 Body weight 
-DT4HDem-9	BMI	60621009	observable entity	 Body mass index 
-DT4HDem-11	Origin	307117005	finding	Place of origin 
-DT4HDem-14	Admission date	399423000	observable entity	Date of admission 
-DT4HSign-1	NYHA class	420816009	assessment scale	 New York Heart Association Classification
-DT4HSign-2	Chest pain	29857009	finding	 Chest pain 
-DT4HSign-3	breathness	267036007	finding	 Dyspnea 
-DT4HSign-4	orthopnoea	62744007	finding	Orthopnea 
-DT4HSign-5	paroxysmal nocturnal dyspnoea	55442000	finding	 Paroxysmal nocturnal dyspnea 
-DT4HSign-6	reduced excercise tolerance	267044007	finding	Impaired exercise tolerance 
-DT4HSign-7	fatigue	84229001	finding	Fatigue 
-DT4HSign-8	ankle swelling	267039000	finding	 Swollen ankle 
-DT4HSign-9	nocturnal cough	62548007	finding	Nocturnal cough 
-DT4HSign-10	loss of appetite	79890006	finding	Loss of appetite 
-DT4HSign-11	depression	366979004	finding	Depressed mood 
-DT4HSign-12	palpitation	80313002	finding	 Palpitations 
-DT4HSign-13	dizziness	404640003	finding	 Dizziness 
-DT4HSign-14	syncope	271594007	finding	 Syncope 
-DT4HSign-15	elevated jugular venous pressure	22447003	finding	 Raised jugular venous pressure 
-DT4HSign-16	hepatojugular reflux	72196001	finding	 Hepatojugular reflux 
-DT4HSign-17	third heart sound	277455002	finding	 Third heart sound 
-DT4HSign-18	weight gain	262286000	finding	 Weight increased 
-DT4HSign-19	weight loss 	89362005	finding	 Weight loss 
-DT4HSign-20	cardiac murmur	88610006	finding	 Heart murmur 
-DT4HSign-21	peripheral edema (ankle, sacral, scrotal)	271809000	disorder	 Peripheral edema 
-DT4HSign-22	pulmonary crepitations	48409008	finding	 Respiratory crackles 
-DT4HSign-23	pleural effusion	60046008	disorder	 Pleural effusion 
-DT4HSign-24	tachycardia	3424008	finding	Tachycardia 
-DT4HSign-25	irregular pulse	61086009	finding	 Pulse irregular 
-DT4HSign-26	tachypneoea	271823003	finding	Tachypnea 
-DT4HSign-27	cheyne-stokes respiration	309155007	finding	Cheyne-Stokes respiration 
-DT4HSign-28	hepatomegaly	80515008	disorder	Large liver 
-DT4HSign-29	ascites	389026000	disorder	 Ascites 
-DT4HSign-30	oliguria	83128009	finding	 Oliguria 
-DT4HMeas-1	BPsyst	399304008	observable entity	399304008 Systolic blood pressure on admission 
-DT4HMeas-2	Bpdia	446226005	observable entity	 Diastolic blood pressure on admission 
-DT4HMeas-3	Bpmean	6797001	observable entity	Mean blood pressure 
-DT4HMeas-5	Arterial oxygen saturation	442476006	observable entity	Arterial oxygen saturation
-DT4HEKG-1	Rhythm	251149006	observable entity	 Cardiac rhythm type 
-DT4HEKG-2	ECG_STEMI	401303003	disorder	Acute ST segment elevation myocardial infarction 
-DT4HEKG-3	ECG_nSTEMI	401314000	disorder	Acute non-ST segment elevation myocardial infarction 
-DT4HEKG-4	ECG_QRS	251208001	observable entity	"QRS complex duration 
+ID	name	code	semantic_tag	label	term
+DT4HDem-3	Sex female	248152002	finding	OTROS	 Female 
+DT4HDem-4	Sex male	248153007	finding	OTROS	 Male 
+DT4HDem-6	YOB	184099003	observable entity	OTROS	 Date of birth 
+DT4HDem-7	Height	1153637007	observable entity	OTROS	Body height 
+DT4HDem-8	Weight	27113001	observable entity	OTROS	 Body weight 
+DT4HDem-9	BMI	60621009	observable entity	OTROS	 Body mass index 
+DT4HDem-11	Origin	307117005	finding	OTROS	Place of origin 
+DT4HDem-14	Admission date	399423000	observable entity	OTROS	Date of admission 
+DT4HSign-1	NYHA class	420816009	assessment scale	OTROS	 New York Heart Association Classification
+DT4HSign-2	Chest pain	29857009	finding	SINTOMA	 Chest pain 
+DT4HSign-3	breathness	267036007	finding	SINTOMA	 Dyspnea 
+DT4HSign-4	orthopnoea	62744007	finding	SINTOMA	Orthopnea 
+DT4HSign-5	paroxysmal nocturnal dyspnoea	55442000	finding	SINTOMA	 Paroxysmal nocturnal dyspnea 
+DT4HSign-6	reduced excercise tolerance	267044007	finding	SINTOMA	Impaired exercise tolerance 
+DT4HSign-7	fatigue	84229001	finding	SINTOMA	Fatigue 
+DT4HSign-8	ankle swelling	267039000	finding	SINTOMA	 Swollen ankle 
+DT4HSign-9	nocturnal cough	62548007	finding	SINTOMA	Nocturnal cough 
+DT4HSign-10	loss of appetite	79890006	finding	SINTOMA	Loss of appetite 
+DT4HSign-11	depression	366979004	finding	ENFERMEDAD	Depressed mood 
+DT4HSign-12	palpitation	80313002	finding	SINTOMA	 Palpitations 
+DT4HSign-13	dizziness	404640003	finding	SINTOMA	 Dizziness 
+DT4HSign-14	syncope	271594007	finding	ENFERMEDAD	 Syncope 
+DT4HSign-15	elevated jugular venous pressure	22447003	finding	SINTOMA	 Raised jugular venous pressure 
+DT4HSign-16	hepatojugular reflux	72196001	finding	SINTOMA	 Hepatojugular reflux 
+DT4HSign-17	third heart sound	277455002	finding	SINTOMA	 Third heart sound 
+DT4HSign-18	weight gain	262286000	finding	SINTOMA	 Weight increased 
+DT4HSign-19	weight loss 	89362005	finding	SINTOMA	 Weight loss 
+DT4HSign-20	cardiac murmur	88610006	finding	SINTOMA	 Heart murmur 
+DT4HSign-21	peripheral edema (ankle, sacral, scrotal)	271809000	disorder	SINTOMA	 Peripheral edema 
+DT4HSign-22	pulmonary crepitations	48409008	finding	SINTOMA	 Respiratory crackles 
+DT4HSign-23	pleural effusion	60046008	disorder	ENFERMEDAD	 Pleural effusion 
+DT4HSign-24	tachycardia	3424008	finding	SINTOMA	Tachycardia 
+DT4HSign-25	irregular pulse	61086009	finding	SINTOMA	 Pulse irregular 
+DT4HSign-26	tachypneoea	271823003	finding	SINTOMA	Tachypnea 
+DT4HSign-27	cheyne-stokes respiration	309155007	finding	SINTOMA	Cheyne-Stokes respiration 
+DT4HSign-28	hepatomegaly	80515008	disorder	ENFERMEDAD	Large liver 
+DT4HSign-29	ascites	389026000	disorder	ENFERMEDAD	 Ascites 
+DT4HSign-30	oliguria	83128009	finding	SINTOMA	 Oliguria 
+DT4HMeas-1	BPsyst	399304008	observable entity	OTROS	399304008 Systolic blood pressure on admission 
+DT4HMeas-2	Bpdia	446226005	observable entity	OTROS	 Diastolic blood pressure on admission 
+DT4HMeas-3	Bpmean	6797001	observable entity	OTROS	Mean blood pressure 
+DT4HMeas-5	Arterial oxygen saturation	442476006	observable entity	OTROS	Arterial oxygen saturation
+DT4HEKG-1	Rhythm	251149006	observable entity	OTROS	 Cardiac rhythm type 
+DT4HEKG-2	ECG_STEMI	401303003	disorder	ENFERMEDAD	Acute ST segment elevation myocardial infarction 
+DT4HEKG-3	ECG_nSTEMI	401314000	disorder	ENFERMEDAD	Acute non-ST segment elevation myocardial infarction 
+DT4HEKG-4	ECG_QRS	251208001	observable entity	OTROS	"QRS complex duration 
 "
-DT4HEKG-5	ECG_QRSaxis	251196003	observable entity	 QRS Axis 
-DT4HEKG-7	HR	364075005	observable entity	Heart rate 
-DT4H-US1	LVEF	250908004	observable entity	"Left ventricular ejection fraction 
+DT4HEKG-5	ECG_QRSaxis	251196003	observable entity	OTROS	 QRS Axis 
+DT4HEKG-7	HR	364075005	observable entity	OTROS	Heart rate 
+DT4H-US1	LVEF	250908004	observable entity	OTROS	"Left ventricular ejection fraction 
 "
-DT4H-US2	BSA	301898006	observable entity	Body surface area 
-DT4H-US5	LVEDV	301898006	observable entity	Left ventricular end-diastolic cavity size 
-DT4H-US7	LVESV	250931004	observable entity	Left ventricular end-systolic cavity size 
-DT4H-US13	RVEF	250939002	observable entity	Right ventricular ejection fraction 
-DT4H-Lab1	Hb	38082009	substance	Hemoglobin
-DT4H-Lab2	Ferritin	32789000	substance	Ferritin
-DT4H-Lab3	TFS	165730006	procedure	Transferrin saturation index 
-DT4H-Lab4	NTproBNP	414798009	substance	N-terminal pro-B-type natriuretic peptide 
-DT4H-Lab5	BNP	407059007	substance	Brain natriuretic peptide 
-DT4H-Lab6	CRPhs	711357009	procedure	Measurement of C-reactive protein using high sensitivity technique
-DT4H-Lab7	CRPnonhs	61425002	substance	C-reactive protein 
-DT4H-Lab8	TropIhs	102683006	substance	Troponin I 
-DT4H-Lab9	TropInhs	102683006	substance	Troponin I 
-DT4H-Lab10	TropThs	102682001	substance	Troponin T
-DT4H-Lab11	TropTnhs	102682001	substance	Troponin T
-DT4H-Lab12	TriGly	85600001	substance	Triacylglycerol 
-DT4H-Lab13	CholTot	84698008	substance	Cholesterol 
-DT4H-Lab14	HDL	9422000	substance	High density lipoprotein 
-DT4H-Lab15	LDL	22244007	substance	Low density lipoprotein 
-DT4H-Lab16	Potassium	88480006	substance	Potassium
-DT4H-Lab17	Sodium	39972003	substance	sodium
-DT4H-Lab18	GGT	60153001	substance	Gamma-glutamyltransferase 
-DT4H-Lab19	CreatUS	271261008	procedure	 Urine creatine measurement 
-DT4H-Lab20	AlbuminBS	26758005	procedure	 Albumin measurement 
-DT4H-Lab21	AlbuminUS	271000000	procedure	 Urine albumin measurement 
-DT4H-Lab22	eGFR	80274001	procedure	 Glomerular filtration rate 
-DT4H-Lab23	BUN	105011006	procedure	Blood urea nitrogen measurement
-DT4H-Lab24	ACR	271075006	procedure	Urine albumin/creatinine ratio measurement 
-DT4H-Lab25	HbA1c	733830002	substance	 Hemoglobin A1c 
-DT4H-CV1	Angina pectoris	194828000	disorder	Angina 
-DT4H-CV2	Atrial fibrillation	49436004	disorder	Atrial fibrillation 
-DT4H-CV3	Cardiomyopathies	85898001	disorder	 Cardiomyopathy 
-DT4H-CV4	Heart failure	84114007	disorder	Heart failure 
-DT4H-CV5	Hypertension	38341003	disorder	 Hypertensive disorder, systemic arterial 
-DT4H-CV6	Ischemic Heart disorder	414545008	disorder	 Ischemic heart disorder
-DT4H-CV7	Myocardial infarction	22298006	disorder	Myocardial infarction 
-DT4H-CV8	Peripheral artery disorder	840580004	disorder	Peripheral arterial disorder
-DT4H-CV9	Stroke	230690007	disorder	 Cerebrovascular accident 
-DT4H-CV10	Transient Ischemic Attack	266257000	disorder	Transient ischemic attack 
-DT4H-CV11	Valvular disorder	368009	disorder	Heart valve disorder 
-DT4H-Dis1	AIDS or HIV diagnosis	62479008	disorder	" Acquired immune deficiency syndrome 
+DT4H-US2	BSA	301898006	observable entity	OTROS	Body surface area 
+DT4H-US5	LVEDV	301898006	observable entity	OTROS	Left ventricular end-diastolic cavity size 
+DT4H-US7	LVESV	250931004	observable entity	OTROS	Left ventricular end-systolic cavity size 
+DT4H-US13	RVEF	250939002	observable entity	OTROS	Right ventricular ejection fraction 
+DT4H-Lab1	Hb	38082009	substance	OTROS	Hemoglobin
+DT4H-Lab2	Ferritin	32789000	substance	OTROS	Ferritin
+DT4H-Lab3	TFS	165730006	procedure	OTROS	Transferrin saturation index 
+DT4H-Lab4	NTproBNP	414798009	substance	OTROS	N-terminal pro-B-type natriuretic peptide 
+DT4H-Lab5	BNP	407059007	substance	OTROS	Brain natriuretic peptide 
+DT4H-Lab6	CRPhs	711357009	procedure	OTROS	Measurement of C-reactive protein using high sensitivity technique
+DT4H-Lab7	CRPnonhs	61425002	substance	OTROS	C-reactive protein 
+DT4H-Lab8	TropIhs	102683006	substance	OTROS	Troponin I 
+DT4H-Lab9	TropInhs	102683006	substance	OTROS	Troponin I 
+DT4H-Lab10	TropThs	102682001	substance	OTROS	Troponin T
+DT4H-Lab11	TropTnhs	102682001	substance	OTROS	Troponin T
+DT4H-Lab12	TriGly	85600001	substance	OTROS	Triacylglycerol 
+DT4H-Lab13	CholTot	84698008	substance	OTROS	Cholesterol 
+DT4H-Lab14	HDL	9422000	substance	OTROS	High density lipoprotein 
+DT4H-Lab15	LDL	22244007	substance	OTROS	Low density lipoprotein 
+DT4H-Lab16	Potassium	88480006	substance	OTROS	Potassium
+DT4H-Lab17	Sodium	39972003	substance	OTROS	sodium
+DT4H-Lab18	GGT	60153001	substance	OTROS	Gamma-glutamyltransferase 
+DT4H-Lab19	CreatUS	271261008	procedure	OTROS	 Urine creatine measurement 
+DT4H-Lab20	AlbuminBS	26758005	procedure	OTROS	 Albumin measurement 
+DT4H-Lab21	AlbuminUS	271000000	procedure	OTROS	 Urine albumin measurement 
+DT4H-Lab22	eGFR	80274001	procedure	OTROS	 Glomerular filtration rate 
+DT4H-Lab23	BUN	105011006	procedure	OTROS	Blood urea nitrogen measurement
+DT4H-Lab24	ACR	271075006	procedure	OTROS	Urine albumin/creatinine ratio measurement 
+DT4H-Lab25	HbA1c	733830002	substance	OTROS	 Hemoglobin A1c 
+DT4H-CV1	Angina pectoris	194828000	disorder	ENFERMEDAD	Angina 
+DT4H-CV2	Atrial fibrillation	49436004	disorder	ENFERMEDAD	Atrial fibrillation 
+DT4H-CV3	Cardiomyopathies	85898001	disorder	ENFERMEDAD	 Cardiomyopathy 
+DT4H-CV4	Heart failure	84114007	disorder	ENFERMEDAD	Heart failure 
+DT4H-CV5	Hypertension	38341003	disorder	ENFERMEDAD	 Hypertensive disorder, systemic arterial 
+DT4H-CV6	Ischemic Heart disorder	414545008	disorder	ENFERMEDAD	 Ischemic heart disorder
+DT4H-CV7	Myocardial infarction	22298006	disorder	ENFERMEDAD	Myocardial infarction 
+DT4H-CV8	Peripheral artery disorder	840580004	disorder	ENFERMEDAD	Peripheral arterial disorder
+DT4H-CV9	Stroke	230690007	disorder	ENFERMEDAD	 Cerebrovascular accident 
+DT4H-CV10	Transient Ischemic Attack	266257000	disorder	ENFERMEDAD	Transient ischemic attack 
+DT4H-CV11	Valvular disorder	368009	disorder	ENFERMEDAD	Heart valve disorder 
+DT4H-Dis1	AIDS or HIV diagnosis	62479008	disorder	ENFERMEDAD	" Acquired immune deficiency syndrome 
  "
-DT4H-Dis2	HIV positive	86406008	disorder	Human immunodeficiency virus infection
-DT4H-Dis3	Chronic Obstructive Pulmonic disorder	13645005	disorder	 Chronic obstructive lung disease 
-DT4H-Dis4	Diabetes Mellitus	73211009	disorder	Diabetes mellitus 
-DT4H-Dis5	Dementia	52448006	disorder	 Dementia 
-DT4H-Dis6	Depression	35489007	disorder	Depressive disorder 
-DT4H-Dis7	Dialysis	265764009	procedure	 Renal dialysis
-DT4H-Dis8	Hyperthyroidism	34486009	disorder	 Hyperthyroidism 
-DT4H-Dis9	Liver disorder	235856003	disorder	disorder of liver 
-DT4H-Dis10	Malignant Cancer	363346000	disorder	 Malignant neoplastic disorder 
-DT4H-Dis11	Obstructive Sleep Apnea	78275009	disorder	 Obstructive sleep apnea syndrome 
-DT4H-Dis12	Rheumatic disorder	396332003	disorder	 Rheumatism 
-DT4H-Dis13	Renal disorder chronic	709044004	disorder	 Chronic kidney disorder 
-DT4H-SM1	Smoker	77176002	finding	Smoker 
-DT4H-SM2	Ex-smoker 	8517006	finding	Ex-smoker 
-DT4H-SM3	Smokes tobacco daily 	449868002	finding	Smokes tobacco daily 
-DT4H-SM4	Occasional tobacco smoker 	428041000124106	finding	Occasional tobacco smoker 
-DT4H-SM5	Ex-smoker 	8517006	finding	Ex-smoker 
-DT4H-SM6	Never smoked tobacco	266919005	finding	Never smoked tobacco
-DT4H-SM7	Smoker	77176002	finding	Smoker
-DT4H-SM8	Tobacco smoking consumption unknown 	266927001	finding	Tobacco smoking consumption unknown 
-DT4H-MedR1	RAS-inhibitors	866173006	substance	RAS-INHIBITORS
-DT4H-MedA1	ACE-inhibitors	372733002	substance	ACE-INHIBITORS
-DT4H-MedAR1	Angiotensin receptor blocker	372913009	substance	ANGIOTENSIN RECEPTOR BLOCKER
-DT4H-Med2	Angiotensin receptor/neprilysin inhibitor (ARNI)	777480008	medicinal product	ANGIOTENSIN RECEPTOR/NEPRILYSIN INHIBITOR (ARNI)
-DT4H-MedM1	Mineralcorticoid Receptor Antagonist (MRA)	372603003	substance	MINERALCORTICOID RECEPTOR ANTAGONIST (MRA)
-DT4H-MedD1	Diuretics	372695000	substance	DIURETICS
-DT4H-MedL1	Loop diuretics	372691009	substance	LOOP DIURETIC
-DT4H-MedC1	Calcium Channel Blockers	373304005	substance	CALCIUM CHANNEL BLOCKER
-DT4H-MedP1	Platelet inhibitor	771452004	substance	SUBSTANCE WITH PLATELET AGGREGATION INHIBITOR MECHANISM OF ACTION 
-DT4H-MedCO1	Anticoagulants	372862008	substance	ANTICOAGULANTS
-DT4H-MedS1	Statins	372912004	substance	STATINS
-DT4H-MedDG1	Digitalis glycosides	406759007	substance	DIGITALIS GLYCOSIDES
-DT4H-MedBB1	Betablockers	373254001	substance	BETABLOCKERS    
-DT4H-MedRHY1	Class 1 and 3 antiarrhytmic drugs	782436006	substance	ANTIARRYTHMICS
-DT4H-MedIV1	Ivabradine	421228002	substance	IVABRADINE
-DT4H-MedSG1	SGLT-2 Inhibitor	703673007	substance	"SUBSTANCE WITH SODIUM GLUCOSE COTRANSPORTER SUBTYPE 2 INHIBITOR MECHANISM OF ACTION
+DT4H-Dis2	HIV positive	86406008	disorder	ENFERMEDAD	Human immunodeficiency virus infection
+DT4H-Dis3	Chronic Obstructive Pulmonic disorder	13645005	disorder	ENFERMEDAD	 Chronic obstructive lung disease 
+DT4H-Dis4	Diabetes Mellitus	73211009	disorder	ENFERMEDAD	Diabetes mellitus 
+DT4H-Dis5	Dementia	52448006	disorder	ENFERMEDAD	 Dementia 
+DT4H-Dis6	Depression	35489007	disorder	ENFERMEDAD	Depressive disorder 
+DT4H-Dis7	Dialysis	265764009	procedure	PROCEDIMIENTO	 Renal dialysis
+DT4H-Dis8	Hyperthyroidism	34486009	disorder	ENFERMEDAD	 Hyperthyroidism 
+DT4H-Dis9	Liver disorder	235856003	disorder	ENFERMEDAD	disorder of liver 
+DT4H-Dis10	Malignant Cancer	363346000	disorder	ENFERMEDAD	 Malignant neoplastic disorder 
+DT4H-Dis11	Obstructive Sleep Apnea	78275009	disorder	ENFERMEDAD	 Obstructive sleep apnea syndrome 
+DT4H-Dis12	Rheumatic disorder	396332003	disorder	ENFERMEDAD	 Rheumatism 
+DT4H-Dis13	Renal disorder chronic	709044004	disorder	ENFERMEDAD	 Chronic kidney disorder 
+DT4H-SM1	Smoker	77176002	finding	ENFERMEDAD	Smoker 
+DT4H-SM2	Ex-smoker 	8517006	finding	ENFERMEDAD	Ex-smoker 
+DT4H-SM3	Smokes tobacco daily 	449868002	finding	ENFERMEDAD	Smokes tobacco daily 
+DT4H-SM4	Occasional tobacco smoker 	428041000124106	finding	ENFERMEDAD	Occasional tobacco smoker 
+DT4H-SM5	Ex-smoker 	8517006	finding	ENFERMEDAD	Ex-smoker 
+DT4H-SM6	Never smoked tobacco	266919005	finding	OTROS	Never smoked tobacco
+DT4H-SM7	Smoker	77176002	finding	ENFERMEDAD	Smoker
+DT4H-SM8	Tobacco smoking consumption unknown 	266927001	finding	OTROS	Tobacco smoking consumption unknown 
+DT4H-MedR1	RAS-inhibitors	866173006	substance	PROCEDIMIENTO	RAS-INHIBITORS
+DT4H-MedA1	ACE-inhibitors	372733002	substance	PROCEDIMIENTO	ACE-INHIBITORS
+DT4H-MedAR1	Angiotensin receptor blocker	372913009	substance	PROCEDIMIENTO	ANGIOTENSIN RECEPTOR BLOCKER
+DT4H-Med2	Angiotensin receptor/neprilysin inhibitor (ARNI)	777480008	medicinal product	PROCEDIMIENTO	ANGIOTENSIN RECEPTOR/NEPRILYSIN INHIBITOR (ARNI)
+DT4H-MedM1	Mineralcorticoid Receptor Antagonist (MRA)	372603003	substance	PROCEDIMIENTO	MINERALCORTICOID RECEPTOR ANTAGONIST (MRA)
+DT4H-MedD1	Diuretics	372695000	substance	PROCEDIMIENTO	DIURETICS
+DT4H-MedL1	Loop diuretics	372691009	substance	PROCEDIMIENTO	LOOP DIURETIC
+DT4H-MedC1	Calcium Channel Blockers	373304005	substance	PROCEDIMIENTO	CALCIUM CHANNEL BLOCKER
+DT4H-MedP1	Platelet inhibitor	771452004	substance	PROCEDIMIENTO	SUBSTANCE WITH PLATELET AGGREGATION INHIBITOR MECHANISM OF ACTION 
+DT4H-MedCO1	Anticoagulants	372862008	substance	PROCEDIMIENTO	ANTICOAGULANTS
+DT4H-MedS1	Statins	372912004	substance	PROCEDIMIENTO	STATINS
+DT4H-MedDG1	Digitalis glycosides	406759007	substance	PROCEDIMIENTO	DIGITALIS GLYCOSIDES
+DT4H-MedBB1	Betablockers	373254001	substance	PROCEDIMIENTO	BETABLOCKERS    
+DT4H-MedRHY1	Class 1 and 3 antiarrhytmic drugs	782436006	substance	PROCEDIMIENTO	ANTIARRYTHMICS
+DT4H-MedIV1	Ivabradine	421228002	substance	FARMACO	IVABRADINE
+DT4H-MedSG1	SGLT-2 Inhibitor	703673007	substance	PROCEDIMIENTO	"SUBSTANCE WITH SODIUM GLUCOSE COTRANSPORTER SUBTYPE 2 INHIBITOR MECHANISM OF ACTION
 "
-DT4H-CV12	Revascularized CABG (Coronary artery bypass grafting)	232717009	procedure	Coronary artery bypass grafting
-DT4H-Proc1	PCI (Percutaneous coronary intervention)	415070008	procedure	Percutaneous coronary intervention 
-DT4H-Proc2	Cardiovascular implant	303490004	other	Cardiovascular implant
-DT4H-Proc3	Vascular implant 	303617005	other	Vascular implant 
-DT4H-Proc4	Transplant heart 	420291005	other	Transplant heart 
-DT4H-MedR11	Substance with angiotensin II receptor antagonist mechanism of action 	372913009	substance	Substance with angiotensin II receptor antagonist mechanism of action 
-DT4H-MedR111	Fimasartan potassium trihydrate	1332434009	substance	Fimasartan potassium trihydrate
-DT4H-MedR112	Fimasartan	1332433003	substance	Fimasartan
-DT4H-MedR113	Azilsartan medoxomil potassium	895431005	substance	Azilsartan medoxomil potassium
-DT4H-MedR114	Irbesartan hydrochloride	734504000	substance	Irbesartan hydrochloride
-DT4H-MedR115	Azilsartan medoxomil	449561004	substance	Azilsartan medoxomil
-DT4H-MedR116	Azilsartan	449042005	substance	Azilsartan
-DT4H-MedR117	Olmesartan medoxomil	412260006	substance	Olmesartan medoxomil
-DT4H-MedR118	Olmesartan	412259001	substance	Olmesartan
-DT4H-MedR119	Eprosartan	396044005	substance	Eprosartan
-DT4H-MedR120	Telmisartan	387069000	substance	Telmisartan
-DT4H-MedR121	Candesartan cilexetil	386878000	substance	Candesartan cilexetil
-DT4H-MedR122	Irbesartan	386877005	substance	Irbesartan
-DT4H-MedR123	Valsartan	386876001	substance	Valsartan
-DT4H-MedR124	Losartan	373567002	substance	Losartan
-DT4H-MedR125	Candesartan	372512008	substance	Candesartan
-DT4H-MedR126	Eprosartan mesilate	129488003	substance	Eprosartan mesilate
-DT4H-MedR127	Losartan potassium	108582002	substance	Losartan potassium
+DT4H-CV12	Revascularized CABG (Coronary artery bypass grafting)	232717009	procedure	PROCEDIMIENTO	Coronary artery bypass grafting
+DT4H-Proc1	PCI (Percutaneous coronary intervention)	415070008	procedure	PROCEDIMIENTO	Percutaneous coronary intervention 
+DT4H-Proc2	Cardiovascular implant	303490004	other	PROCEDIMIENTO	Cardiovascular implant
+DT4H-Proc3	Vascular implant 	303617005	other	PROCEDIMIENTO	Vascular implant 
+DT4H-Proc4	Transplant heart 	420291005	other	PROCEDIMIENTO	Transplant heart 
+DT4H-MedR11	Substance with angiotensin II receptor antagonist mechanism of action 	372913009	substance	FARMACO	Substance with angiotensin II receptor antagonist mechanism of action 
+DT4H-MedR111	Fimasartan potassium trihydrate	1332434009	substance	FARMACO	Fimasartan potassium trihydrate
+DT4H-MedR112	Fimasartan	1332433003	substance	FARMACO	Fimasartan
+DT4H-MedR113	Azilsartan medoxomil potassium	895431005	substance	FARMACO	Azilsartan medoxomil potassium
+DT4H-MedR114	Irbesartan hydrochloride	734504000	substance	FARMACO	Irbesartan hydrochloride
+DT4H-MedR115	Azilsartan medoxomil	449561004	substance	FARMACO	Azilsartan medoxomil
+DT4H-MedR116	Azilsartan	449042005	substance	FARMACO	Azilsartan
+DT4H-MedR117	Olmesartan medoxomil	412260006	substance	FARMACO	Olmesartan medoxomil
+DT4H-MedR118	Olmesartan	412259001	substance	FARMACO	Olmesartan
+DT4H-MedR119	Eprosartan	396044005	substance	FARMACO	Eprosartan
+DT4H-MedR120	Telmisartan	387069000	substance	FARMACO	Telmisartan
+DT4H-MedR121	Candesartan cilexetil	386878000	substance	FARMACO	Candesartan cilexetil
+DT4H-MedR122	Irbesartan	386877005	substance	FARMACO	Irbesartan
+DT4H-MedR123	Valsartan	386876001	substance	FARMACO	Valsartan
+DT4H-MedR124	Losartan	373567002	substance	FARMACO	Losartan
+DT4H-MedR125	Candesartan	372512008	substance	FARMACO	Candesartan
+DT4H-MedR126	Eprosartan mesilate	129488003	substance	FARMACO	Eprosartan mesilate
+DT4H-MedR127	Losartan potassium	108582002	substance	FARMACO	Losartan potassium
 DT4H-MedR13	"Substance with angiotensin-converting 
 enzyme inhibitor mechanism of action
-"	372733002	substance	"Substance with angiotensin-converting 
+"	372733002	substance	FARMACO	"Substance with angiotensin-converting 
 enzyme inhibitor mechanism of action
 "
-DT4H-MedR131	Lisinopril dihydrate	341000220102	substance	Lisinopril dihydrate
-DT4H-MedR132	Lisinopril anhydrous	1269132005	substance	Lisinopril anhydrous
-DT4H-MedR133	Cilazapril anhydrous	1268982005	substance	Cilazapril anhydrous
-DT4H-MedR134	Perindopril erbumine monohydrate	1119308007	substance	Perindopril erbumine monohydrate
-DT4H-MedR135	Enalapril sodium	1119307002	substance	Enalapril sodium
-DT4H-MedR136	Perindopril tosylate	735174001	substance	Perindopril tosylate
-DT4H-MedR137	Cilazapril monohydrate	725786001	substance	Cilazapril monohydrate
-DT4H-MedR138	Spirapril	713473008	substance	Spirapril
-DT4H-MedR139	Zofenoprilat arginine	703343009	substance	Zofenoprilat arginine
-DT4H-MedR140	Zofenoprilat	703342004	substance	Zofenoprilat
-DT4H-MedR141	Zofenopril calcium	703341006	substance	Zofenopril calcium
-DT4H-MedR142	Zofenopril	703340007	substance	Zofenopril
-DT4H-MedR143	Delapril hydrochloride	700066002	substance	Delapril hydrochloride
-DT4H-MedR144	Delapril	698093003	substance	Delapril
-DT4H-MedR145	Perindopril arginine	442509000	substance	Perindopril arginine
-DT4H-MedR146	Imidapril	395984005	substance	Imidapril
-DT4H-MedR147	Cilazapril	395947008	substance	Cilazapril
-DT4H-MedR148	Imidapril hydrochloride	395741003	substance	Imidapril hydrochloride
-DT4H-MedR149	Enalapril maleate	387165009	substance	Enalapril maleate
-DT4H-MedR150	Captopril	387160004	substance	Captopril
-DT4H-MedR151	Quinapril hydrochloride	386875002	substance	Quinapril hydrochloride
-DT4H-MedR152	Quinapril	386874003	substance	Quinapril
-DT4H-MedR153	Lisinopril	386873009	substance	Lisinopril
-DT4H-MedR154	Ramipril	386872004	substance	Ramipril
-DT4H-MedR155	Trandolapril	386871006	substance	Trandolapril
-DT4H-MedR156	Moexipril	373442003	substance	Moexipril
-DT4H-MedR157	Perindopril	372916001	substance	Perindopril
-DT4H-MedR158	Enalapril	372658000	substance	Enalapril
-DT4H-MedR159	Benazepril	372511001	substance	Benazepril
-DT4H-MedR160	Fosinopril	372510000	substance	Fosinopril
-DT4H-MedR161	Perindopril erbumine	129485000	substance	Perindopril erbumine
-DT4H-MedR162	Benazepril hydrochloride	108573008	substance	Benazepril hydrochloride
-DT4H-MedR163	Fosinopril sodium	108570006	substance	Fosinopril sodium
-DT4H-MedR164	Moexipril hydrochloride	108567007	substance	Moexipril hydrochloride
-DT4H-MedR165	Enalaprilat	48052001	substance	Enalaprilat
+DT4H-MedR131	Lisinopril dihydrate	341000220102	substance	FARMACO	Lisinopril dihydrate
+DT4H-MedR132	Lisinopril anhydrous	1269132005	substance	FARMACO	Lisinopril anhydrous
+DT4H-MedR133	Cilazapril anhydrous	1268982005	substance	FARMACO	Cilazapril anhydrous
+DT4H-MedR134	Perindopril erbumine monohydrate	1119308007	substance	FARMACO	Perindopril erbumine monohydrate
+DT4H-MedR135	Enalapril sodium	1119307002	substance	FARMACO	Enalapril sodium
+DT4H-MedR136	Perindopril tosylate	735174001	substance	FARMACO	Perindopril tosylate
+DT4H-MedR137	Cilazapril monohydrate	725786001	substance	FARMACO	Cilazapril monohydrate
+DT4H-MedR138	Spirapril	713473008	substance	FARMACO	Spirapril
+DT4H-MedR139	Zofenoprilat arginine	703343009	substance	FARMACO	Zofenoprilat arginine
+DT4H-MedR140	Zofenoprilat	703342004	substance	FARMACO	Zofenoprilat
+DT4H-MedR141	Zofenopril calcium	703341006	substance	FARMACO	Zofenopril calcium
+DT4H-MedR142	Zofenopril	703340007	substance	FARMACO	Zofenopril
+DT4H-MedR143	Delapril hydrochloride	700066002	substance	FARMACO	Delapril hydrochloride
+DT4H-MedR144	Delapril	698093003	substance	FARMACO	Delapril
+DT4H-MedR145	Perindopril arginine	442509000	substance	FARMACO	Perindopril arginine
+DT4H-MedR146	Imidapril	395984005	substance	FARMACO	Imidapril
+DT4H-MedR147	Cilazapril	395947008	substance	FARMACO	Cilazapril
+DT4H-MedR148	Imidapril hydrochloride	395741003	substance	FARMACO	Imidapril hydrochloride
+DT4H-MedR149	Enalapril maleate	387165009	substance	FARMACO	Enalapril maleate
+DT4H-MedR150	Captopril	387160004	substance	FARMACO	Captopril
+DT4H-MedR151	Quinapril hydrochloride	386875002	substance	FARMACO	Quinapril hydrochloride
+DT4H-MedR152	Quinapril	386874003	substance	FARMACO	Quinapril
+DT4H-MedR153	Lisinopril	386873009	substance	FARMACO	Lisinopril
+DT4H-MedR154	Ramipril	386872004	substance	FARMACO	Ramipril
+DT4H-MedR155	Trandolapril	386871006	substance	FARMACO	Trandolapril
+DT4H-MedR156	Moexipril	373442003	substance	FARMACO	Moexipril
+DT4H-MedR157	Perindopril	372916001	substance	FARMACO	Perindopril
+DT4H-MedR158	Enalapril	372658000	substance	FARMACO	Enalapril
+DT4H-MedR159	Benazepril	372511001	substance	FARMACO	Benazepril
+DT4H-MedR160	Fosinopril	372510000	substance	FARMACO	Fosinopril
+DT4H-MedR161	Perindopril erbumine	129485000	substance	FARMACO	Perindopril erbumine
+DT4H-MedR162	Benazepril hydrochloride	108573008	substance	FARMACO	Benazepril hydrochloride
+DT4H-MedR163	Fosinopril sodium	108570006	substance	FARMACO	Fosinopril sodium
+DT4H-MedR164	Moexipril hydrochloride	108567007	substance	FARMACO	Moexipril hydrochloride
+DT4H-MedR165	Enalaprilat	48052001	substance	FARMACO	Enalaprilat
 DT4-MedR17	"Substance with renin inhibitor mechanism 
-of action "	426228001	substance	"Substance with renin inhibitor mechanism 
+of action "	426228001	substance	FARMACO	"Substance with renin inhibitor mechanism 
 of action "
-DT4-MedR171	Aliskiren	426725002	substance	Aliskiren
-DT4-MedR172	Aliskiren fumarate	425981005	substance	Aliskiren fumarate
-DT4H-MedA111	Lisinopril dihydrate	341000220102	substance	Lisinopril dihydrate
-DT4H-MedA112	Lisinopril anhydrous	1269132005	substance	Lisinopril anhydrous
-DT4H-MedA113	Cilazapril anhydrous	1268982005	substance	Cilazapril anhydrous
-DT4H-MedA114	Perindopril erbumine monohydrate	1119308007	substance	Perindopril erbumine monohydrate
-DT4H-MedA115	Enalapril sodium	1119307002	substance	Enalapril sodium
-DT4H-MedA116	Perindopril tosylate	735174001	substance	Perindopril tosylate
-DT4H-MedA117	Cilazapril monohydrate	725786001	substance	Cilazapril monohydrate
-DT4H-MedA118	Spirapril	713473008	substance	Spirapril
-DT4H-MedA119	Zofenoprilat arginine	703343009	substance	Zofenoprilat arginine
-DT4H-MedA120	Zofenoprilat	703342004	substance	Zofenoprilat
-DT4H-MedA121	Zofenopril calcium	703341006	substance	Zofenopril calcium
-DT4H-MedA122	Zofenopril	703340007	substance	Zofenopril
-DT4H-MedA123	Delapril hydrochloride	700066002	substance	Delapril hydrochloride
-DT4H-MedA124	Delapril	698093003	substance	Delapril
-DT4H-MedA125	Perindopril arginine	442509000	substance	Perindopril arginine
-DT4H-MedA126	Imidapril	395984005	substance	Imidapril
-DT4H-MedA127	Cilazapril	395947008	substance	Cilazapril
-DT4H-MedA128	Imidapril hydrochloride	395741003	substance	Imidapril hydrochloride
-DT4H-MedA129	Enalapril maleate	387165009	substance	Enalapril maleate
-DT4H-MedA130	Captopril	387160004	substance	Captopril
-DT4H-MedA131	Quinapril hydrochloride	386875002	substance	Quinapril hydrochloride
-DT4H-MedA132	Quinapril	386874003	substance	Quinapril
-DT4H-MedA133	Lisinopril	386873009	substance	Lisinopril
-DT4H-MedA134	Ramipril	386872004	substance	Ramipril
-DT4H-MedA135	Trandolapril	386871006	substance	Trandolapril
-DT4H-MedA136	Moexipril	373442003	substance	Moexipril
-DT4H-MedA137	Perindopril	372916001	substance	Perindopril
-DT4H-MedA138	Enalapril	372658000	substance	Enalapril
-DT4H-MedA139	Benazepril	372511001	substance	Benazepril
-DT4H-MedA140	Fosinopril	372510000	substance	Fosinopril
-DT4H-MedA141	Perindopril erbumine	129485000	substance	Perindopril erbumine
-DT4H-MedA142	Benazepril hydrochloride	108573008	substance	Benazepril hydrochloride
-DT4H-MedA143	Fosinopril sodium	108570006	substance	Fosinopril sodium
-DT4H-MedA144	Moexipril hydrochloride	108567007	substance	Moexipril hydrochloride
-DT4H-MedA145	Enalaprilat	48052001	substance	Enalaprilat
-DT4H-MedAR111	Fimasartan potassium trihydrate	1332434009	substance	Fimasartan potassium trihydrate
-DT4H-MedAR112	Fimasartan	1332433003	substance	Fimasartan
-DT4H-MedAR113	Azilsartan medoxomil potassium	895431005	substance	Azilsartan medoxomil potassium
-DT4H-MedAR114	Irbesartan hydrochloride	734504000	substance	Irbesartan hydrochloride
-DT4H-MedAR115	Azilsartan medoxomil	449561004	substance	Azilsartan medoxomil
-DT4H-MedAR116	Azilsartan	449042005	substance	Azilsartan
-DT4H-MedAR117	Olmesartan medoxomil	412260006	substance	Olmesartan medoxomil
-DT4H-MedAR118	Olmesartan	412259001	substance	Olmesartan
-DT4H-MedAR119	Eprosartan	396044005	substance	Eprosartan
-DT4H-MedAR120	Telmisartan	387069000	substance	Telmisartan
-DT4H-MedAR121	Candesartan cilexetil	386878000	substance	Candesartan cilexetil
-DT4H-MedAR122	Irbesartan	386877005	substance	Irbesartan
-DT4H-MedAR123	Valsartan	386876001	substance	Valsartan
-DT4H-MedAR124	Losartan	373567002	substance	Losartan
-DT4H-MedAR125	Candesartan	372512008	substance	Candesartan
-DT4H-MedAR126	Eprosartan mesilate	129488003	substance	Eprosartan mesilate
-DT4H-MedAR127	Losartan potassium	108582002	substance	Losartan potassium
-DT4H-MedM111	Finerenone	1163346008	substance	Finerenone
-DT4H-MedM112	Potassium canrenoate	419615001	substance	Potassium canrenoate
-DT4H-MedM113	Eplerenone	407010008	substance	Eplerenone
-DT4H-MedM114	Spironolactone	387078006	substance	Spironolactone
-DT4H-MedM115	Canrenone	96291007	substance	Canrenone
-DT4H-MedD11	diuretics other	Ø	substance	diuretics other
-DT4H-MedD111	acetazolamide	372709008	substance	acetazolamide
-DT4H-MedD112	aminometradine	80253002	substance	aminometradine
-DT4H-MedD113	amisometradine	39263003	substance	amisometradine
-DT4H-MedD114	chlorazanil	88802007	substance	chlorazanil
-DT4H-MedD115	cicletanine	735156005	substance	cicletanine
-DT4H-MedD116	cicletanine hydrochloride	735160008	substance	cicletanine hydrochloride
-DT4H-MedD117	conivaptan	421858002	substance	conivaptan
-DT4H-MedD118	conivaptan hydrochloride	735160008	substance	conivaptan hydrochloride
-DT4H-MedD119	flumethiazide	6513000	substance	flumethiazide
-DT4H-MedD120	pamabrom	116552006	substance	pamabrom
-DT4H-MedD121	tolvaptan	443058000	substance	tolvaptan
-DT4H-MedD13	Mercurial diuretic	373751005	substance	Mercurial diuretic
-DT4H-MedD131	Mersalyl sodium	395784002	substance	Mersalyl sodium
-DT4H-MedD132	Mersalyl	387157006	substance	Mersalyl
-DT4H-MedD133	Mercaptomerin	362947006	substance	Mercaptomerin
-DT4H-MedD134	Meralluride	85391002	substance	Meralluride
-DT4H-MedD135	Chlormerodrin	74589005	substance	Chlormerodrin
-DT4H-MedD136	Merethoxylline procaine	49022000	substance	Merethoxylline procaine
-DT4H-MedD137	Mercumatilin	33667000	substance	Mercumatilin
-DT4H-MedD138	Mercaptomerin sodium	30333004	substance	Mercaptomerin sodium
-DT4H-MedD14	Osmotic diuretic	372792005	substance	Osmotic diuretic
-DT4H-MedD141	Mannitol	387168006	substance	Mannitol
-DT4H-MedD142	Urea	387092000	substance	Urea
-DT4H-MedD143	Isosorbide	386853004	substance	Isosorbide
-DT4H-MedD15	Potassium sparing diuretic	372753003	substance	Potassium sparing diuretic
-DT4H-MedD151	Amiloride hydrochloride anhydrous	1268944002	substance	Amiloride hydrochloride anhydrous
-DT4H-MedD152	Finerenone	1163346008	substance	Finerenone
-DT4H-MedD153	Potassium canrenoate	419615001	substance	Potassium canrenoate
-DT4H-MedD154	Amiloride hydrochloride dihydrate	412082007	substance	Amiloride hydrochloride dihydrate
-DT4H-MedD155	Eplerenone	407010008	substance	Eplerenone
-DT4H-MedD156	Amiloride hydrochloride	387516008	substance	Amiloride hydrochloride
-DT4H-MedD157	Amiloride	387503008	substance	Amiloride
-DT4H-MedD158	Spironolactone	387078006	substance	Spironolactone
-DT4H-MedD159	Triamterene	387053007	substance	Triamterene
-DT4H-MedD160	Aldosterone receptor antagonist	372603003	substance	Aldosterone receptor antagonist
-DT4H-MedD161	Canrenone	96291007	substance	Canrenone
-DT4H-MedD17	Purine-derivative diuretic	419151007	substance	Purine-derivative diuretic
-DT4H-MedD171	Choline theophyllinate	387489007	substance	Choline theophyllinate
-DT4H-MedD172	Theobromine	75371004	substance	Theobromine
-DT4H-MedD18	Saluretic agent	372660003	substance	Saluretic agent
-DT4H-MedD181	Butizide	20551000122108	substance	Butizide
-DT4H-MedD182	Bumetanide	387498005	substance	Bumetanide
-DT4H-MedD183	Furosemide	387475002	substance	Furosemide
-DT4H-MedD184	Chlortalidone	387324004	substance	Chlortalidone
-DT4H-MedD185	Ethacrynic acid	373536004	substance	Ethacrynic acid
-DT4H-MedD186	Chlorothiazide	372782002	substance	Chlorothiazide
-DT4H-MedD187	Torasemide	108476002	substance	Torasemide
-DT4H-MedD188	Canrenone	96291007	substance	Canrenone
-DT4H-MedD189	Ethacrynate sodium	75341007	substance	Ethacrynate sodium
-DT4H-MedD190	Benzthiazide	66290002	substance	Benzthiazide
-DT4H-MedD191	Tienilic acid	64029000	substance	Tienilic acid
-DT4H-MedD192	Quinethazone	41261002	substance	Quinethazone
-DT4H-MedD193	Cyclothiazide	37006008	substance	Cyclothiazide
-DT4H-MedD194	Trichlormethiazide	11473005	substance	Trichlormethiazide
-DT4H-MedD195	Chlorothiazide sodium	8252004	substance	Chlorothiazide sodium
-DT4H-MedD2	Sulfonamide diuretic	43585000	substance	Sulfonamide diuretic
-DT4H-MedD201	Indapamide hemihydrate	725661001	substance	Indapamide hemihydrate
-DT4H-MedD202	Mefruside	406772008	substance	Mefruside
-DT4H-MedD203	Clopamide	395940005	substance	Clopamide
-DT4H-MedD204	Xipamide	395923001	substance	Xipamide
-DT4H-MedD205	Bumetanide	387498005	substance	Bumetanide
-DT4H-MedD206	Furosemide	387475002	substance	Furosemide
-DT4H-MedD207	Indapamide	387419003	substance	Indapamide
-DT4H-MedD208	Chlortalidone	387324004	substance	Chlortalidone
-DT4H-MedD209	Metolazone	387123003	substance	Metolazone
-DT4H-MedD210	Ethoxyzolamide	63203003	substance	Ethoxyzolamide
-DT4H-MedD211	Methazolamide	53052005	substance	Methazolamide
-DT4H-MedD212	Quinethazone	41261002	substance	Quinethazone
-DT4H-MedD22	Thiazide diuretic	372747003	substance	Thiazide diuretic
-DT4H-MedD221	Butizide	20551000122108	substance	Butizide
-DT4H-MedD222	Althiazide	717101002	substance	Althiazide
-DT4H-MedD223	Mefruside	406772008	substance	Mefruside
-DT4H-MedD224	Cyclopenthiazide	396009008	substance	Cyclopenthiazide
-DT4H-MedD225	Hydroflumethiazide	395946004	substance	Hydroflumethiazide
-DT4H-MedD226	Hydrochlorothiazide	387525002	substance	Hydrochlorothiazide
-DT4H-MedD227	Bendroflumethiazide	387520007	substance	Bendroflumethiazide
-DT4H-MedD228	Polythiazide	387492006	substance	Polythiazide
-DT4H-MedD229	Methyclothiazide	387373008	substance	Methyclothiazide
-DT4H-MedD230	Chlorothiazide	372782002	substance	Chlorothiazide
-DT4H-MedD231	Benzthiazide	66290002	substance	Benzthiazide
-DT4H-MedD232	Cyclothiazide	37006008	substance	Cyclothiazide
-DT4H-MedD233	Trichlormethiazide	11473005	substance	Trichlormethiazide
-DT4H-MedD234	Chlorothiazide sodium	8252004	substance	Chlorothiazide sodium
-DT4H-MedD24	Uricosuric agent	372758007	substance	Uricosuric agent
-DT4H-MedD241	Lesinurad	715259003	substance	Lesinurad
-DT4H-MedD242	Benzbromarone	698025001	substance	Benzbromarone
-DT4H-MedD243	Apazone	391798003	substance	Apazone
-DT4H-MedD244	Probenecid	387365004	substance	Probenecid
-DT4H-MedD245	Sulfinpyrazone	387108008	substance	Sulfinpyrazone
-DT4H-MedL101	Piretanide	419451002	substance	Piretanide
-DT4H-MedL102	Bumetanide	387498005	substance	Bumetanide
-DT4H-MedL103	Furosemide	387475002	substance	Furosemide
-DT4H-MedL104	Ethacrynic acid	373536004	substance	Ethacrynic acid
-DT4H-MedL105	Torasemide	108476002	substance	Torasemide
-DT4H-MedL106	Ethacrynate sodium	75341007	substance	Ethacrynate sodium
-DT4H-MedL107	Tienilic acid	64029000	substance	Tienilic acid
-DT4H-MedC101	Perhexiline maleate	1332137007	substance	Perhexiline maleate
-DT4H-MedC102	Benidipine	1303528009	substance	Benidipine
-DT4H-MedC103	Benidipine hydrochloride	1303527004	substance	Benidipine hydrochloride
-DT4H-MedC104	Terodiline hydrochloride	782604006	substance	Terodiline hydrochloride
-DT4H-MedC105	Gabapentin enacarbil	703122000	substance	Gabapentin enacarbil
-DT4H-MedC106	Pinaverium bromide	698023008	substance	Pinaverium bromide
-DT4H-MedC107	Perhexiline	421817009	substance	Perhexiline
-DT4H-MedC108	Mibefradil	421651006	substance	Mibefradil
-DT4H-MedC109	Terodiline	417479000	substance	Terodiline
-DT4H-MedC110	Prenylamine	387288001	substance	Prenylamine
-DT4H-MedC111	Gabapentin	386845007	substance	Gabapentin
-DT4H-MedC12	Benzothiazepine 	406767004	substance	Benzothiazepine 
-DT4H-MedC121	Diltiazem maleate	410870005	substance	Diltiazem maleate
-DT4H-MedC122	Diltiazem	372793000	substance	Diltiazem
-DT4H-MedC123	Diltiazem hydrochloride	12218006	substance	Diltiazem hydrochloride
-DT4H-MedC13	Diarylaminopropylamine 	406768009	substance	Diarylaminopropylamine 
-DT4H-MedC131	Bepridil	372503006	substance	Bepridil
-DT4H-MedC132	Bepridil hydrochloride	108531000	substance	Bepridil hydrochloride
-DT4H-MedC14	Phenylalkylamine	406766008	substance	Phenylalkylamine
-DT4H-MedC141	Gallopamil hydrochloride	703434004	substance	Gallopamil hydrochloride
-DT4H-MedC142	Gallopamil	703433005	substance	Gallopamil
-DT4H-MedC143	Verapamil	372754009	substance	Verapamil
-DT4H-MedC144	Norverapamil	96297006	substance	Norverapamil
-DT4H-MedC145	Verapamil hydrochloride	14340003	substance	Verapamil hydrochloride
-DT4H-MedC15	Piperazine derivative with calcium channel blocker mechanism of action	418559008	substance	Piperazine derivative with calcium channel blocker mechanism of action
-DT4H-MedC151	Lidoflazine	418865004	substance	Lidoflazine
-DT4H-MedC16	Substance with dihydropyridine derivative structure and calcium channel blocker mechanism of action 	406769001	substance	Substance with dihydropyridine derivative structure and calcium channel blocker mechanism of action 
-DT4H-MedC161	Lercanidipine hydrochloride hemihydrate	1304158004	substance	Lercanidipine hydrochloride hemihydrate
-DT4H-MedC162	Levamlodipine besylate	1217324004	substance	Levamlodipine besylate
-DT4H-MedC163	Levamlodipine	1217308000	substance	Levamlodipine
-DT4H-MedC164	Amlodipine mesylate	1193663008	substance	Amlodipine mesylate
-DT4H-MedC165	Cilnidipine	1177123004	substance	Cilnidipine
-DT4H-MedC166	Amlodipine benzoate	789067004	substance	Amlodipine benzoate
-DT4H-MedC167	Manidipine hydrochloride	765323009	substance	Manidipine hydrochloride
-DT4H-MedC168	Manidipine	765322004	substance	Manidipine
-DT4H-MedC169	Nilvadipine	713436005	substance	Nilvadipine
-DT4H-MedC170	Barnidipine	698052006	substance	Barnidipine
-DT4H-MedC171	Nitrendipine	444757009	substance	Nitrendipine
-DT4H-MedC172	Clevidipine	439471002	substance	Clevidipine
-DT4H-MedC173	Amlodipine maleate	421048000	substance	Amlodipine maleate
-DT4H-MedC174	Lercanidipine	395986007	substance	Lercanidipine
-DT4H-MedC175	Lercanidipine hydrochloride	395768003	substance	Lercanidipine hydrochloride
-DT4H-MedC176	Lacidipine	395764001	substance	Lacidipine
-DT4H-MedC177	Nimodipine	387502003	substance	Nimodipine
-DT4H-MedC178	Nifedipine	387490003	substance	Nifedipine
-DT4H-MedC179	Amlodipine	386864001	substance	Amlodipine
-DT4H-MedC180	Felodipine	386863007	substance	Felodipine
-DT4H-MedC181	Isradipine	386862002	substance	Isradipine
-DT4H-MedC182	Nisoldipine	386861009	substance	Nisoldipine
-DT4H-MedC183	Amlodipine besilate	384976003	substance	Amlodipine besilate
-DT4H-MedC184	Nicardipine	372502001	substance	Nicardipine
-DT4H-MedC185	Nicardipine hydrochloride	108527006	substance	Nicardipine hydrochloride
-DT4H-MedV11	Nitrate-based vasodilating agent 	372700007	substance	Nitrate-based vasodilating agent 
-DT4H-MedV111	1,2-dinitroglycerin	725531004	substance	1,2-dinitroglycerin
-DT4H-MedV112	Nitroglycerin	387404004	substance	Nitroglycerin
-DT4H-MedV113	Isosorbide dinitrate	387332007	substance	Isosorbide dinitrate
-DT4H-MedV114	Amyl nitrite	387038004	substance	Amyl nitrite
-DT4H-MedV115	Isosorbide mononitrate	386854005	substance	Isosorbide mononitrate
-DT4H-MedV116	Pentaerythritol tetranitrate	386836006	substance	Pentaerythritol tetranitrate
-DT4H-MedV117	Erythrityl tetranitrate	62368002	substance	Erythrityl tetranitrate
-DT4H-MedV118	Amyl nitrate	41153003	substance	Amyl nitrate
-DT4H-MedV119	Inositol hexanitrate	12970004	substance	Inositol hexanitrate
-DT4H-MedV131	flosequinan	412391002	substance	flosequinan
-DT4H-MedV136	hexobendine	710319000	substance	hexobendine
-DT4H-MedV138	heptaminol	96259006	substance	heptaminol
-DT4H-MedP11	Substance with glycoprotein-IIb/IIIa receptor antagonist mechanism of action 	1162907009	substance	Substance with glycoprotein-IIb/IIIa receptor antagonist mechanism of action 
-DT4H-MedP111	Tirofiban hydrochloride	1269173006	substance	Tirofiban hydrochloride
-DT4H-MedP112	Tirofiban hydrochloride anhydrous	1269172001	substance	Tirofiban hydrochloride anhydrous
-DT4H-MedP113	Tirofiban hydrochloride monohydrate	412321006	substance	Tirofiban hydrochloride monohydrate
-DT4H-MedP114	Eptifibatide	386998009	substance	Eptifibatide
-DT4H-MedP115	Tirofiban	386953003	substance	Tirofiban
-DT4H-MedP116	Abciximab	386951001	substance	Abciximab
-DT4H-MedP121	Prasugrel hydrobromide	1217508004	substance	Prasugrel hydrobromide
-DT4H-MedP122	Cangrelor tetrasodium	1217149008	substance	Cangrelor tetrasodium
-DT4H-MedP123	Prasugrel besylate	1149423007	substance	Prasugrel besylate
-DT4H-MedP124	Prasugrel hydrochloride	735166002	substance	Prasugrel hydrochloride
-DT4H-MedP125	Clopidogrel besylate	734972007	substance	Clopidogrel besylate
-DT4H-MedP126	Clopidogrel hydrochloride	734471009	substance	Clopidogrel hydrochloride
-DT4H-MedP127	Cangrelor	716118009	substance	Cangrelor
-DT4H-MedP128	Ticagrelor	698805004	substance	Ticagrelor
-DT4H-MedP129	Prasugrel	443129001	substance	Prasugrel
-DT4H-MedP130	Clopidogrel bisulfate	412354008	substance	Clopidogrel bisulfate
-DT4H-MedP131	Ticlopidine hydrochloride	395904008	substance	Ticlopidine hydrochloride
-DT4H-MedP132	Clopidogrel	386952008	substance	Clopidogrel
-DT4H-MedP133	Ticlopidine	386950000	substance	Ticlopidine
-DT4H-MedP141	substance with glycoprotein-IIb/IIIa receptor antagonist mechanism of action 	1162907009	substance	substance with glycoprotein-IIb/IIIa receptor antagonist mechanism of action 
-DT4H-MedP142	substance with P2Y12 G-protein-coupled platelet receptor antagonist mechanism of action	1162905001	substance	substance with P2Y12 G-protein-coupled platelet receptor antagonist mechanism of action
-DT4H-MedP143	caplacizumab	784411004	substance	caplacizumab
-DT4H-MedP144	aspirin DL-lysine 	735135008	substance	aspirin DL-lysine 
-DT4H-MedP145	selexipag	717359004	substance	selexipag
-DT4H-MedP146	indobufen	717166005	substance	indobufen
-DT4H-MedP147	vorapaxar	708718003	substance	vorapaxar
-DT4H-MedP148	triflusal	698872000	substance	triflusal
-DT4H-MedP149	treprostinil	443570007	substance	treprostinil
-DT4H-MedP150	buffered aspirin	426365001	substance	buffered aspirin
-DT4H-MedP151	aloxiprin	421012002	substance	aloxiprin
-DT4H-MedP152	tirofiban hydrochloride monohydrate	412321006	substance	tirofiban hydrochloride monohydrate
-DT4H-MedP153	iloprost	395740002	substance	iloprost
-DT4H-MedP154	aspirin	387458008	substance	aspirin
-DT4H-MedP155	dipiridamol	387371005	substance	dipiridamol
-DT4H-MedP156	treprostinil sodium	385681001	substance	treprostinil sodium
-DT4H-MedP157	milrinone	373441005	substance	milrinone
-DT4H-MedP158	epoprostenol	372513003	substance	epoprostenol
-DT4H-MedP159	cilostazol	116087001	substance	cilostazol
-DT4H-MedP160	calcium carbaspirin 	111122008	substance	calcium carbaspirin 
-DT4H-MedP161	epoprostenol sodium	108594006	substance	epoprostenol sodium
-DT4H-MedP162	milrinone lactate	108481006	substance	milrinone lactate
-DT4H-MedP163	resveratrol	96383001	substance	resveratrol
-DT4H-MedP164	aluminium aspirin	25796002	substance	aluminium aspirin
-DT4H-MedCO111	resveratrol	96383001	substance	resveratrol
-DT4H-MedCO12	Direct acting anticoagulant 	372636002	substance	Direct acting anticoagulant 
-DT4H-MedCO121	Argatroban anhydrous	1268948004	substance	Argatroban anhydrous
-DT4H-MedCO122	Heparin ammonium	1259913003	substance	Heparin ammonium
-DT4H-MedCO123	Heparin lithium	1256102004	substance	Heparin lithium
-DT4H-MedCO124	Edoxaban tosilate	1162278009	substance	Edoxaban tosilate
-DT4H-MedCO125	Porcine heparin sodium	784398008	substance	Porcine heparin sodium
-DT4H-MedCO126	Betrixaban	735227003	substance	Betrixaban
-DT4H-MedCO127	Argatroban monohydrate	725736007	substance	Argatroban monohydrate
-DT4H-MedCO128	Edoxaban	712778008	substance	Edoxaban
-DT4H-MedCO129	Fondaparinux	708189008	substance	Fondaparinux
-DT4H-MedCO130	Dabigatran etexilate mesylate	700039002	substance	Dabigatran etexilate mesylate
-DT4H-MedCO131	Dabigatran etexilate	700029008	substance	Dabigatran etexilate
-DT4H-MedCO132	Nadroparin	699946002	substance	Nadroparin
-DT4H-MedCO133	Dabigatran	698871007	substance	Dabigatran
-DT4H-MedCO134	Sulodexide	698844007	substance	Sulodexide
-DT4H-MedCO135	Nadroparin calcium	698278006	substance	Nadroparin calcium
-DT4H-MedCO136	Apixaban	698090000	substance	Apixaban
-DT4H-MedCO137	Rivaroxaban	442031002	substance	Rivaroxaban
-DT4H-MedCO138	Ximelagatran	415853004	substance	Ximelagatran
-DT4H-MedCO139	Hirudin	414407009	substance	Hirudin
-DT4H-MedCO140	Direct thrombin inhibitor	414010005	substance	Direct thrombin inhibitor
-DT4H-MedCO141	Tinzaparin	412608008	substance	Tinzaparin
-DT4H-MedCO142	Bovine heparin sodium	412202001	substance	Bovine heparin sodium
-DT4H-MedCO143	Porcine heparin	412201008	substance	Porcine heparin
-DT4H-MedCO144	Bemiparin sodium	410967005	substance	Bemiparin sodium
-DT4H-MedCO145	Bemiparin	410964003	substance	Bemiparin
-DT4H-MedCO146	Desirudin	407117009	substance	Desirudin
-DT4H-MedCO147	Reviparin	395998002	substance	Reviparin
-DT4H-MedCO148	Certoparin	395961003	substance	Certoparin
-DT4H-MedCO149	Tinzaparin sodium	395908006	substance	Tinzaparin sodium
-DT4H-MedCO150	Certoparin sodium	395884009	substance	Certoparin sodium
-DT4H-MedCO151	Reviparin sodium	395864005	substance	Reviparin sodium
-DT4H-MedCO152	Lepirudin	386955005	substance	Lepirudin
-DT4H-MedCO153	Danaparoid sodium	386954009	substance	Danaparoid sodium
-DT4H-MedCO154	Coagulation factor Xa inhibitor	385577009	substance	Coagulation factor Xa inhibitor
-DT4H-MedCO155	Fondaparinux sodium	385517000	substance	Fondaparinux sodium
-DT4H-MedCO156	Ardeparin	373731006	substance	Ardeparin
-DT4H-MedCO157	Low molecular weight heparin	373294004	substance	Low molecular weight heparin
-DT4H-MedCO158	Heparin	372877000	substance	Heparin
-DT4H-MedCO159	Heparinoid	372637006	substance	Heparinoid
-DT4H-MedCO160	Pentosan polysulfate	372571007	substance	Pentosan polysulfate
-DT4H-MedCO161	Danaparoid	372564002	substance	Danaparoid
-DT4H-MedCO162	Dalteparin	372563008	substance	Dalteparin
-DT4H-MedCO163	Enoxaparin	372562003	substance	Enoxaparin
-DT4H-MedCO164	Bivalirudin	129498009	substance	Bivalirudin
-DT4H-MedCO165	Argatroban	116508003	substance	Argatroban
-DT4H-MedCO166	Pentosan polysulfate sodium	109117004	substance	Pentosan polysulfate sodium
-DT4H-MedCO167	Ardeparin sodium	108990006	substance	Ardeparin sodium
-DT4H-MedCO168	Dalteparin sodium	108987000	substance	Dalteparin sodium
-DT4H-MedCO169	Enoxaparin sodium	108983001	substance	Enoxaparin sodium
-DT4H-MedCO170	Heparin sodium	50045009	substance	Heparin sodium
-DT4H-MedCO171	Ancrod	43848004	substance	Ancrod
-DT4H-MedCO172	Heparin calcium	29725000	substance	Heparin calcium
-DT4H-MedCO173	Glucurolactone	18600008	substance	Glucurolactone
-DT4H-MedCO21	Indirect acting anticoagulant 	419847008	substance	Indirect acting anticoagulant 
-DT4H-MedCO211	Fluindione	19351000122101	substance	Fluindione
-DT4H-MedCO212	Human protein C	784406001	substance	Human protein C
-DT4H-MedCO213	Coumafuryl	421212007	substance	Coumafuryl
-DT4H-MedCO214	Difenacoum	420968001	substance	Difenacoum
-DT4H-MedCO215	Long-acting coumarin derivative	420092006	substance	Long-acting coumarin derivative
-DT4H-MedCO216	Difethialone	410940004	substance	Difethialone
-DT4H-MedCO217	Acenocoumarol	387457003	substance	Acenocoumarol
-DT4H-MedCO218	Phenindione	387260007	substance	Phenindione
-DT4H-MedCO219	Coumarin anticoagulant	373307003	substance	Coumarin anticoagulant
-DT4H-MedCO220	Warfarin	372756006	substance	Warfarin
-DT4H-MedCO221	Indanedione	372573005	substance	Indanedione
-DT4H-MedCO222	Brodifacoum	117448002	substance	Brodifacoum
-DT4H-MedCO223	Acarboxy-protein C	103249001	substance	Acarboxy-protein C
-DT4H-MedCO224	Bromadiolone	95993009	substance	Bromadiolone
-DT4H-MedCO225	Cyclocumarol	88589005	substance	Cyclocumarol
-DT4H-MedCO226	Bromindione	88352008	substance	Bromindione
-DT4H-MedCO227	Dicumarol	79209008	substance	Dicumarol
-DT4H-MedCO228	Warfarin sodium	63167009	substance	Warfarin sodium
-DT4H-MedCO229	Phenprocoumon	59488002	substance	Phenprocoumon
-DT4H-MedCO230	Ethyl biscoumacetate	51739000	substance	Ethyl biscoumacetate
-DT4H-MedCO231	Potassium warfarin	41509001	substance	Potassium warfarin
-DT4H-MedCO232	Anisindione	38122009	substance	Anisindione
-DT4H-MedCO233	4-hydroxycoumarin	31011004	substance	4-hydroxycoumarin
-DT4H-MedCO234	Chlorophacinone	26371006	substance	Chlorophacinone
-DT4H-MedCO235	Protein C	25525005	substance	Protein C
-DT4H-MedCO236	Diphenadione	20368008	substance	Diphenadione
-DT4H-MedS111	Atorvastatin calcium anhydrous	1268949007	substance	Atorvastatin calcium anhydrous
-DT4H-MedS112	Rosuvastatin zinc	1217216007	substance	Rosuvastatin zinc
-DT4H-MedS113	Atorvastatin calcium trihydrate	725658002	substance	Atorvastatin calcium trihydrate
-DT4H-MedS114	Pitavastatin calcium	700402009	substance	Pitavastatin calcium
-DT4H-MedS115	Rosuvastatin	700067006	substance	Rosuvastatin
-DT4H-MedS116	Pitavastatin	443586000	substance	Pitavastatin
-DT4H-MedS117	Fluvastatin sodium	412392009	substance	Fluvastatin sodium
-DT4H-MedS118	Rosuvastatin calcium	406435003	substance	Rosuvastatin calcium
-DT4H-MedS119	Fluvastatin	387585004	substance	Fluvastatin
-DT4H-MedS120	Simvastatin	387584000	substance	Simvastatin
-DT4H-MedS121	Pravastatin	373566006	substance	Pravastatin
-DT4H-MedS122	Atorvastatin	373444002	substance	Atorvastatin
-DT4H-MedS123	Cerivastatin	373443008	substance	Cerivastatin
-DT4H-MedS124	Atorvastatin calcium	108601004	substance	Atorvastatin calcium
-DT4H-MedS125	Cerivastatin sodium	108597004	substance	Cerivastatin sodium
-DT4H-MedS126	Pravastatin sodium	96306007	substance	Pravastatin sodium
-DT4H-MedS127	Lovastatin	96303004	substance	Lovastatin
-DT4H-MedDG111	Medigoxin	418574005	substance	Medigoxin
-DT4H-MedDG112	Digitalis	387521006	substance	Digitalis
-DT4H-MedDG113	Digoxin	387461009	substance	Digoxin
-DT4H-MedDG114	Lanatoside C	387338006	substance	Lanatoside C
-DT4H-MedDG115	Digitoxin	373534001	substance	Digitoxin
-DT4H-MedDG116	Ouabain	35966009	substance	Ouabain
-DT4H-MedDG117	Aglycone	35135004	substance	Aglycone
-DT4H-MedDG118	Deslanoside	16214005	substance	Deslanoside
-DT4H-MedDG119	Acetyldigitoxin	7834009	substance	Acetyldigitoxin
-DT4H-MedBB111	Tertatolol hydrochloride	734455009	substance	Tertatolol hydrochloride
-DT4H-MedBB112	Tertatolol	716124003	substance	Tertatolol
-DT4H-MedBB113	Carvedilol phosphate	426471008	substance	Carvedilol phosphate
-DT4H-MedBB114	Levobunolol	418934007	substance	Levobunolol
-DT4H-MedBB115	Oxprenolol hydrochloride	395817005	substance	Oxprenolol hydrochloride
-DT4H-MedBB116	Oxprenolol	387583006	substance	Oxprenolol
-DT4H-MedBB117	Nadolol	387482003	substance	Nadolol
-DT4H-MedBB118	Practolol	387436006	substance	Practolol
-DT4H-MedBB119	Levobunolol hydrochloride	387349000	substance	Levobunolol hydrochloride
-DT4H-MedBB120	Pindolol	387102009	substance	Pindolol
-DT4H-MedBB121	Carvedilol	386870007	substance	Carvedilol
-DT4H-MedBB122	Carteolol hydrochloride	386867008	substance	Carteolol hydrochloride
-DT4H-MedBB123	Carteolol	386866004	substance	Carteolol
-DT4H-MedBB124	Penbutolol sulfate	386865000	substance	Penbutolol sulfate
-DT4H-MedBB125	Metipranolol	373446000	substance	Metipranolol
-DT4H-MedBB126	Sotalol	372911006	substance	Sotalol
-DT4H-MedBB127	Timolol	372880004	substance	Timolol
-DT4H-MedBB128	Propranolol	372772003	substance	Propranolol
-DT4H-MedBB129	Labetalol	372750000	substance	Labetalol
-DT4H-MedBB130	Beta-1 adrenergic receptor antagonist	372661004	substance	Beta-1 adrenergic receptor antagonist
-DT4H-MedBB131	Penbutolol	372505004	substance	Penbutolol
-DT4H-MedBB132	Metipranolol hydrochloride	126152000	substance	Metipranolol hydrochloride
-DT4H-MedBB133	Sotalol hydrochloride	125691000	substance	Sotalol hydrochloride
-DT4H-MedBB134	Alprenolol	96294004	substance	Alprenolol
-DT4H-MedBB135	Timolol maleate	75359005	substance	Timolol maleate
-DT4H-MedBB136	Propranolol hydrochloride	65088001	substance	Propranolol hydrochloride
-DT4H-MedBB137	Labetalol hydrochloride	50627005	substance	Labetalol hydrochloride
-DT4H-MedBB138	Beta-2 adrenergic receptor antagonist	37751002	substance	Beta-2 adrenergic receptor antagonist
-DT4H-MedBB15	Substance with beta-1 adrenergic receptor antagonist mechanism of action 	372661004	substance	Substance with beta-1 adrenergic receptor antagonist mechanism of action 
-DT4H-MedBB151	(S)-metoprolol tartrate	1240361004	substance	(S)-metoprolol tartrate
-DT4H-MedBB152	(S)-metoprolol succinate	1240360003	substance	(S)-metoprolol succinate
-DT4H-MedBB153	(S)-metoprolol	1240343008	substance	(S)-metoprolol
-DT4H-MedBB154	Nebivolol hydrochloride	734565001	substance	Nebivolol hydrochloride
-DT4H-MedBB155	Metoprolol succinate	412432007	substance	Metoprolol succinate
-DT4H-MedBB156	Levobetaxolol	409277002	substance	Levobetaxolol
-DT4H-MedBB157	Betaxolol	409276006	substance	Betaxolol
-DT4H-MedBB158	Celiprolol	395960002	substance	Celiprolol
-DT4H-MedBB159	Celiprolol hydrochloride	395874008	substance	Celiprolol hydrochloride
-DT4H-MedBB160	Nebivolol	395808005	substance	Nebivolol
-DT4H-MedBB161	Atenolol	387506000	substance	Atenolol
-DT4H-MedBB162	Betaxolol hydrochloride	387195001	substance	Betaxolol hydrochloride
-DT4H-MedBB163	Bisoprolol fumarate	386869006	substance	Bisoprolol fumarate
-DT4H-MedBB164	Bisoprolol	386868003	substance	Bisoprolol
-DT4H-MedBB165	Esmolol	372847006	substance	Esmolol
-DT4H-MedBB166	Metoprolol	372826007	substance	Metoprolol
-DT4H-MedBB167	Acebutolol	372815001	substance	Acebutolol
-DT4H-MedBB168	Metoprolol tartrate	72770009	substance	Metoprolol tartrate
-DT4H-MedBB169	Esmolol hydrochloride	35318005	substance	Esmolol hydrochloride
-DT4H-MedBB170	Acebutolol hydrochloride	3597005	substance	Acebutolol hydrochloride
-DT4H-MedRHY11	Substance with sodium channel blocker mechanism of action 	782436006	substance	Substance with sodium channel blocker mechanism of action 
-DT4H-MedRHY111	Phenytoin calcium	445821000221103	substance	Phenytoin calcium
-DT4H-MedRHY112	Lidocaine hydrochloride anhydrous	1269131003	substance	Lidocaine hydrochloride anhydrous
-DT4H-MedRHY113	Amiloride hydrochloride anhydrous	1268944002	substance	Amiloride hydrochloride anhydrous
-DT4H-MedRHY114	Lidocaine hydrochloride monohydrate	1217602005	substance	Lidocaine hydrochloride monohydrate
-DT4H-MedRHY115	Lidocaine hydrocarbonate	719905003	substance	Lidocaine hydrocarbonate
-DT4H-MedRHY116	Free phenytoin	706933005	substance	Free phenytoin
-DT4H-MedRHY117	Ranolazine	420365007	substance	Ranolazine
-DT4H-MedRHY118	Amiloride hydrochloride dihydrate	412082007	substance	Amiloride hydrochloride dihydrate
-DT4H-MedRHY119	Lamotrigine	387562000	substance	Lamotrigine
-DT4H-MedRHY120	Amiloride hydrochloride	387516008	substance	Amiloride hydrochloride
-DT4H-MedRHY121	Amiloride	387503008	substance	Amiloride
-DT4H-MedRHY122	Lidocaine	387480006	substance	Lidocaine
-DT4H-MedRHY123	Phenytoin sodium	387416005	substance	Phenytoin sodium
-DT4H-MedRHY124	Phenytoin	387220006	substance	Phenytoin
-DT4H-MedRHY125	Triamterene	387053007	substance	Triamterene
-DT4H-MedRHY126	Oxcarbazepine	387025007	substance	Oxcarbazepine
-DT4H-MedRHY127	Topiramate	386844006	substance	Topiramate
-DT4H-MedRHY128	Moracizine	373726009	substance	Moracizine
-DT4H-MedRHY129	Mexiletine	372909002	substance	Mexiletine
-DT4H-MedRHY130	Disopyramide	372844004	substance	Disopyramide
-DT4H-MedRHY131	Encainide	372749000	substance	Encainide
-DT4H-MedRHY132	Tocainide	372479006	substance	Tocainide
-DT4H-MedRHY133	Mexiletine hydrochloride	108500007	substance	Mexiletine hydrochloride
-DT4H-MedRHY134	Moracizine hydrochloride	108489008	substance	Moracizine hydrochloride
-DT4H-MedRHY135	Encainide hydrochloride	81017004	substance	Encainide hydrochloride
-DT4H-MedRHY136	Lidocaine hydrochloride	61773008	substance	Lidocaine hydrochloride
-DT4H-MedRHY137	Disopyramide phosphate	49565007	substance	Disopyramide phosphate
-DT4H-MedRHY138	Tocainide hydrochloride	2195004	substance	Tocainide hydrochloride
-DT4H-MedRHY15	Substance with potassium channel blocker mechanism of action	415152007	substance	Substance with potassium channel blocker mechanism of action
-DT4H-MedRHY151	Amifampridine	422654000	substance	Amifampridine
-DT4H-MedRHY152	Dofetilide	116107002	substance	Dofetilide
-DT4H-MedRHY153	Dalfampridine	80994002	substance	Dalfampridine
-DT4H-MedSG111	Dapagliflozin propanediol anhydrous	1269001007	substance	Dapagliflozin propanediol anhydrous
-DT4H-MedSG112	Canagliflozin anhydrous	1268978008	substance	Canagliflozin anhydrous
-DT4H-MedSG113	Remogliflozin etabonate	1162688000	substance	Remogliflozin etabonate
-DT4H-MedSG114	Ertugliflozin pidolate	1162393006	substance	Ertugliflozin pidolate
-DT4H-MedSG115	Dapagliflozin propanediol monohydrate	783086004	substance	Dapagliflozin propanediol monohydrate
-DT4H-MedSG116	Ertugliflozin	764274008	substance	Ertugliflozin
-DT4H-MedSG117	Canagliflozin hemihydrate	725664009	substance	Canagliflozin hemihydrate
-DT4H-MedSG118	Empagliflozin	703894008	substance	Empagliflozin
-DT4H-MedSG119	Canagliflozin	703676004	substance	Canagliflozin
-DT4H-MedSG120	Dapagliflozin propanediol	703675000	substance	Dapagliflozin propanediol
-DT4H-MedSG121	Dapagliflozin	703674001	substance	Dapagliflozin
+DT4-MedR171	Aliskiren	426725002	substance	FARMACO	Aliskiren
+DT4-MedR172	Aliskiren fumarate	425981005	substance	FARMACO	Aliskiren fumarate
+DT4H-MedA111	Lisinopril dihydrate	341000220102	substance	FARMACO	Lisinopril dihydrate
+DT4H-MedA112	Lisinopril anhydrous	1269132005	substance	FARMACO	Lisinopril anhydrous
+DT4H-MedA113	Cilazapril anhydrous	1268982005	substance	FARMACO	Cilazapril anhydrous
+DT4H-MedA114	Perindopril erbumine monohydrate	1119308007	substance	FARMACO	Perindopril erbumine monohydrate
+DT4H-MedA115	Enalapril sodium	1119307002	substance	FARMACO	Enalapril sodium
+DT4H-MedA116	Perindopril tosylate	735174001	substance	FARMACO	Perindopril tosylate
+DT4H-MedA117	Cilazapril monohydrate	725786001	substance	FARMACO	Cilazapril monohydrate
+DT4H-MedA118	Spirapril	713473008	substance	FARMACO	Spirapril
+DT4H-MedA119	Zofenoprilat arginine	703343009	substance	FARMACO	Zofenoprilat arginine
+DT4H-MedA120	Zofenoprilat	703342004	substance	FARMACO	Zofenoprilat
+DT4H-MedA121	Zofenopril calcium	703341006	substance	FARMACO	Zofenopril calcium
+DT4H-MedA122	Zofenopril	703340007	substance	FARMACO	Zofenopril
+DT4H-MedA123	Delapril hydrochloride	700066002	substance	FARMACO	Delapril hydrochloride
+DT4H-MedA124	Delapril	698093003	substance	FARMACO	Delapril
+DT4H-MedA125	Perindopril arginine	442509000	substance	FARMACO	Perindopril arginine
+DT4H-MedA126	Imidapril	395984005	substance	FARMACO	Imidapril
+DT4H-MedA127	Cilazapril	395947008	substance	FARMACO	Cilazapril
+DT4H-MedA128	Imidapril hydrochloride	395741003	substance	FARMACO	Imidapril hydrochloride
+DT4H-MedA129	Enalapril maleate	387165009	substance	FARMACO	Enalapril maleate
+DT4H-MedA130	Captopril	387160004	substance	FARMACO	Captopril
+DT4H-MedA131	Quinapril hydrochloride	386875002	substance	FARMACO	Quinapril hydrochloride
+DT4H-MedA132	Quinapril	386874003	substance	FARMACO	Quinapril
+DT4H-MedA133	Lisinopril	386873009	substance	FARMACO	Lisinopril
+DT4H-MedA134	Ramipril	386872004	substance	FARMACO	Ramipril
+DT4H-MedA135	Trandolapril	386871006	substance	FARMACO	Trandolapril
+DT4H-MedA136	Moexipril	373442003	substance	FARMACO	Moexipril
+DT4H-MedA137	Perindopril	372916001	substance	FARMACO	Perindopril
+DT4H-MedA138	Enalapril	372658000	substance	FARMACO	Enalapril
+DT4H-MedA139	Benazepril	372511001	substance	FARMACO	Benazepril
+DT4H-MedA140	Fosinopril	372510000	substance	FARMACO	Fosinopril
+DT4H-MedA141	Perindopril erbumine	129485000	substance	FARMACO	Perindopril erbumine
+DT4H-MedA142	Benazepril hydrochloride	108573008	substance	FARMACO	Benazepril hydrochloride
+DT4H-MedA143	Fosinopril sodium	108570006	substance	FARMACO	Fosinopril sodium
+DT4H-MedA144	Moexipril hydrochloride	108567007	substance	FARMACO	Moexipril hydrochloride
+DT4H-MedA145	Enalaprilat	48052001	substance	FARMACO	Enalaprilat
+DT4H-MedAR111	Fimasartan potassium trihydrate	1332434009	substance	FARMACO	Fimasartan potassium trihydrate
+DT4H-MedAR112	Fimasartan	1332433003	substance	FARMACO	Fimasartan
+DT4H-MedAR113	Azilsartan medoxomil potassium	895431005	substance	FARMACO	Azilsartan medoxomil potassium
+DT4H-MedAR114	Irbesartan hydrochloride	734504000	substance	FARMACO	Irbesartan hydrochloride
+DT4H-MedAR115	Azilsartan medoxomil	449561004	substance	FARMACO	Azilsartan medoxomil
+DT4H-MedAR116	Azilsartan	449042005	substance	FARMACO	Azilsartan
+DT4H-MedAR117	Olmesartan medoxomil	412260006	substance	FARMACO	Olmesartan medoxomil
+DT4H-MedAR118	Olmesartan	412259001	substance	FARMACO	Olmesartan
+DT4H-MedAR119	Eprosartan	396044005	substance	FARMACO	Eprosartan
+DT4H-MedAR120	Telmisartan	387069000	substance	FARMACO	Telmisartan
+DT4H-MedAR121	Candesartan cilexetil	386878000	substance	FARMACO	Candesartan cilexetil
+DT4H-MedAR122	Irbesartan	386877005	substance	FARMACO	Irbesartan
+DT4H-MedAR123	Valsartan	386876001	substance	FARMACO	Valsartan
+DT4H-MedAR124	Losartan	373567002	substance	FARMACO	Losartan
+DT4H-MedAR125	Candesartan	372512008	substance	FARMACO	Candesartan
+DT4H-MedAR126	Eprosartan mesilate	129488003	substance	FARMACO	Eprosartan mesilate
+DT4H-MedAR127	Losartan potassium	108582002	substance	FARMACO	Losartan potassium
+DT4H-MedM111	Finerenone	1163346008	substance	FARMACO	Finerenone
+DT4H-MedM112	Potassium canrenoate	419615001	substance	FARMACO	Potassium canrenoate
+DT4H-MedM113	Eplerenone	407010008	substance	FARMACO	Eplerenone
+DT4H-MedM114	Spironolactone	387078006	substance	FARMACO	Spironolactone
+DT4H-MedM115	Canrenone	96291007	substance	FARMACO	Canrenone
+DT4H-MedD11	diuretics other	Ø	substance	FARMACO	diuretics other
+DT4H-MedD111	acetazolamide	372709008	substance	FARMACO	acetazolamide
+DT4H-MedD112	aminometradine	80253002	substance	FARMACO	aminometradine
+DT4H-MedD113	amisometradine	39263003	substance	FARMACO	amisometradine
+DT4H-MedD114	chlorazanil	88802007	substance	FARMACO	chlorazanil
+DT4H-MedD115	cicletanine	735156005	substance	FARMACO	cicletanine
+DT4H-MedD116	cicletanine hydrochloride	735160008	substance	FARMACO	cicletanine hydrochloride
+DT4H-MedD117	conivaptan	421858002	substance	FARMACO	conivaptan
+DT4H-MedD118	conivaptan hydrochloride	735160008	substance	FARMACO	conivaptan hydrochloride
+DT4H-MedD119	flumethiazide	6513000	substance	FARMACO	flumethiazide
+DT4H-MedD120	pamabrom	116552006	substance	FARMACO	pamabrom
+DT4H-MedD121	tolvaptan	443058000	substance	FARMACO	tolvaptan
+DT4H-MedD13	Mercurial diuretic	373751005	substance	FARMACO	Mercurial diuretic
+DT4H-MedD131	Mersalyl sodium	395784002	substance	FARMACO	Mersalyl sodium
+DT4H-MedD132	Mersalyl	387157006	substance	FARMACO	Mersalyl
+DT4H-MedD133	Mercaptomerin	362947006	substance	FARMACO	Mercaptomerin
+DT4H-MedD134	Meralluride	85391002	substance	FARMACO	Meralluride
+DT4H-MedD135	Chlormerodrin	74589005	substance	FARMACO	Chlormerodrin
+DT4H-MedD136	Merethoxylline procaine	49022000	substance	FARMACO	Merethoxylline procaine
+DT4H-MedD137	Mercumatilin	33667000	substance	FARMACO	Mercumatilin
+DT4H-MedD138	Mercaptomerin sodium	30333004	substance	FARMACO	Mercaptomerin sodium
+DT4H-MedD14	Osmotic diuretic	372792005	substance	FARMACO	Osmotic diuretic
+DT4H-MedD141	Mannitol	387168006	substance	FARMACO	Mannitol
+DT4H-MedD142	Urea	387092000	substance	FARMACO	Urea
+DT4H-MedD143	Isosorbide	386853004	substance	FARMACO	Isosorbide
+DT4H-MedD15	Potassium sparing diuretic	372753003	substance	FARMACO	Potassium sparing diuretic
+DT4H-MedD151	Amiloride hydrochloride anhydrous	1268944002	substance	FARMACO	Amiloride hydrochloride anhydrous
+DT4H-MedD152	Finerenone	1163346008	substance	FARMACO	Finerenone
+DT4H-MedD153	Potassium canrenoate	419615001	substance	FARMACO	Potassium canrenoate
+DT4H-MedD154	Amiloride hydrochloride dihydrate	412082007	substance	FARMACO	Amiloride hydrochloride dihydrate
+DT4H-MedD155	Eplerenone	407010008	substance	FARMACO	Eplerenone
+DT4H-MedD156	Amiloride hydrochloride	387516008	substance	FARMACO	Amiloride hydrochloride
+DT4H-MedD157	Amiloride	387503008	substance	FARMACO	Amiloride
+DT4H-MedD158	Spironolactone	387078006	substance	FARMACO	Spironolactone
+DT4H-MedD159	Triamterene	387053007	substance	FARMACO	Triamterene
+DT4H-MedD160	Aldosterone receptor antagonist	372603003	substance	FARMACO	Aldosterone receptor antagonist
+DT4H-MedD161	Canrenone	96291007	substance	FARMACO	Canrenone
+DT4H-MedD17	Purine-derivative diuretic	419151007	substance	FARMACO	Purine-derivative diuretic
+DT4H-MedD171	Choline theophyllinate	387489007	substance	FARMACO	Choline theophyllinate
+DT4H-MedD172	Theobromine	75371004	substance	FARMACO	Theobromine
+DT4H-MedD18	Saluretic agent	372660003	substance	FARMACO	Saluretic agent
+DT4H-MedD181	Butizide	20551000122108	substance	FARMACO	Butizide
+DT4H-MedD182	Bumetanide	387498005	substance	FARMACO	Bumetanide
+DT4H-MedD183	Furosemide	387475002	substance	FARMACO	Furosemide
+DT4H-MedD184	Chlortalidone	387324004	substance	FARMACO	Chlortalidone
+DT4H-MedD185	Ethacrynic acid	373536004	substance	FARMACO	Ethacrynic acid
+DT4H-MedD186	Chlorothiazide	372782002	substance	FARMACO	Chlorothiazide
+DT4H-MedD187	Torasemide	108476002	substance	FARMACO	Torasemide
+DT4H-MedD188	Canrenone	96291007	substance	FARMACO	Canrenone
+DT4H-MedD189	Ethacrynate sodium	75341007	substance	FARMACO	Ethacrynate sodium
+DT4H-MedD190	Benzthiazide	66290002	substance	FARMACO	Benzthiazide
+DT4H-MedD191	Tienilic acid	64029000	substance	FARMACO	Tienilic acid
+DT4H-MedD192	Quinethazone	41261002	substance	FARMACO	Quinethazone
+DT4H-MedD193	Cyclothiazide	37006008	substance	FARMACO	Cyclothiazide
+DT4H-MedD194	Trichlormethiazide	11473005	substance	FARMACO	Trichlormethiazide
+DT4H-MedD195	Chlorothiazide sodium	8252004	substance	FARMACO	Chlorothiazide sodium
+DT4H-MedD2	Sulfonamide diuretic	43585000	substance	FARMACO	Sulfonamide diuretic
+DT4H-MedD201	Indapamide hemihydrate	725661001	substance	FARMACO	Indapamide hemihydrate
+DT4H-MedD202	Mefruside	406772008	substance	FARMACO	Mefruside
+DT4H-MedD203	Clopamide	395940005	substance	FARMACO	Clopamide
+DT4H-MedD204	Xipamide	395923001	substance	FARMACO	Xipamide
+DT4H-MedD205	Bumetanide	387498005	substance	FARMACO	Bumetanide
+DT4H-MedD206	Furosemide	387475002	substance	FARMACO	Furosemide
+DT4H-MedD207	Indapamide	387419003	substance	FARMACO	Indapamide
+DT4H-MedD208	Chlortalidone	387324004	substance	FARMACO	Chlortalidone
+DT4H-MedD209	Metolazone	387123003	substance	FARMACO	Metolazone
+DT4H-MedD210	Ethoxyzolamide	63203003	substance	FARMACO	Ethoxyzolamide
+DT4H-MedD211	Methazolamide	53052005	substance	FARMACO	Methazolamide
+DT4H-MedD212	Quinethazone	41261002	substance	FARMACO	Quinethazone
+DT4H-MedD22	Thiazide diuretic	372747003	substance	FARMACO	Thiazide diuretic
+DT4H-MedD221	Butizide	20551000122108	substance	FARMACO	Butizide
+DT4H-MedD222	Althiazide	717101002	substance	FARMACO	Althiazide
+DT4H-MedD223	Mefruside	406772008	substance	FARMACO	Mefruside
+DT4H-MedD224	Cyclopenthiazide	396009008	substance	FARMACO	Cyclopenthiazide
+DT4H-MedD225	Hydroflumethiazide	395946004	substance	FARMACO	Hydroflumethiazide
+DT4H-MedD226	Hydrochlorothiazide	387525002	substance	FARMACO	Hydrochlorothiazide
+DT4H-MedD227	Bendroflumethiazide	387520007	substance	FARMACO	Bendroflumethiazide
+DT4H-MedD228	Polythiazide	387492006	substance	FARMACO	Polythiazide
+DT4H-MedD229	Methyclothiazide	387373008	substance	FARMACO	Methyclothiazide
+DT4H-MedD230	Chlorothiazide	372782002	substance	FARMACO	Chlorothiazide
+DT4H-MedD231	Benzthiazide	66290002	substance	FARMACO	Benzthiazide
+DT4H-MedD232	Cyclothiazide	37006008	substance	FARMACO	Cyclothiazide
+DT4H-MedD233	Trichlormethiazide	11473005	substance	FARMACO	Trichlormethiazide
+DT4H-MedD234	Chlorothiazide sodium	8252004	substance	FARMACO	Chlorothiazide sodium
+DT4H-MedD24	Uricosuric agent	372758007	substance	FARMACO	Uricosuric agent
+DT4H-MedD241	Lesinurad	715259003	substance	FARMACO	Lesinurad
+DT4H-MedD242	Benzbromarone	698025001	substance	FARMACO	Benzbromarone
+DT4H-MedD243	Apazone	391798003	substance	FARMACO	Apazone
+DT4H-MedD244	Probenecid	387365004	substance	FARMACO	Probenecid
+DT4H-MedD245	Sulfinpyrazone	387108008	substance	FARMACO	Sulfinpyrazone
+DT4H-MedL101	Piretanide	419451002	substance	FARMACO	Piretanide
+DT4H-MedL102	Bumetanide	387498005	substance	FARMACO	Bumetanide
+DT4H-MedL103	Furosemide	387475002	substance	FARMACO	Furosemide
+DT4H-MedL104	Ethacrynic acid	373536004	substance	FARMACO	Ethacrynic acid
+DT4H-MedL105	Torasemide	108476002	substance	FARMACO	Torasemide
+DT4H-MedL106	Ethacrynate sodium	75341007	substance	FARMACO	Ethacrynate sodium
+DT4H-MedL107	Tienilic acid	64029000	substance	FARMACO	Tienilic acid
+DT4H-MedC101	Perhexiline maleate	1332137007	substance	FARMACO	Perhexiline maleate
+DT4H-MedC102	Benidipine	1303528009	substance	FARMACO	Benidipine
+DT4H-MedC103	Benidipine hydrochloride	1303527004	substance	FARMACO	Benidipine hydrochloride
+DT4H-MedC104	Terodiline hydrochloride	782604006	substance	FARMACO	Terodiline hydrochloride
+DT4H-MedC105	Gabapentin enacarbil	703122000	substance	FARMACO	Gabapentin enacarbil
+DT4H-MedC106	Pinaverium bromide	698023008	substance	FARMACO	Pinaverium bromide
+DT4H-MedC107	Perhexiline	421817009	substance	FARMACO	Perhexiline
+DT4H-MedC108	Mibefradil	421651006	substance	FARMACO	Mibefradil
+DT4H-MedC109	Terodiline	417479000	substance	FARMACO	Terodiline
+DT4H-MedC110	Prenylamine	387288001	substance	FARMACO	Prenylamine
+DT4H-MedC111	Gabapentin	386845007	substance	FARMACO	Gabapentin
+DT4H-MedC12	Benzothiazepine 	406767004	substance	FARMACO	Benzothiazepine 
+DT4H-MedC121	Diltiazem maleate	410870005	substance	FARMACO	Diltiazem maleate
+DT4H-MedC122	Diltiazem	372793000	substance	FARMACO	Diltiazem
+DT4H-MedC123	Diltiazem hydrochloride	12218006	substance	FARMACO	Diltiazem hydrochloride
+DT4H-MedC13	Diarylaminopropylamine 	406768009	substance	FARMACO	Diarylaminopropylamine 
+DT4H-MedC131	Bepridil	372503006	substance	FARMACO	Bepridil
+DT4H-MedC132	Bepridil hydrochloride	108531000	substance	FARMACO	Bepridil hydrochloride
+DT4H-MedC14	Phenylalkylamine	406766008	substance	FARMACO	Phenylalkylamine
+DT4H-MedC141	Gallopamil hydrochloride	703434004	substance	FARMACO	Gallopamil hydrochloride
+DT4H-MedC142	Gallopamil	703433005	substance	FARMACO	Gallopamil
+DT4H-MedC143	Verapamil	372754009	substance	FARMACO	Verapamil
+DT4H-MedC144	Norverapamil	96297006	substance	FARMACO	Norverapamil
+DT4H-MedC145	Verapamil hydrochloride	14340003	substance	FARMACO	Verapamil hydrochloride
+DT4H-MedC15	Piperazine derivative with calcium channel blocker mechanism of action	418559008	substance	FARMACO	Piperazine derivative with calcium channel blocker mechanism of action
+DT4H-MedC151	Lidoflazine	418865004	substance	FARMACO	Lidoflazine
+DT4H-MedC16	Substance with dihydropyridine derivative structure and calcium channel blocker mechanism of action 	406769001	substance	FARMACO	Substance with dihydropyridine derivative structure and calcium channel blocker mechanism of action 
+DT4H-MedC161	Lercanidipine hydrochloride hemihydrate	1304158004	substance	FARMACO	Lercanidipine hydrochloride hemihydrate
+DT4H-MedC162	Levamlodipine besylate	1217324004	substance	FARMACO	Levamlodipine besylate
+DT4H-MedC163	Levamlodipine	1217308000	substance	FARMACO	Levamlodipine
+DT4H-MedC164	Amlodipine mesylate	1193663008	substance	FARMACO	Amlodipine mesylate
+DT4H-MedC165	Cilnidipine	1177123004	substance	FARMACO	Cilnidipine
+DT4H-MedC166	Amlodipine benzoate	789067004	substance	FARMACO	Amlodipine benzoate
+DT4H-MedC167	Manidipine hydrochloride	765323009	substance	FARMACO	Manidipine hydrochloride
+DT4H-MedC168	Manidipine	765322004	substance	FARMACO	Manidipine
+DT4H-MedC169	Nilvadipine	713436005	substance	FARMACO	Nilvadipine
+DT4H-MedC170	Barnidipine	698052006	substance	FARMACO	Barnidipine
+DT4H-MedC171	Nitrendipine	444757009	substance	FARMACO	Nitrendipine
+DT4H-MedC172	Clevidipine	439471002	substance	FARMACO	Clevidipine
+DT4H-MedC173	Amlodipine maleate	421048000	substance	FARMACO	Amlodipine maleate
+DT4H-MedC174	Lercanidipine	395986007	substance	FARMACO	Lercanidipine
+DT4H-MedC175	Lercanidipine hydrochloride	395768003	substance	FARMACO	Lercanidipine hydrochloride
+DT4H-MedC176	Lacidipine	395764001	substance	FARMACO	Lacidipine
+DT4H-MedC177	Nimodipine	387502003	substance	FARMACO	Nimodipine
+DT4H-MedC178	Nifedipine	387490003	substance	FARMACO	Nifedipine
+DT4H-MedC179	Amlodipine	386864001	substance	FARMACO	Amlodipine
+DT4H-MedC180	Felodipine	386863007	substance	FARMACO	Felodipine
+DT4H-MedC181	Isradipine	386862002	substance	FARMACO	Isradipine
+DT4H-MedC182	Nisoldipine	386861009	substance	FARMACO	Nisoldipine
+DT4H-MedC183	Amlodipine besilate	384976003	substance	FARMACO	Amlodipine besilate
+DT4H-MedC184	Nicardipine	372502001	substance	FARMACO	Nicardipine
+DT4H-MedC185	Nicardipine hydrochloride	108527006	substance	FARMACO	Nicardipine hydrochloride
+DT4H-MedV11	Nitrate-based vasodilating agent 	372700007	substance	FARMACO	Nitrate-based vasodilating agent 
+DT4H-MedV111	1,2-dinitroglycerin	725531004	substance	FARMACO	1,2-dinitroglycerin
+DT4H-MedV112	Nitroglycerin	387404004	substance	FARMACO	Nitroglycerin
+DT4H-MedV113	Isosorbide dinitrate	387332007	substance	FARMACO	Isosorbide dinitrate
+DT4H-MedV114	Amyl nitrite	387038004	substance	FARMACO	Amyl nitrite
+DT4H-MedV115	Isosorbide mononitrate	386854005	substance	FARMACO	Isosorbide mononitrate
+DT4H-MedV116	Pentaerythritol tetranitrate	386836006	substance	FARMACO	Pentaerythritol tetranitrate
+DT4H-MedV117	Erythrityl tetranitrate	62368002	substance	FARMACO	Erythrityl tetranitrate
+DT4H-MedV118	Amyl nitrate	41153003	substance	FARMACO	Amyl nitrate
+DT4H-MedV119	Inositol hexanitrate	12970004	substance	FARMACO	Inositol hexanitrate
+DT4H-MedV131	flosequinan	412391002	substance	FARMACO	flosequinan
+DT4H-MedV136	hexobendine	710319000	substance	FARMACO	hexobendine
+DT4H-MedV138	heptaminol	96259006	substance	FARMACO	heptaminol
+DT4H-MedP11	Substance with glycoprotein-IIb/IIIa receptor antagonist mechanism of action 	1162907009	substance	FARMACO	Substance with glycoprotein-IIb/IIIa receptor antagonist mechanism of action 
+DT4H-MedP111	Tirofiban hydrochloride	1269173006	substance	FARMACO	Tirofiban hydrochloride
+DT4H-MedP112	Tirofiban hydrochloride anhydrous	1269172001	substance	FARMACO	Tirofiban hydrochloride anhydrous
+DT4H-MedP113	Tirofiban hydrochloride monohydrate	412321006	substance	FARMACO	Tirofiban hydrochloride monohydrate
+DT4H-MedP114	Eptifibatide	386998009	substance	FARMACO	Eptifibatide
+DT4H-MedP115	Tirofiban	386953003	substance	FARMACO	Tirofiban
+DT4H-MedP116	Abciximab	386951001	substance	FARMACO	Abciximab
+DT4H-MedP121	Prasugrel hydrobromide	1217508004	substance	FARMACO	Prasugrel hydrobromide
+DT4H-MedP122	Cangrelor tetrasodium	1217149008	substance	FARMACO	Cangrelor tetrasodium
+DT4H-MedP123	Prasugrel besylate	1149423007	substance	FARMACO	Prasugrel besylate
+DT4H-MedP124	Prasugrel hydrochloride	735166002	substance	FARMACO	Prasugrel hydrochloride
+DT4H-MedP125	Clopidogrel besylate	734972007	substance	FARMACO	Clopidogrel besylate
+DT4H-MedP126	Clopidogrel hydrochloride	734471009	substance	FARMACO	Clopidogrel hydrochloride
+DT4H-MedP127	Cangrelor	716118009	substance	FARMACO	Cangrelor
+DT4H-MedP128	Ticagrelor	698805004	substance	FARMACO	Ticagrelor
+DT4H-MedP129	Prasugrel	443129001	substance	FARMACO	Prasugrel
+DT4H-MedP130	Clopidogrel bisulfate	412354008	substance	FARMACO	Clopidogrel bisulfate
+DT4H-MedP131	Ticlopidine hydrochloride	395904008	substance	FARMACO	Ticlopidine hydrochloride
+DT4H-MedP132	Clopidogrel	386952008	substance	FARMACO	Clopidogrel
+DT4H-MedP133	Ticlopidine	386950000	substance	FARMACO	Ticlopidine
+DT4H-MedP141	substance with glycoprotein-IIb/IIIa receptor antagonist mechanism of action 	1162907009	substance	FARMACO	substance with glycoprotein-IIb/IIIa receptor antagonist mechanism of action 
+DT4H-MedP142	substance with P2Y12 G-protein-coupled platelet receptor antagonist mechanism of action	1162905001	substance	FARMACO	substance with P2Y12 G-protein-coupled platelet receptor antagonist mechanism of action
+DT4H-MedP143	caplacizumab	784411004	substance	FARMACO	caplacizumab
+DT4H-MedP144	aspirin DL-lysine 	735135008	substance	FARMACO	aspirin DL-lysine 
+DT4H-MedP145	selexipag	717359004	substance	FARMACO	selexipag
+DT4H-MedP146	indobufen	717166005	substance	FARMACO	indobufen
+DT4H-MedP147	vorapaxar	708718003	substance	FARMACO	vorapaxar
+DT4H-MedP148	triflusal	698872000	substance	FARMACO	triflusal
+DT4H-MedP149	treprostinil	443570007	substance	FARMACO	treprostinil
+DT4H-MedP150	buffered aspirin	426365001	substance	FARMACO	buffered aspirin
+DT4H-MedP151	aloxiprin	421012002	substance	FARMACO	aloxiprin
+DT4H-MedP152	tirofiban hydrochloride monohydrate	412321006	substance	FARMACO	tirofiban hydrochloride monohydrate
+DT4H-MedP153	iloprost	395740002	substance	FARMACO	iloprost
+DT4H-MedP154	aspirin	387458008	substance	FARMACO	aspirin
+DT4H-MedP155	dipiridamol	387371005	substance	FARMACO	dipiridamol
+DT4H-MedP156	treprostinil sodium	385681001	substance	FARMACO	treprostinil sodium
+DT4H-MedP157	milrinone	373441005	substance	FARMACO	milrinone
+DT4H-MedP158	epoprostenol	372513003	substance	FARMACO	epoprostenol
+DT4H-MedP159	cilostazol	116087001	substance	FARMACO	cilostazol
+DT4H-MedP160	calcium carbaspirin 	111122008	substance	FARMACO	calcium carbaspirin 
+DT4H-MedP161	epoprostenol sodium	108594006	substance	FARMACO	epoprostenol sodium
+DT4H-MedP162	milrinone lactate	108481006	substance	FARMACO	milrinone lactate
+DT4H-MedP163	resveratrol	96383001	substance	FARMACO	resveratrol
+DT4H-MedP164	aluminium aspirin	25796002	substance	FARMACO	aluminium aspirin
+DT4H-MedCO111	resveratrol	96383001	substance	FARMACO	resveratrol
+DT4H-MedCO12	Direct acting anticoagulant 	372636002	substance	FARMACO	Direct acting anticoagulant 
+DT4H-MedCO121	Argatroban anhydrous	1268948004	substance	FARMACO	Argatroban anhydrous
+DT4H-MedCO122	Heparin ammonium	1259913003	substance	FARMACO	Heparin ammonium
+DT4H-MedCO123	Heparin lithium	1256102004	substance	FARMACO	Heparin lithium
+DT4H-MedCO124	Edoxaban tosilate	1162278009	substance	FARMACO	Edoxaban tosilate
+DT4H-MedCO125	Porcine heparin sodium	784398008	substance	FARMACO	Porcine heparin sodium
+DT4H-MedCO126	Betrixaban	735227003	substance	FARMACO	Betrixaban
+DT4H-MedCO127	Argatroban monohydrate	725736007	substance	FARMACO	Argatroban monohydrate
+DT4H-MedCO128	Edoxaban	712778008	substance	FARMACO	Edoxaban
+DT4H-MedCO129	Fondaparinux	708189008	substance	FARMACO	Fondaparinux
+DT4H-MedCO130	Dabigatran etexilate mesylate	700039002	substance	FARMACO	Dabigatran etexilate mesylate
+DT4H-MedCO131	Dabigatran etexilate	700029008	substance	FARMACO	Dabigatran etexilate
+DT4H-MedCO132	Nadroparin	699946002	substance	FARMACO	Nadroparin
+DT4H-MedCO133	Dabigatran	698871007	substance	FARMACO	Dabigatran
+DT4H-MedCO134	Sulodexide	698844007	substance	FARMACO	Sulodexide
+DT4H-MedCO135	Nadroparin calcium	698278006	substance	FARMACO	Nadroparin calcium
+DT4H-MedCO136	Apixaban	698090000	substance	FARMACO	Apixaban
+DT4H-MedCO137	Rivaroxaban	442031002	substance	FARMACO	Rivaroxaban
+DT4H-MedCO138	Ximelagatran	415853004	substance	FARMACO	Ximelagatran
+DT4H-MedCO139	Hirudin	414407009	substance	FARMACO	Hirudin
+DT4H-MedCO140	Direct thrombin inhibitor	414010005	substance	FARMACO	Direct thrombin inhibitor
+DT4H-MedCO141	Tinzaparin	412608008	substance	FARMACO	Tinzaparin
+DT4H-MedCO142	Bovine heparin sodium	412202001	substance	FARMACO	Bovine heparin sodium
+DT4H-MedCO143	Porcine heparin	412201008	substance	FARMACO	Porcine heparin
+DT4H-MedCO144	Bemiparin sodium	410967005	substance	FARMACO	Bemiparin sodium
+DT4H-MedCO145	Bemiparin	410964003	substance	FARMACO	Bemiparin
+DT4H-MedCO146	Desirudin	407117009	substance	FARMACO	Desirudin
+DT4H-MedCO147	Reviparin	395998002	substance	FARMACO	Reviparin
+DT4H-MedCO148	Certoparin	395961003	substance	FARMACO	Certoparin
+DT4H-MedCO149	Tinzaparin sodium	395908006	substance	FARMACO	Tinzaparin sodium
+DT4H-MedCO150	Certoparin sodium	395884009	substance	FARMACO	Certoparin sodium
+DT4H-MedCO151	Reviparin sodium	395864005	substance	FARMACO	Reviparin sodium
+DT4H-MedCO152	Lepirudin	386955005	substance	FARMACO	Lepirudin
+DT4H-MedCO153	Danaparoid sodium	386954009	substance	FARMACO	Danaparoid sodium
+DT4H-MedCO154	Coagulation factor Xa inhibitor	385577009	substance	FARMACO	Coagulation factor Xa inhibitor
+DT4H-MedCO155	Fondaparinux sodium	385517000	substance	FARMACO	Fondaparinux sodium
+DT4H-MedCO156	Ardeparin	373731006	substance	FARMACO	Ardeparin
+DT4H-MedCO157	Low molecular weight heparin	373294004	substance	FARMACO	Low molecular weight heparin
+DT4H-MedCO158	Heparin	372877000	substance	FARMACO	Heparin
+DT4H-MedCO159	Heparinoid	372637006	substance	FARMACO	Heparinoid
+DT4H-MedCO160	Pentosan polysulfate	372571007	substance	FARMACO	Pentosan polysulfate
+DT4H-MedCO161	Danaparoid	372564002	substance	FARMACO	Danaparoid
+DT4H-MedCO162	Dalteparin	372563008	substance	FARMACO	Dalteparin
+DT4H-MedCO163	Enoxaparin	372562003	substance	FARMACO	Enoxaparin
+DT4H-MedCO164	Bivalirudin	129498009	substance	FARMACO	Bivalirudin
+DT4H-MedCO165	Argatroban	116508003	substance	FARMACO	Argatroban
+DT4H-MedCO166	Pentosan polysulfate sodium	109117004	substance	FARMACO	Pentosan polysulfate sodium
+DT4H-MedCO167	Ardeparin sodium	108990006	substance	FARMACO	Ardeparin sodium
+DT4H-MedCO168	Dalteparin sodium	108987000	substance	FARMACO	Dalteparin sodium
+DT4H-MedCO169	Enoxaparin sodium	108983001	substance	FARMACO	Enoxaparin sodium
+DT4H-MedCO170	Heparin sodium	50045009	substance	FARMACO	Heparin sodium
+DT4H-MedCO171	Ancrod	43848004	substance	FARMACO	Ancrod
+DT4H-MedCO172	Heparin calcium	29725000	substance	FARMACO	Heparin calcium
+DT4H-MedCO173	Glucurolactone	18600008	substance	FARMACO	Glucurolactone
+DT4H-MedCO21	Indirect acting anticoagulant 	419847008	substance	FARMACO	Indirect acting anticoagulant 
+DT4H-MedCO211	Fluindione	19351000122101	substance	FARMACO	Fluindione
+DT4H-MedCO212	Human protein C	784406001	substance	FARMACO	Human protein C
+DT4H-MedCO213	Coumafuryl	421212007	substance	FARMACO	Coumafuryl
+DT4H-MedCO214	Difenacoum	420968001	substance	FARMACO	Difenacoum
+DT4H-MedCO215	Long-acting coumarin derivative	420092006	substance	FARMACO	Long-acting coumarin derivative
+DT4H-MedCO216	Difethialone	410940004	substance	FARMACO	Difethialone
+DT4H-MedCO217	Acenocoumarol	387457003	substance	FARMACO	Acenocoumarol
+DT4H-MedCO218	Phenindione	387260007	substance	FARMACO	Phenindione
+DT4H-MedCO219	Coumarin anticoagulant	373307003	substance	FARMACO	Coumarin anticoagulant
+DT4H-MedCO220	Warfarin	372756006	substance	FARMACO	Warfarin
+DT4H-MedCO221	Indanedione	372573005	substance	FARMACO	Indanedione
+DT4H-MedCO222	Brodifacoum	117448002	substance	FARMACO	Brodifacoum
+DT4H-MedCO223	Acarboxy-protein C	103249001	substance	FARMACO	Acarboxy-protein C
+DT4H-MedCO224	Bromadiolone	95993009	substance	FARMACO	Bromadiolone
+DT4H-MedCO225	Cyclocumarol	88589005	substance	FARMACO	Cyclocumarol
+DT4H-MedCO226	Bromindione	88352008	substance	FARMACO	Bromindione
+DT4H-MedCO227	Dicumarol	79209008	substance	FARMACO	Dicumarol
+DT4H-MedCO228	Warfarin sodium	63167009	substance	FARMACO	Warfarin sodium
+DT4H-MedCO229	Phenprocoumon	59488002	substance	FARMACO	Phenprocoumon
+DT4H-MedCO230	Ethyl biscoumacetate	51739000	substance	FARMACO	Ethyl biscoumacetate
+DT4H-MedCO231	Potassium warfarin	41509001	substance	FARMACO	Potassium warfarin
+DT4H-MedCO232	Anisindione	38122009	substance	FARMACO	Anisindione
+DT4H-MedCO233	4-hydroxycoumarin	31011004	substance	FARMACO	4-hydroxycoumarin
+DT4H-MedCO234	Chlorophacinone	26371006	substance	FARMACO	Chlorophacinone
+DT4H-MedCO235	Protein C	25525005	substance	FARMACO	Protein C
+DT4H-MedCO236	Diphenadione	20368008	substance	FARMACO	Diphenadione
+DT4H-MedS111	Atorvastatin calcium anhydrous	1268949007	substance	FARMACO	Atorvastatin calcium anhydrous
+DT4H-MedS112	Rosuvastatin zinc	1217216007	substance	FARMACO	Rosuvastatin zinc
+DT4H-MedS113	Atorvastatin calcium trihydrate	725658002	substance	FARMACO	Atorvastatin calcium trihydrate
+DT4H-MedS114	Pitavastatin calcium	700402009	substance	FARMACO	Pitavastatin calcium
+DT4H-MedS115	Rosuvastatin	700067006	substance	FARMACO	Rosuvastatin
+DT4H-MedS116	Pitavastatin	443586000	substance	FARMACO	Pitavastatin
+DT4H-MedS117	Fluvastatin sodium	412392009	substance	FARMACO	Fluvastatin sodium
+DT4H-MedS118	Rosuvastatin calcium	406435003	substance	FARMACO	Rosuvastatin calcium
+DT4H-MedS119	Fluvastatin	387585004	substance	FARMACO	Fluvastatin
+DT4H-MedS120	Simvastatin	387584000	substance	FARMACO	Simvastatin
+DT4H-MedS121	Pravastatin	373566006	substance	FARMACO	Pravastatin
+DT4H-MedS122	Atorvastatin	373444002	substance	FARMACO	Atorvastatin
+DT4H-MedS123	Cerivastatin	373443008	substance	FARMACO	Cerivastatin
+DT4H-MedS124	Atorvastatin calcium	108601004	substance	FARMACO	Atorvastatin calcium
+DT4H-MedS125	Cerivastatin sodium	108597004	substance	FARMACO	Cerivastatin sodium
+DT4H-MedS126	Pravastatin sodium	96306007	substance	FARMACO	Pravastatin sodium
+DT4H-MedS127	Lovastatin	96303004	substance	FARMACO	Lovastatin
+DT4H-MedDG111	Medigoxin	418574005	substance	FARMACO	Medigoxin
+DT4H-MedDG112	Digitalis	387521006	substance	FARMACO	Digitalis
+DT4H-MedDG113	Digoxin	387461009	substance	FARMACO	Digoxin
+DT4H-MedDG114	Lanatoside C	387338006	substance	FARMACO	Lanatoside C
+DT4H-MedDG115	Digitoxin	373534001	substance	FARMACO	Digitoxin
+DT4H-MedDG116	Ouabain	35966009	substance	FARMACO	Ouabain
+DT4H-MedDG117	Aglycone	35135004	substance	FARMACO	Aglycone
+DT4H-MedDG118	Deslanoside	16214005	substance	FARMACO	Deslanoside
+DT4H-MedDG119	Acetyldigitoxin	7834009	substance	FARMACO	Acetyldigitoxin
+DT4H-MedBB111	Tertatolol hydrochloride	734455009	substance	FARMACO	Tertatolol hydrochloride
+DT4H-MedBB112	Tertatolol	716124003	substance	FARMACO	Tertatolol
+DT4H-MedBB113	Carvedilol phosphate	426471008	substance	FARMACO	Carvedilol phosphate
+DT4H-MedBB114	Levobunolol	418934007	substance	FARMACO	Levobunolol
+DT4H-MedBB115	Oxprenolol hydrochloride	395817005	substance	FARMACO	Oxprenolol hydrochloride
+DT4H-MedBB116	Oxprenolol	387583006	substance	FARMACO	Oxprenolol
+DT4H-MedBB117	Nadolol	387482003	substance	FARMACO	Nadolol
+DT4H-MedBB118	Practolol	387436006	substance	FARMACO	Practolol
+DT4H-MedBB119	Levobunolol hydrochloride	387349000	substance	FARMACO	Levobunolol hydrochloride
+DT4H-MedBB120	Pindolol	387102009	substance	FARMACO	Pindolol
+DT4H-MedBB121	Carvedilol	386870007	substance	FARMACO	Carvedilol
+DT4H-MedBB122	Carteolol hydrochloride	386867008	substance	FARMACO	Carteolol hydrochloride
+DT4H-MedBB123	Carteolol	386866004	substance	FARMACO	Carteolol
+DT4H-MedBB124	Penbutolol sulfate	386865000	substance	FARMACO	Penbutolol sulfate
+DT4H-MedBB125	Metipranolol	373446000	substance	FARMACO	Metipranolol
+DT4H-MedBB126	Sotalol	372911006	substance	FARMACO	Sotalol
+DT4H-MedBB127	Timolol	372880004	substance	FARMACO	Timolol
+DT4H-MedBB128	Propranolol	372772003	substance	FARMACO	Propranolol
+DT4H-MedBB129	Labetalol	372750000	substance	FARMACO	Labetalol
+DT4H-MedBB130	Beta-1 adrenergic receptor antagonist	372661004	substance	FARMACO	Beta-1 adrenergic receptor antagonist
+DT4H-MedBB131	Penbutolol	372505004	substance	FARMACO	Penbutolol
+DT4H-MedBB132	Metipranolol hydrochloride	126152000	substance	FARMACO	Metipranolol hydrochloride
+DT4H-MedBB133	Sotalol hydrochloride	125691000	substance	FARMACO	Sotalol hydrochloride
+DT4H-MedBB134	Alprenolol	96294004	substance	FARMACO	Alprenolol
+DT4H-MedBB135	Timolol maleate	75359005	substance	FARMACO	Timolol maleate
+DT4H-MedBB136	Propranolol hydrochloride	65088001	substance	FARMACO	Propranolol hydrochloride
+DT4H-MedBB137	Labetalol hydrochloride	50627005	substance	FARMACO	Labetalol hydrochloride
+DT4H-MedBB138	Beta-2 adrenergic receptor antagonist	37751002	substance	FARMACO	Beta-2 adrenergic receptor antagonist
+DT4H-MedBB15	Substance with beta-1 adrenergic receptor antagonist mechanism of action 	372661004	substance	FARMACO	Substance with beta-1 adrenergic receptor antagonist mechanism of action 
+DT4H-MedBB151	(S)-metoprolol tartrate	1240361004	substance	FARMACO	(S)-metoprolol tartrate
+DT4H-MedBB152	(S)-metoprolol succinate	1240360003	substance	FARMACO	(S)-metoprolol succinate
+DT4H-MedBB153	(S)-metoprolol	1240343008	substance	FARMACO	(S)-metoprolol
+DT4H-MedBB154	Nebivolol hydrochloride	734565001	substance	FARMACO	Nebivolol hydrochloride
+DT4H-MedBB155	Metoprolol succinate	412432007	substance	FARMACO	Metoprolol succinate
+DT4H-MedBB156	Levobetaxolol	409277002	substance	FARMACO	Levobetaxolol
+DT4H-MedBB157	Betaxolol	409276006	substance	FARMACO	Betaxolol
+DT4H-MedBB158	Celiprolol	395960002	substance	FARMACO	Celiprolol
+DT4H-MedBB159	Celiprolol hydrochloride	395874008	substance	FARMACO	Celiprolol hydrochloride
+DT4H-MedBB160	Nebivolol	395808005	substance	FARMACO	Nebivolol
+DT4H-MedBB161	Atenolol	387506000	substance	FARMACO	Atenolol
+DT4H-MedBB162	Betaxolol hydrochloride	387195001	substance	FARMACO	Betaxolol hydrochloride
+DT4H-MedBB163	Bisoprolol fumarate	386869006	substance	FARMACO	Bisoprolol fumarate
+DT4H-MedBB164	Bisoprolol	386868003	substance	FARMACO	Bisoprolol
+DT4H-MedBB165	Esmolol	372847006	substance	FARMACO	Esmolol
+DT4H-MedBB166	Metoprolol	372826007	substance	FARMACO	Metoprolol
+DT4H-MedBB167	Acebutolol	372815001	substance	FARMACO	Acebutolol
+DT4H-MedBB168	Metoprolol tartrate	72770009	substance	FARMACO	Metoprolol tartrate
+DT4H-MedBB169	Esmolol hydrochloride	35318005	substance	FARMACO	Esmolol hydrochloride
+DT4H-MedBB170	Acebutolol hydrochloride	3597005	substance	FARMACO	Acebutolol hydrochloride
+DT4H-MedRHY11	Substance with sodium channel blocker mechanism of action 	782436006	substance	FARMACO	Substance with sodium channel blocker mechanism of action 
+DT4H-MedRHY111	Phenytoin calcium	445821000221103	substance	FARMACO	Phenytoin calcium
+DT4H-MedRHY112	Lidocaine hydrochloride anhydrous	1269131003	substance	FARMACO	Lidocaine hydrochloride anhydrous
+DT4H-MedRHY113	Amiloride hydrochloride anhydrous	1268944002	substance	FARMACO	Amiloride hydrochloride anhydrous
+DT4H-MedRHY114	Lidocaine hydrochloride monohydrate	1217602005	substance	FARMACO	Lidocaine hydrochloride monohydrate
+DT4H-MedRHY115	Lidocaine hydrocarbonate	719905003	substance	FARMACO	Lidocaine hydrocarbonate
+DT4H-MedRHY116	Free phenytoin	706933005	substance	FARMACO	Free phenytoin
+DT4H-MedRHY117	Ranolazine	420365007	substance	FARMACO	Ranolazine
+DT4H-MedRHY118	Amiloride hydrochloride dihydrate	412082007	substance	FARMACO	Amiloride hydrochloride dihydrate
+DT4H-MedRHY119	Lamotrigine	387562000	substance	FARMACO	Lamotrigine
+DT4H-MedRHY120	Amiloride hydrochloride	387516008	substance	FARMACO	Amiloride hydrochloride
+DT4H-MedRHY121	Amiloride	387503008	substance	FARMACO	Amiloride
+DT4H-MedRHY122	Lidocaine	387480006	substance	FARMACO	Lidocaine
+DT4H-MedRHY123	Phenytoin sodium	387416005	substance	FARMACO	Phenytoin sodium
+DT4H-MedRHY124	Phenytoin	387220006	substance	FARMACO	Phenytoin
+DT4H-MedRHY125	Triamterene	387053007	substance	FARMACO	Triamterene
+DT4H-MedRHY126	Oxcarbazepine	387025007	substance	FARMACO	Oxcarbazepine
+DT4H-MedRHY127	Topiramate	386844006	substance	FARMACO	Topiramate
+DT4H-MedRHY128	Moracizine	373726009	substance	FARMACO	Moracizine
+DT4H-MedRHY129	Mexiletine	372909002	substance	FARMACO	Mexiletine
+DT4H-MedRHY130	Disopyramide	372844004	substance	FARMACO	Disopyramide
+DT4H-MedRHY131	Encainide	372749000	substance	FARMACO	Encainide
+DT4H-MedRHY132	Tocainide	372479006	substance	FARMACO	Tocainide
+DT4H-MedRHY133	Mexiletine hydrochloride	108500007	substance	FARMACO	Mexiletine hydrochloride
+DT4H-MedRHY134	Moracizine hydrochloride	108489008	substance	FARMACO	Moracizine hydrochloride
+DT4H-MedRHY135	Encainide hydrochloride	81017004	substance	FARMACO	Encainide hydrochloride
+DT4H-MedRHY136	Lidocaine hydrochloride	61773008	substance	FARMACO	Lidocaine hydrochloride
+DT4H-MedRHY137	Disopyramide phosphate	49565007	substance	FARMACO	Disopyramide phosphate
+DT4H-MedRHY138	Tocainide hydrochloride	2195004	substance	FARMACO	Tocainide hydrochloride
+DT4H-MedRHY15	Substance with potassium channel blocker mechanism of action	415152007	substance	FARMACO	Substance with potassium channel blocker mechanism of action
+DT4H-MedRHY151	Amifampridine	422654000	substance	FARMACO	Amifampridine
+DT4H-MedRHY152	Dofetilide	116107002	substance	FARMACO	Dofetilide
+DT4H-MedRHY153	Dalfampridine	80994002	substance	FARMACO	Dalfampridine
+DT4H-MedSG111	Dapagliflozin propanediol anhydrous	1269001007	substance	FARMACO	Dapagliflozin propanediol anhydrous
+DT4H-MedSG112	Canagliflozin anhydrous	1268978008	substance	FARMACO	Canagliflozin anhydrous
+DT4H-MedSG113	Remogliflozin etabonate	1162688000	substance	FARMACO	Remogliflozin etabonate
+DT4H-MedSG114	Ertugliflozin pidolate	1162393006	substance	FARMACO	Ertugliflozin pidolate
+DT4H-MedSG115	Dapagliflozin propanediol monohydrate	783086004	substance	FARMACO	Dapagliflozin propanediol monohydrate
+DT4H-MedSG116	Ertugliflozin	764274008	substance	FARMACO	Ertugliflozin
+DT4H-MedSG117	Canagliflozin hemihydrate	725664009	substance	FARMACO	Canagliflozin hemihydrate
+DT4H-MedSG118	Empagliflozin	703894008	substance	FARMACO	Empagliflozin
+DT4H-MedSG119	Canagliflozin	703676004	substance	FARMACO	Canagliflozin
+DT4H-MedSG120	Dapagliflozin propanediol	703675000	substance	FARMACO	Dapagliflozin propanediol
+DT4H-MedSG121	Dapagliflozin	703674001	substance	FARMACO	Dapagliflozin
