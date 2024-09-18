@@ -1,5 +1,5 @@
 import pandas as pd
-def generate_df_codes(df_data, df_vars, debug=False):
+def generate_df_codes(df_data, df_vars, debug=False, parents=1):
 
     # Make copies of the dataframes to avoid modifying the originals
     df_data = df_data.copy()
@@ -8,11 +8,26 @@ def generate_df_codes(df_data, df_vars, debug=False):
     df_data = process_composites(df_data, df_vars)
 
     df_data.rename(columns={"label": "label_corpus"}, inplace=True)
+
+    # If parents are used, then the code is replaced by the first parent code in the list
+    # NOTE: Other option could be to find the parent with higher match but this is not implemented
+    if parents > 0:
+        ls_found_codes = list(set(df_data["code"].unique()).intersection(set(df_vars["code"].unique())))
+        var_codes = df_vars["code"].unique()
+
+        print(f"Found {len(ls_found_codes)} codes in the data")
+        df_data["parent"] = df_data["code_wp"].apply(lambda x: set(eval(x)).intersection(set(var_codes)))
+        df_data["parent_matches"] = df_data["parent"].apply(lambda x: len(x))
+        df_data.loc[(df_data["parent_matches"] > 0)&(~df_data["code"].isin(var_codes)), "semantic_rel"] = "PARENT"
+        df_data.loc[(df_data["parent_matches"] > 0)&(~df_data["code"].isin(var_codes)), "code"] = df_data.loc[(df_data["parent_matches"] > 0)&(~df_data["code"].isin(var_codes)), "parent"].apply(lambda x: next(iter(x)))
+
+
     df_code_ovr = df_vars[["ID", "name", "code", "term", "label"]].merge(
                                                                 df_data[['code', 'span', 'semantic_rel', "label_corpus"]].reset_index(), 
                                                                 on='code', 
                                                                 how='left',
                                                             ).fillna("NOT_FOUND")
+
 
     # mask_nf = df_code_ovr["label_corpus"] != "NOT_FOUND"
     # mask_ot = df_code_ovr["label"] == "OTROS"
@@ -25,6 +40,8 @@ def generate_df_codes(df_data, df_vars, debug=False):
 
     # Group by 'code', 'span', and 'semantic_rel', then count occurrences
     df_code_ovr = df_code_ovr.groupby(['ID', 'name', 'code', 'span', 'term', 'semantic_rel', 'label', 'label_corpus']).size().reset_index(name='count').sort_values(by="count", ascending=False)
+    # df_code_ovr = df_code_ovr.sort_values(by=['ID', 'name', 'span', 'term', 'semantic_rel', 'label', 'label_corpus', "count"], ascending=False)
+    # df_code_count = df_code_ovr.drop_duplicates(subset=['ID', 'name', 'span', 'term', 'semantic_rel', 'label', 'label_corpus'])
 
     # Set count to 0 for entries with 'span' marked as "NOT_FOUND"
     df_code_ovr.loc[df_code_ovr.span == "NOT_FOUND", "count"] = 0
@@ -32,7 +49,6 @@ def generate_df_codes(df_data, df_vars, debug=False):
     # Rename columns for clarity
     df_code_ovr.columns = ['ID', 'name', 'code', 'span', 'term', 'semantic_rel', 'label', 'label_corpus', 'count']
 
-    
     df_code_ovr["found"] = df_code_ovr["span"] != "NOT_FOUND"
 
     # Include column of count by code

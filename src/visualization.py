@@ -171,7 +171,7 @@ def plot_code_distribution(df, corpus, show=True):
                                         dtick=1,
                                     )
                                     )
-    
+    # .drop_duplicates(subset=["code", "span", "label"])
     # Create a bar chart for all the found codes by count
     fig2 = px.bar(df_found.sort_values(by="count_ID", ascending=True),
                 y='ID+term', x='count', color='span', title=f'Codes Distribution [Variable Name (SNOMED term)] <Zoom {n_show} out of {n_terms} terms; zoom out to see all>',
