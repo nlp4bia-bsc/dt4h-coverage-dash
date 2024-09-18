@@ -6,11 +6,11 @@ import plotly.graph_objects as go
 from src.preprocessing import generate_df_codes
 
 
-def generate_report_table(ls_corpora):
+def generate_report_table(ls_corpora, n_parents=None):
     df_report = pd.DataFrame()
     ls_figures = []
     for corpus in ls_corpora:
-        _, output = report_corpus(corpus, show=False)
+        _, output = report_corpus(corpus, show=False, n_parents=n_parents)
         df_report_i = output[0]
         figures = output[1:]
         df_report_i["corpus"] = corpus
@@ -27,8 +27,12 @@ def generate_report_table(ls_corpora):
 
     return df_out, ls_figures
 
-def report_corpus(corpus, show=True, debug=False):
-    DATA = f'data/processed/{corpus}.tsv'
+def report_corpus(corpus, show=True, debug=False, n_parents=None):
+    if n_parents is None:
+        DATA = f'data/processed/{corpus}.tsv'
+    else:
+        DATA = f'data/processed/{n_parents}_parents/{corpus}.tsv'
+
     DATA_VAR = 'data/variables/processed/variables.tsv'
 
     print(f"Loading data from {DATA}")
