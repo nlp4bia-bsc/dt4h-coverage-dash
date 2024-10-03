@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 from src.preprocessing import generate_df_codes
 
 
-def generate_report_table(ls_corpora, n_parents=None):
+def generate_report_table(ls_corpora, n_parents):
     df_report = pd.DataFrame()
     ls_figures = []
     for corpus in ls_corpora:
@@ -27,8 +27,8 @@ def generate_report_table(ls_corpora, n_parents=None):
 
     return df_out, ls_figures
 
-def report_corpus(corpus, show=True, debug=False, n_parents=None):
-    if n_parents is None:
+def report_corpus(corpus, n_parents, show=True, debug=False):
+    if n_parents == 0:
         DATA = f'data/processed/{corpus}.tsv'
     else:
         DATA = f'data/processed/{n_parents}_parents/{corpus}.tsv'
@@ -39,7 +39,7 @@ def report_corpus(corpus, show=True, debug=False, n_parents=None):
     df_data = pd.read_csv(DATA, sep='\t', dtype={'code': str})
     df_var = pd.read_csv(DATA_VAR, sep='\t', dtype={'code': str})
 
-    df_code_ovr = generate_df_codes(df_data=df_data, df_vars=df_var, debug=debug)
+    df_code_ovr = generate_df_codes(df_data=df_data, df_vars=df_var, n_parents=n_parents, debug=debug)
 
     output = plot_code_distribution(df_code_ovr, corpus=corpus, show=show)
     return df_code_ovr, output
@@ -67,20 +67,6 @@ def plot_code_distribution(df, corpus, show=True):
     df_sem_tag = df_sem_tag.merge(total_counts, on="label")
     df_sem_tag["percentage"] = df_sem_tag["count"] / df_sem_tag["total"]                          # Calculate the percentage of found/not found by semantic tag
     df_sem_tag = df_sem_tag.sort_values(by=["found", "total"], ascending=[True, False])           # Sort the dataframe to display the highest counts first
-
-
-    # # Dataframe to plot the distribution of found variables by semantic tag
-    # df_corpus = df.drop_duplicates(subset=["ID", "corpus", "found"]).copy()
-    # df_corpus["found"] = df_corpus["found"].replace({True: "Found", False: "Not Found"})        # Avoid True/False in the plot
-    # df_corpus = df_corpus.groupby(["corpus", "found"]).size().reset_index(name="count")   # Count the occurrences by semantic tag and found/not found
-
-    # # Calculate the total counts by semantic tag to compute percentages and merge the dataframes
-    # total_counts_corpus = df_corpus.groupby("corpus").aggregate({"count":"sum"})\
-    #                             .reset_index()\
-    #                             .rename(columns={"count":"total"})
-    # df_corpus = df_corpus.merge(total_counts_corpus, on="corpus")
-    # df_corpus["percentage"] = df_corpus["count"] / df_corpus["total"]                          # Calculate the percentage of found/not found by semantic tag
-    # df_corpus = df_corpus.sort_values(by=["found", "total"], ascending=[True, False])           # Sort the dataframe to display the highest counts first
 
     # Dataframe to plot the statistics of the found variables
     df_found = df.loc[(df["span"] != "NOT_FOUND"), :].copy()

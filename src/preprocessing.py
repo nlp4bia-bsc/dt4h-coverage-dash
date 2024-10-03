@@ -1,5 +1,5 @@
 import pandas as pd
-def generate_df_codes(df_data, df_vars, debug=False, parents=1):
+def generate_df_codes(df_data, df_vars, n_parents, debug=False):
 
     # Make copies of the dataframes to avoid modifying the originals
     df_data = df_data.copy()
@@ -11,7 +11,7 @@ def generate_df_codes(df_data, df_vars, debug=False, parents=1):
 
     # If parents are used, then the code is replaced by the first parent code in the list
     # NOTE: Other option could be to find the parent with higher match but this is not implemented
-    if parents > 0:
+    if n_parents > 0:
         ls_found_codes = list(set(df_data["code"].unique()).intersection(set(df_vars["code"].unique())))
         var_codes = df_vars["code"].unique()
 

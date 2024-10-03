@@ -4,8 +4,11 @@ from dash import Dash, dcc, html, dash_table, Input, Output
 
 import src.visualization as viz
 
+N_MAX_PARENTS = 1
+
 # List of available corpora
 ls_corpora = ["total", "distemist", "symptemist", "medprocner", "pharmaconer"]
+ls_possible_parents = range(N_MAX_PARENTS + 1)
 
 # Initialize the Dash app
 app = Dash(__name__,
@@ -25,6 +28,16 @@ app.layout = html.Div(children=[
         multi=True
     ),
 
+    html.P("Select the amount of parents you want to check (default 0)"),
+
+    dcc.Dropdown(
+        id='n_parents-dropdown',
+        options=[{'label': f"{n_parents} parents", 'value': n_parents} for n_parents in ls_possible_parents],
+        value=0,  # Default selected values
+        multi=False
+    ),
+
+
     # Wrapping the output components in dcc.Loading
     dcc.Loading(
         id="loading-1",
@@ -39,15 +52,17 @@ app.layout = html.Div(children=[
 @app.callback(
     [Output('graphs-container', 'children'),
      Output('table-container', 'children')],
-    [Input('corpora-dropdown', 'value')]
+    [Input('corpora-dropdown', 'value'),
+     Input('n_parents-dropdown', 'value')]
 )
-def update_content(selected_corpora):
+def update_content(selected_corpora, selected_n_parents):
+
     if not selected_corpora:
         # Return empty components if no corpora are selected
         return html.Div(), html.Div()
     
     # Generate report data and figures based on the selected corpora
-    df_out, ls_figures = viz.generate_report_table(selected_corpora)
+    df_out, ls_figures = viz.generate_report_table(selected_corpora, n_parents=selected_n_parents)
     
     # Create the graph components
     graphs = [dcc.Graph(figure=fig) for fig in ls_figures]
@@ -78,4 +93,4 @@ if __name__ == '__main__':
     args = parser.parse_args()
     port = args.port
 
-    app.run_server(port=port, debug=False)
+    app.run_server(port=port, debug=True)
