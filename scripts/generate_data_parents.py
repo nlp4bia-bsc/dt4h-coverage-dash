@@ -15,21 +15,14 @@ relationship_file = "/home/abecerra/Documents/SnomedCT_InternationalRF2_PRODUCTI
 
 sct = SnomedCT(file_name_rel=relationship_file, root_concept_code = "138875005", relation_types=["116680003"])
 
-ls_corpora = ["total", "distemist", "symptemist", "medprocner", "pharmaconer"]
+# ls_corpora = ["total", "distemist", "symptemist", "medprocner", "pharmaconer", "cardioccc_temu"]
+ls_corpora = ["cardioccc_deepspanorm"]
 
 for corpus in ls_corpora:
     DATA = f'data/processed/{corpus}.tsv'
 
     df_data = pd.read_csv(DATA, sep='\t', dtype={'code': str})
-    df_data["code_wp"] = df_data["code"].apply(lambda x: sct.get_parents(x))
-
-    # df_parents_1p = df_data.copy()
-    # df_parents_1p = df_parents_1p.explode(column="code_wp")
-    # df_parents_1p["code"] = df_parents_1p["code_wp"]
-    # df_parents_1p["semantic_rel"] = "PARENT"
-
-    # df_out = pd.concat([df_data, df_parents_1p], ignore_index=True)
-    # df_out = df_out.sort_values(by=["filename", "off0", "off1"])
+    df_data["code_wp"] = df_data["code"].apply(lambda x: sct.get_parents(x, levels=N_PARENTS))
 
     df_data.to_csv(os.path.join(OUTPUT_FOLDER, f"{corpus}.tsv"), index=False, sep="\t")
 

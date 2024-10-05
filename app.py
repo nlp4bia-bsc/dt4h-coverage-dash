@@ -7,7 +7,7 @@ import src.visualization as viz
 N_MAX_PARENTS = 1
 
 # List of available corpora
-ls_corpora = ["total", "distemist", "symptemist", "medprocner", "pharmaconer"]
+ls_corpora = ["total", "distemist", "symptemist", "medprocner", "pharmaconer", "cardioccc_temu", "cardioccc_deepspanorm"]
 ls_possible_parents = range(N_MAX_PARENTS + 1)
 
 # Initialize the Dash app
