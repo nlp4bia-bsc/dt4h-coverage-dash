@@ -1,0 +1,86 @@
+ID	name	code	semantic_tag	label	term
+PATTERNID-DEM5	País de origen	370159000	hallazgo	hallazgo	país de origen - hallazgo 
+PATTERNID-DEM6	País de residencia	416647007	entidad observable	entidad observable	 país de residencia 
+PATTERNID-DEM7	Sexo hombre 	339947000	persona	persona	hombre 
+PATTERNID-DEM8	Sexo mujer 	224526002	persona	persona	mujer 
+PATTERNID-COM10	Embarazo actual	77386006	hallazgo	hallazgo	embarazada 
+PATTERNID-COM12	Enfermedad Cardiaca	56265001	trastorno	trastorno	cardiopatía 
+PATTERNID-COM13	Enfermedad Digestiva	76712006	trastorno	trastorno	trastorno de órgano digestivo 
+PATTERNID-COM26	Insuficiencia cardiaca	84114007	trastorno	trastorno	insuficiencia cardíaca 
+PATTERNID-COM27	mecacolon	197143009	trastorno	trastorno	megacolon en la enfermedad de Chagas 
+PATTERNID-COM30	Receptor/a de trasplante	737294004	hallazgo	hallazgo	órgano trasplantado presente 
+PATTERNID-MED18	Benznidazole	714092005	producto medicinal	producto medicinal	producto que contiene benznidazol 
+PATTERNID-MED49	Fexinidazole	890462007	sustancia	sustancia	fexinidazol 
+PATTERNID-MED50	Fluconazol	387174006	sustancia	sustancia	fluconazol 
+PATTERNID-MED63	Itraconazol	387532006	sustancia	sustancia	itraconazol 
+PATTERNID-MED65	Ivermectin	387559003	sustancia	sustancia	ivermectina 
+PATTERNID-MED83	Nifurtimox 	714397006	producto medicinal	producto medicinal	Producto que contiene nifurtimox 
+PATTERNID-MED92	Posaconazole	421747003	sustancia	sustancia	posaconazol 
+PATTERNID-MED121	Voriconazol	385469007	sustancia	sustancia	voriconazol 
+PATTERNID-SÍN4	Asintomático	84387000	hallazgo	hallazgo	asintomático 
+PATTERNID-SÍN9	Clase NYHA	420816009	escala de evaluación	escala de evaluación	clasificación de la New York Heart Association 
+PATTERNID-SÍN11	Disfagia 	88275004	hallazgo	hallazgo	deglución ausente 
+PATTERNID-SÍN12	Disnea	267036007	hallazgo	hallazgo	disnea 
+PATTERNID-SÍN19	Edemas en MMII	102572006	hallazgo	hallazgo	edema de la extremidad inferior 
+PATTERNID-SÍN20	Estreñimiento 	14760008	hallazgo	hallazgo	estreñimiento 
+PATTERNID-SÍN36	Síncope 	272030005	hallazgo	hallazgo	síntoma de síncope 
+PATTERNID-MED1	Altura	1153637007	entidad observable	entidad observable	altura corporal 
+PATTERNID-MED2	frecuencia cardiaca	364075005	entidad observable	entidad observable	frecuencia cardíaca 
+PATTERNID-MED4	Peso	27113001	entidad observable	entidad observable	peso corporal 
+PATTERNID-SIG2	Auscultación cardiaca normal	449263002	procedimiento	procedimiento	auscultación del corazón 
+PATTERNID-SIG3	Bradicardia	48867003	hallazgo	hallazgo	bradicardia 
+PATTERNID-SIG4	Crepitantes pulmonares	48409008	hallazgo	hallazgo	rales crepitantes 
+PATTERNID-SIG5	Edemas en miembros inferiores	102572006	hallazgo	hallazgo	edema de la extremidad inferior 
+PATTERNID-SIG7	Fecaloma	89158005	anomalía morfológica	anomalía morfológica	fecalito 
+PATTERNID-SIG10	Murmullo vesicular conservado	77047003	hallazgo	hallazgo	murmullo vesicular 
+PATTERNID-RES1	Microhematocrito	104139004	procedimiento	procedimiento	hematócrito (método de microhematócrito) 
+PATTERNID-RES2	PCR cualitativo	702675006	calificador	calificador	técnica con sonda y amplificación del objetivo 
+PATTERNID-RES4	Serología 1 cualitativo	122137005	procedimiento	procedimiento	medición de anticuerpos anti-Trypanosoma cruzi 
+PATTERNID-RES6	Serología 1 técnica	710546009	sustancia	sustancia	anticuerpo inmunoglobulina G anti-Trypanosoma cruzi 
+PATTERNID-RES1	Alteraciones de la onda T	164934002	hallazgo	hallazgo	onda T anormal en el electrocardiograma 
+PATTERNID-RES4	Bloqueo auriculoventricular avanzado o 2:1	164903001	hallazgo	hallazgo	electrocardiograma: bloqueo auriculoventricular parcial - 2:1 
+PATTERNID-RES5	Bloqueo auriculoventricular completo 	164906009	hallazgo	hallazgo	bloqueo auriculoventricular completo en el electrocardiograma 
+PATTERNID-RES6	Bloqueo auriculoventricular de primer grado 	270492004	trastorno	trastorno	bloqueo aurículo-ventricular de primer grado 
+PATTERNID-RES7	Bloqueo auriculoventricular de segundo grado	195042002	trastorno	trastorno	bloqueo auriculoventricular de segundo grado 
+PATTERNID-RES10	Bloqueo de rama derecha	59118001	trastorno	trastorno	bloqueo de la rama derecha del haz de His 
+PATTERNID-RES11	Bloqueo de rama izquierda	63467002	trastorno	trastorno	bloqueo de la rama izquierda del haz de His 
+PATTERNID-RES13	Bradicardia sinusal	426177001	hallazgo	hallazgo	electrocardiograma: bradicardia sinusal 
+PATTERNID-RES15	ECG anormal	102594003	hallazgo	hallazgo	hallazgo anormal en el electrocardiograma 
+PATTERNID-RES16	ECG normal	164854000	hallazgo	hallazgo	electrocardiograma normal 
+PATTERNID-RES20	Extrasístoles ventriculares	427172004	hallazgo	hallazgo	electrocardiograma: contracciones ventriculares prematuras 
+PATTERNID-RES24	Fibrilación auricular	49436004	trastorno	trastorno	fibrilación auricular 
+PATTERNID-RES40	Marcapasos (ritmo de)	426453001	hallazgo	hallazgo	electrocardiograma: ritmo de marcapasos 
+PATTERNID-RES46	Ritmo sinusal	426783006	hallazgo	hallazgo	electrocardiograma: ritmo sinusal 
+PATTERNID-RES50	Taquicardia ventricular no sostenida	444658006	trastorno	trastorno	taquicardia ventricular no sostenida 
+PATTERNID-RES1	Bradicardia	49710005	trastorno	trastorno	bradicardia sinusal 
+PATTERNID-RES2	Fibrilación auricular	71908006	trastorno	trastorno	fibrilación ventricular 
+PATTERNID-RES4	Taquicardia ventricular no sostenida	444658006	trastorno	trastorno	taquicardia ventricular no sostenida 
+PATTERNID-RES1	Radiografía de tórax: cardiomegalia	8186001	trastorno	trastorno	cardiomegalia 
+PATTERNID-RES3	Radiografía de tórax: normal	1290959000	hallazgo	hallazgo	radiografía simple de tórax normal 
+PATTERNID-RES1	Aneurisma ventricular	90539001	trastorno	trastorno	aneurisma ventricular 
+PATTERNID-RES4	Disfunción diastólica 	3545003	hallazgo	hallazgo	disfunción diastólica 
+PATTERNID-RES5	Disfunción sistólica del ventrículo derecho	416158002	trastorno	trastorno	disfunción sistólica del ventrículo derecho 
+PATTERNID-RES6	Disfunción sistólica del ventrículo izquierdo	134401001	trastorno	trastorno	disfunción sistólica del ventrículo izquierdo 
+PATTERNID-RES7	Ecocardiograma anormal	169241000	hallazgo	hallazgo	ecocardiograma anormal 
+PATTERNID-RES8	Ecocardiograma normal	169240004	hallazgo	hallazgo	ecocardiograma normal 
+PATTERNID-RES11	Fracción de eyección de ventrículo izquierdo disminuida (hallazgo)	863932003	hallazgo	hallazgo	fracción de eyección de ventrículo izquierdo disminuida 
+PATTERNID-RES1	Aneurisma ventricular	90539001	trastorno	trastorno	aneurisma ventricular 
+PATTERNID-RES2	Fibrosis cardiaca	398716006	trastorno	trastorno	fibrosis endomiocárdica 
+PATTERNID-RES1	Dilatación esofágica	78974003	trastorno	trastorno	dilatación del esófago 
+PATTERNID-RES2	Enema opaco normal	241164003	procedimiento	procedimiento	enema de bario con contraste doble 
+PATTERNID-RES3	Megacolon	197143009	trastorno	trastorno	megacolon en la enfermedad de Chagas 
+PATTERNID-RES4	Megaesófago	196599007	trastorno	trastorno	megaesófago en la enfermedad de Chagas 
+PATTERNID-DIA2	Crónico con patología cardíaca	722890004	trastorno	trastorno	cardiopatía concomitante con enfermedad de Chagas crónica y debida a ella 
+PATTERNID-DIA3	Crónico con patología digestiva	240658000	trastorno	trastorno	enfermedad de Chagas crónica 
+PATTERNID-DIA4	Crónico con patología mixta	240658000	trastorno	trastorno	enfermedad de Chagas crónica 
+PATTERNID-PRO1	Implante de marcapasos	307280005	procedimiento	procedimiento	implante de marcapasos cardíaco 
+PATTERNID-PRO3	Trasplante cardiaco	32413006	procedimiento	procedimiento	trasplante de corazón 
+PATTERNID-PRO4	Cirugía colon	82874003	procedimiento	procedimiento	procedimiento quirúrgico en el colon 
+PATTERNID-PRO5	Dilatación endoscópica	363105001	procedimiento	procedimiento	dilatación endoscópica 
+PATTERNID-TRA1	Rechaza tratamiento	7058009	hallazgo	hallazgo	incumplimiento del tratamiento 
+PATTERNID-TRA2	Benznidazol	714092005	producto medicinal	producto medicinal	producto que contiene benznidazol 
+PATTERNID-TRA3	Nifurtimox	714397006	producto medicinal	producto medicinal	producto que contiene nifurtimox 
+PATTERNID-TRA4	Tratamiento incompleto	266710000	situación	situación	fármacos no ingeridos/tratamiento incompleto 
+PATTERNID-TRA5	Tratamiento completo	182992009	situación	situación	tratamiento completo 
+PATTERNID-EVO1	Fallecimiento atribuible a la enfermedad de Chagas	419620001	evento	evento	muerte 
+PATTERNID-EVO7	Hospitalización	32485007	procedimiento	procedimiento	admisión hospitalaria 
