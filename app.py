@@ -12,7 +12,7 @@ ls_projects = ["DT4H", "Baritone", "CHAGAS"]
 ls_corpora = ["total", "distemist", "symptemist", "medprocner", "pharmaconer", "cardioccc_temu", "cardioccc_deepspanorm"]
 ls_possible_parents = range(N_MAX_PARENTS + 1)
 d_variables_list = {"DT4H": "https://docs.google.com/spreadsheets/d/1GM17jnZop0eHSYaWKccVhp4pdbX58IEuSLXsiYg4GUQ/edit?usp=sharing",
-                    "CHAGAS": "https://docs.google.com/spreadsheets/d/18xOzq8oxYAP0KwkTtat0NGWeaXdr1Mvq/edit?gid=444900836#gid=444900836"}
+                    "CHAGAS": "https://docs.google.com/spreadsheets/d/1YDBJ-vSYBcZNSIaoF2UFPE_BJgcJXQ4eXrFEiwAr50k/edit?gid=0#gid=0"}
 
 # Initialize the Dash app
 app = Dash(__name__,

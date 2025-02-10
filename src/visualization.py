@@ -19,8 +19,10 @@ def generate_report_table(project, ls_corpora, n_parents):
 
         ls_figures.extend(figures)
 
+    # print(df_report.head())
     # show the count_ID, total_mentions and total_ratio for each corpus using ID as index
     df_out = df_report.pivot(index=["ID", "name", "term", "label", "label_corpus"], columns="corpus", values=["count_ID", "mentions", "ratio"])
+    # print(df_out.head())
     df_out.columns = [f"{col}_{sub}" for col, sub in df_out.columns]
     df_out = df_out.sort_values(by=list(df_out.columns)[0], ascending=False)
 
@@ -54,6 +56,7 @@ def plot_code_distribution(df, corpus, show=True):
     #### Data Preparation for Visualization ####
     # Filter the dataframe to exclude rows where 'span' is "NOT_FOUND"
     df = df.copy()
+    print(df.head())
     # Create a new column with the ID, name, and term concatenated for better visualization
     df["ID+term"] = df["ID"] + "-" + df["name"] + " (" + df["term"] + ")"
 
@@ -72,12 +75,19 @@ def plot_code_distribution(df, corpus, show=True):
 
     # Dataframe to plot the statistics of the found variables
     df_found = df.loc[(df["span"] != "NOT_FOUND"), :].copy()
+    print(df_found.head())
+    df_found_cnt = df_found.groupby("ID+term")["count"].sum().reset_index()
+    print(df_found_cnt.head())
+    df_found = df_found.merge(df_found_cnt, on="ID+term", suffixes=("", "_total"))
+    print(df_found.head())
+    
     df_n_founds = df[["ID", "found"]].drop_duplicates()
     df_n_founds["found"] = df_n_founds["found"].replace({True: "Found", False: "Not Found"})
 
     # Dataframe to plot the distribution of semantic relationships
     ls_semantic_rel = df["semantic_rel"].unique().tolist()                                        # Get the unique semantic relationships and semantic tags
     sel_cols = ["ID+term"] + ls_semantic_rel + ["count_ID"]
+    # print(df_found.head().to_markdown())
     df_count_rel = df_found[sel_cols].melt(id_vars=["ID+term", "count_ID"], var_name="semantic_rel", value_name="count")\
                                      .drop_duplicates()
 
@@ -161,10 +171,15 @@ def plot_code_distribution(df, corpus, show=True):
                                     )
     # .drop_duplicates(subset=["code", "span", "label"])
     # Create a bar chart for all the found codes by count
-    fig2 = px.bar(df_found.sort_values(by="count_ID", ascending=True),
+    print(df_found.sort_values(by="count_total", ascending=False).head(50))
+
+    fig2 = px.bar(df_found.drop_duplicates(subset=["ID", "span", "count_ID"]).sort_values(by="count_ID", ascending=True),
                 y='ID+term', x='count', color='span', title=f'Codes Distribution [Variable Name (SNOMED term)] <Zoom {n_show} out of {n_terms} terms; zoom out to see all>',
-                labels={'count': 'Count', 'ID+term': 'Name'},
+                labels={'count_total': 'Count', 'ID+term': 'Name'},
                 orientation='h')
+    
+    # print(df_found.sort_values(by="count_ID", ascending=True).head().to_markdown())
+    # print(df_found[df_found["name"] == "Losartan"].to_markdown())
     
     fig2.update_layout(showlegend=False, 
                            height=600,
