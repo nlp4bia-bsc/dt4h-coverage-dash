@@ -33,7 +33,7 @@ def generate_report_table(project, ls_corpora, n_parents):
 def report_corpus(project, corpus, n_parents, show=True, debug=False):
     if n_parents == 0:
         DATA = f'data/processed/{corpus}.tsv'
-        print(DATA)
+        # print(DATA)
     else:
         DATA = f'data/processed/{n_parents}_parents/{corpus}.tsv'
 
@@ -56,7 +56,7 @@ def plot_code_distribution(df, corpus, show=True):
     #### Data Preparation for Visualization ####
     # Filter the dataframe to exclude rows where 'span' is "NOT_FOUND"
     df = df.copy()
-    print(df.head())
+    # print(df.head())
     # Create a new column with the ID, name, and term concatenated for better visualization
     df["ID+term"] = df["ID"] + "-" + df["name"] + " (" + df["term"] + ")"
 
@@ -75,11 +75,11 @@ def plot_code_distribution(df, corpus, show=True):
 
     # Dataframe to plot the statistics of the found variables
     df_found = df.loc[(df["span"] != "NOT_FOUND"), :].copy()
-    print(df_found.head())
+    # print(df_found.head())
     df_found_cnt = df_found.groupby("ID+term")["count"].sum().reset_index()
-    print(df_found_cnt.head())
+    # print(df_found_cnt.head())
     df_found = df_found.merge(df_found_cnt, on="ID+term", suffixes=("", "_total"))
-    print(df_found.head())
+    # print(df_found.head())
     
     df_n_founds = df[["ID", "found"]].drop_duplicates()
     df_n_founds["found"] = df_n_founds["found"].replace({True: "Found", False: "Not Found"})
@@ -171,7 +171,7 @@ def plot_code_distribution(df, corpus, show=True):
                                     )
     # .drop_duplicates(subset=["code", "span", "label"])
     # Create a bar chart for all the found codes by count
-    print(df_found.sort_values(by="count_total", ascending=False).head(50))
+    # print(df_found.sort_values(by="count_total", ascending=False).head(50))
 
     fig2 = px.bar(df_found.drop_duplicates(subset=["ID", "span", "count_ID"]).sort_values(by="count_ID", ascending=True),
                 y='ID+term', x='count', color='span', title=f'Codes Distribution [Variable Name (SNOMED term)] <Zoom {n_show} out of {n_terms} terms; zoom out to see all>',

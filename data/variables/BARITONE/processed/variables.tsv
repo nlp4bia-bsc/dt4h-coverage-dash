@@ -1,0 +1,111 @@
+ID	name	code	semantic_tag	term	label
+BARITONEID-FIN1	No fumador	8392000	Finding	Never	Finding
+BARITONEID-FIN2	Fumador	77176002	Finding	Current	Finding
+BARITONEID-FIN3	Ex-fumador	8517006	Finding	Former smoker	Finding
+BARITONEID-FIN4	Abortos	106109006	Finding	Abortion	Finding
+BARITONEID-DIS1	Diabetes mellitus	73211009	Disorder	Diabetes mellitus	Disorder
+BARITONEID-DIS2	Hipertensión	38341003	Disorder	Hypertension	Disorder
+BARITONEID-DIS3	Dislipidemia	370992007	Disorder	Dyslipemia	Disorder
+BARITONEID-DIS4	Accidente cerebrovascular	230690007	Disorder	Stroke	Disorder
+BARITONEID-DIS5	Osteroporosis	64859006	Disorder	Osteroporosis	Disorder
+BARITONEID-FIN5	Erupción	1806006	Finding	Rash	Finding
+BARITONEID-DIS6	Lesión cutanea	95324001	Disorder	Skin injury	Disorder
+BARITONEID-FIN6	Fotosensibilidad	90128006	Finding	Photosensitivity	Finding
+BARITONEID-DIS7	Ulceras de la boca	26284000	Disorder	Oral ulceration	Disorder
+BARITONEID-DIS8	Alopecia	56317004	Disorder	Alopecia	Disorder
+BARITONEID-FIN7	Fenomeno de raynaud	266261006	Finding	Raynaud phenomenon	Finding
+BARITONEID-FIN8	Fiebre	386661006	Finding	Fever	Finding
+BARITONEID-FIN9	Anorexia	79890006	Finding	Anorexia	Finding
+BARITONEID-FIN10	Perdida peso	89362005	Finding	Weight loss	Finding
+BARITONEID-DIS9	Linfoadenopatia	30746006	Disorder	Lymphadenopathy	Disorder
+BARITONEID-FIN11	Artralgia	57676002	Finding	Arthralgia	Finding
+BARITONEID-DIS10	Artritis	3723001	Disorder	Arthitis	Disorder
+BARITONEID-DIS11	Pleuritis	196075003	Disorder	Pleuritis	Disorder
+BARITONEID-DIS12	Pericarditis	3238004	Disorder	Pericarditis	Disorder
+BARITONEID-DIS13	Neumonitis	205237003	Disorder	Pneumonitis	Disorder
+BARITONEID-DIS14	Hipertension pulmonar	70995007	Disorder	Pulmonary hypertension	Disorder
+BARITONEID-DIS15	Hemorragia pulmonar	78144005	Disorder	Pulmonary hemorrhage	Disorder
+BARITONEID-DIS16	Hemorragia alveolar	829972004	Disorder	Alveolar hemorrhage	Disorder
+BARITONEID-DIS17	Nefropatia	90708001	Disorder	Nephropathy	Disorder
+BARITONEID-DIS18	Nefritis lupica	68815009	Disorder	Lupic nephritis	Disorder
+BARITONEID-DIS19	Vasculitis	31996006	Disorder	Vasculitis	Disorder
+BARITONEID-DIS20	Embolia pulmonar	59282003	Disorder	Pulmonary embolism	Disorder
+BARITONEID-DIS21	Trombosis venosa profunda	128053003	Disorder	Deep vein thrombosis	Disorder
+BARITONEID-DIS22	Miositis	26889001	Disorder	Myositis	Disorder
+BARITONEID-FIN12	Disnea	267036007	Finding	Dyspnoea	Finding
+BARITONEID-DIS23	Bronquitis	32398004	Disorder	Bronchitis	Disorder
+BARITONEID-DIS24	Bronquiectasia	12295008	Disorder	Bronchiectasis	Disorder
+BARITONEID-DIS25	Neumonia intersiticial	64667001	Disorder	Intersticial pneumonia	Disorder
+BARITONEID-DIS26	Neuropatía periferica	302226006	Disorder	Peripheric neuropathy	Disorder
+BARITONEID-DIS27	Neuritis óptica	66760008	Disorder	Optic neuritis	Disorder
+BARITONEID-DIS28	Xerostomia	87715008	Disorder	Xerostomy	Disorder
+BARITONEID-DIS29	Caries dental	80967001	Disorder	Tooth caries	Disorder
+BARITONEID-DIS30	Perdida dental	37320007	Disorder	Tooth loss	Disorder
+BARITONEID-DIS31	Xeroftalmia	363677007	Disorder	Xerophthalmia	Disorder
+BARITONEID-DIS32	Queratitis	5888003	Disorder	Keratitis	Disorder
+BARITONEID-DIS33	Úlcera corneal	91514001	Disorder	Corneal ulcer	Disorder
+BARITONEID-FIN13	Dispareunia	71315007	Finding	Dyspareunia	Finding
+BARITONEID-FIN14	Tumefacción glandula salival	300879004	Finding	Salivary gland tumefaccion	Finding
+BARITONEID-DIS34	Trastorno linfoproliferativo	277466009	Disorder	Lymphoproliferative syndrome	Disorder
+BARITONEID-FIN15	Dolor en cintura pelvica	703619001	Finding	Dolor en cintura pelvica	Finding
+BARITONEID-FIN16	Dolor en cintura escapular	1162428009	Finding	Dolor en cintura escapular	Finding
+BARITONEID-FIN17	Cefalea temporal	41413006	Finding	Temporal headache	Finding
+BARITONEID-FIN18	Dolor a la palpación cuero cabelludo	75851004	Finding	Scalp hyperalgesia	Finding
+BARITONEID-FIN19	Alteración visual	131182003	Finding	Visual disturbances	Finding
+BARITONEID-DIS35	Amaurosis	70449006	Disorder	Amaurosis	Disorder
+BARITONEID-DIS36	Visión doble ( diplopia)	24982008	Disorder	Diplopia	Disorder
+BARITONEID-FIN20	Claudicación mandibular	43922008	Finding	Jaw claudication	Finding
+BARITONEID-FIN21	Dolor mandibular	274667000	Finding	Jaw pain	Finding
+BARITONEID-FIN22	Sudoración nocturna	42984000	Finding	Night sweats	Finding
+BARITONEID-DIS37	Carotidinia	230482003	Disorder	Carotidynia	Disorder
+BARITONEID-PRO1	Biopsia glandula salival	31343006	Procedure	Salivary gland biopsy	Procedure
+BARITONEID-PRO2	Ecografia glandulas salivales	241456004	Procedure	Salivary gland ultrasound	Procedure
+BARITONEID-PRO3	Sialografía	367414003	Procedure	Sialogram	Procedure
+BARITONEID-PRO4	Prueba de  schirmer	164742009	Procedure	Schirmer test	Procedure
+BARITONEID-PRO5	Biopsia de arteria temporal	72821000	Procedure	Temporal artery biopsy	Procedure
+BARITONEID-PRO6	Tomografia por emisión de positrones	82918005	Procedure	Pet-ct scan	Procedure
+BARITONEID-SUB1	Anticuerpo antinuclear	45530001	Substance	Antinuclear antibodies	Substance
+BARITONEID-SUB2	Anticuerpo anti ss - a	44212003	Substance	Ro antibodies	Substance
+BARITONEID-SUB3	Factor reumatoide	77089006	Substance	Rheumatoid factor	Substance
+BARITONEID-DIS38	Crioglobulinemia	30911005	Disorder	Cryoglobulinemia	Disorder
+BARITONEID-SUB4	B2.microglobulina	90945000	Substance	B2-microglobulin	Substance
+BARITONEID-SUB5	Inmunoglobulina g( igg)	29246005	Substance	Immunoglobulin g	Substance
+BARITONEID-SUB6	Inmunoglobulina m (igm)	74889000	Substance	Immunoglobulin m	Substance
+BARITONEID-SUB7	Inmunoglobulina a (iga)	46046006	Substance	Immunoglobulin a	Substance
+BARITONEID-DIS39	Leucopenia	84828003	Disorder	Leukopenia	Disorder
+BARITONEID-FIN23	Neutropenia	165517008	Finding	Neutropenia	Finding
+BARITONEID-DIS40	Anemia	271737000	Disorder	Anemia	Disorder
+BARITONEID-DIS41	Linfopenia	48813009	Disorder	Lymphopenia	Disorder
+BARITONEID-DIS42	Trombocitopenia	302215000	Disorder	Thrombocytopenia	Disorder
+BARITONEID-SUB8	Creatinina	15373003	Substance	Creatinine	Substance
+BARITONEID-SUB9	Aspartato aminotransferasa (ast)	26091008	Substance	Aspartate aminotransferase	Substance
+BARITONEID-SUB10	Alaninaminotransferasa (alt)	56935002	Substance	Alanine aminotransferase	Substance
+BARITONEID-SUB11	Creatinquinasa (ck)	75828004	Substance	Creatine kinase	Substance
+BARITONEID-SUB12	Componente c3 del complemento	10473000	Substance	Complement component c3	Substance
+BARITONEID-SUB13	Componente c4 del complemento	300899005	Substance	Complement component c4	Substance
+BARITONEID-SUB14	Anticuerpo anti-ácido desoxirribonucleico	6741004	Substance	Anti-dna antibody	Substance
+BARITONEID-SUB15	Anticuerpo antimúsculo liso	121122009	Substance	Smooth muscle antibody	Substance
+BARITONEID-OBS1	Eritrosedimentación	416560009	Observable entity	Erythrocyte sedimentation rate	Observable entity
+BARITONEID-SUB16	Proteina c reactiva	61425002	Substance	C-reactive protein	Substance
+BARITONEID-SUB17	Anticoagulante lupico	16923002	Substance	Lupus anticoagulant	Substance
+BARITONEID-SUB18	Anticuerpo anticardiolipina	45396006	Substance	Anticardiolipin antibodies	Substance
+BARITONEID-FIN24	Proteïnuria	29738008	Finding	Proteinuria	Finding
+BARITONEID-FIN25	Hematuria	34436003	Finding	Hematuria	Finding
+BARITONEID-DIS43	Hiperhomocisteïnemia	419503008	Disorder	Hyperhomocysteinemia	Disorder
+BARITONEID-SUB19	Metilprednisolona	116593003	Substance	Methylprednisolone	Substance
+BARITONEID-SUB20	Prednisona	116602009	Substance	Prednisone	Substance
+BARITONEID-SUB21	Cloroquina	373468005	Substance	Chloroquine	Substance
+BARITONEID-SUB22	Hidroxicloroquina (hcq)	373540008	Substance	Hydroxychloroquine	Substance
+BARITONEID-SUB23	Metotrexat (mtx)	387381009	Substance	Methotrexate	Substance
+BARITONEID-SUB24	Azatioprina (aza)	372574004	Substance	Azathioprine	Substance
+BARITONEID-SUB25	Micofenolato de mofetilo (mmf)	386976000	Substance	Mycophenolate	Substance
+BARITONEID-SUB26	Ciclofosfamida	387420009	Substance	Cyclophosphamide	Substance
+BARITONEID-SUB27	Abatacept	421777009	Substance	Abatacept	Substance
+BARITONEID-SUB28	Belimumab (beli)	449043000	Substance	Belimumab	Substance
+BARITONEID-SUB29	Rituximab (rtx)	386919002	Substance	Rituximab	Substance
+BARITONEID-SUB30	Inhibidor de kinasa janus	704312008	Substance	Janus kinasa inhibitor	Substance
+BARITONEID-SUB31	Acid acetilsalicílic (aas)	387458008	Substance	Aspirine	Substance
+BARITONEID-SUB32	Sinvastatina	387584000	Substance	Sinvastatin	Substance
+BARITONEID-SUB33	Atorvastatina	373444002	Substance	Atorvastatin	Substance
+BARITONEID-SUB34	Metformina	372567009	Substance	Metformin	Substance
+BARITONEID-SUB35	Insulina	67866001	Substance	Insulin	Substance
